@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -28,6 +28,15 @@ type Props = {
 	params: Promise<{ locale: string }>
 }
 
+const SITE_NAME = 'Shinobi Way Wiki'
+const GAME_NAME = 'Shinobi Way'
+const SITE_DESCRIPTION = 'Find Shinobi Way codes, lineage guides, jutsu builds, quests, stats, and beginner tips for the Roblox ninja RPG by Ouro Games, with fresh rewards.'
+const SITE_TITLE = 'Shinobi Way Wiki - Codes, Lineages & Jutsu Guide'
+
+function getSiteUrl() {
+	return (process.env.NEXT_PUBLIC_SITE_URL || 'https://shinobiway.wiki').replace(/\/+$/, '')
+}
+
 // 生成静态参数
 export function generateStaticParams() {
 	return routing.locales.map((locale) => ({ locale }))
@@ -36,14 +45,14 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-
-	// 获取 SEO 翻译
-	const t = await getTranslations('seo.home')
+	const siteUrl = getSiteUrl()
+	const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
 	return {
-		title: t('title'),
-		description: t('description'),
+		metadataBase: new URL(siteUrl),
+		title: SITE_TITLE,
+		description: SITE_DESCRIPTION,
+		applicationName: SITE_NAME,
 		robots: {
 			index: true,
 			follow: true,
@@ -59,24 +68,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			type: 'website',
 			locale: locale,
 			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'Lucid Blocks Wiki',
-			title: t('ogTitle'),
-			description: t('ogDescription'),
+			siteName: SITE_NAME,
+			title: SITE_TITLE,
+			description: SITE_DESCRIPTION,
 			images: [
 				{
-					url: `${siteUrl}/images/hero.webp`,
-					width: 1920,
-					height: 1080,
-					alt: 'Lucid Blocks - Surreal Voxel Sandbox',
+					url: heroImageUrl,
+					width: 768,
+					height: 432,
+					alt: `${GAME_NAME} Roblox ninja RPG hero image`,
 				},
 			],
 		},
 		twitter: {
 			card: 'summary_large_image',
-			title: t('twitterTitle'),
-			description: t('twitterDescription'),
-			images: [`${siteUrl}/images/hero.webp`],
-			creator: '@lucidblocks',
+			title: SITE_TITLE,
+			description: SITE_DESCRIPTION,
+			images: [heroImageUrl],
 		},
 		icons: {
 			icon: [

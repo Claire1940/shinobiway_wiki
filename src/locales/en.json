@@ -1,13 +1,12 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Shinobi Way Wiki - Codes, Lineages & Jutsu Guide",
+      "description": "Find Shinobi Way codes, lineage guides, jutsu builds, quests, stats, and beginner tips for the Roblox ninja RPG by Ouro Games, with fresh rewards.",
+      "ogTitle": "Shinobi Way Wiki - Codes, Lineages & Jutsu Guide",
+      "ogDescription": "Find Shinobi Way codes, lineage guides, jutsu builds, quests, stats, and beginner tips for the Roblox ninja RPG by Ouro Games, with fresh rewards.",
+      "twitterTitle": "Shinobi Way Wiki - Codes, Lineages & Jutsu Guide",
+      "twitterDescription": "Find Shinobi Way codes, lineage guides, jutsu builds, quests, stats, and beginner tips for the Roblox ninja RPG by Ouro Games."
     }
   },
   "nav": {
@@ -33,27 +32,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Open-World Ninja RPG",
+    "title": "Shinobi Way Wiki",
+    "description": "Train as a ninja, unlock powerful lineages, master deadly jutsus, complete quests, and build your path from beginner shinobi to PvP-ready fighter.",
+    "getFreeCodesCTA": "Join Ouro Games Discord",
+    "playOnRobloxCTA": "Play Shinobi Way on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "60.0K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "740",
+        "label": "Active Players"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "1,177",
+        "label": "Favorites"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "5K Likes",
+        "label": "Next Code Milestone"
       }
     }
   },
@@ -784,27 +783,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Enter Shinobi Way?",
+    "description": "Join the Ouro Games Discord for Shinobi Way updates, code alerts, lineage talk, and Roblox ninja RPG strategy.",
+    "joinCommunity": "Join Ouro Games Discord",
+    "joinGame": "Play Shinobi Way on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Shinobi Way Wiki",
+    "description": "Your complete resource hub for Shinobi Way codes, lineages, jutsu builds, quests, stats, and PvP-ready Roblox ninja RPG guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Ouro Games Discord",
+    "twitter": "Featured YouTube Video",
+    "steamCommunity": "Ouro Games Roblox Group",
+    "steamStore": "Play Shinobi Way on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Shinobi Way Wiki. Not affiliated with Roblox Corporation or Ouro Games.",
+    "disclaimer": "Unofficial fan-made resource website for Shinobi Way players."
   },
   "pages": {
     "guides": {

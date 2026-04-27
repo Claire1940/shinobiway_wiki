@@ -127,7 +127,7 @@ export const TranslationsSchema = z.object({
     home: z.object({
       title: z.string(),
       description: z.string(),
-      keywords: z.string(),
+      keywords: z.string().optional(),
       ogTitle: z.string(),
       ogDescription: z.string(),
       twitterTitle: z.string(),
@@ -154,7 +154,8 @@ export const TranslationsSchema = z.object({
     title: z.string(),
     description: z.string(),
     getFreeCodesCTA: z.string(),
-    playOnRobloxCTA: z.string(),
+    playOnRobloxCTA: z.string().optional(),
+    playOnSteamCTA: z.string().optional(),
     stats: z.record(z.string(), StatSchema)
   }),
   gameFeature: z.object({

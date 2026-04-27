@@ -1,7 +1,7 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
-import { Users } from 'lucide-react'
+import { Gamepad2, Users } from 'lucide-react'
 
 interface CTASectionProps {
   title: string
@@ -9,6 +9,9 @@ interface CTASectionProps {
   joinCommunity: string
   joinGame: string
 }
+
+const ROBLOX_GAME_URL = 'https://www.roblox.com/games/104741933311544/Shinobi-Way'
+const DISCORD_URL = 'https://discord.com/invite/qPfAd6pznb'
 
 export default function CTASection({ title, description, joinCommunity, joinGame }: CTASectionProps) {
   return (
@@ -22,7 +25,7 @@ export default function CTASection({ title, description, joinCommunity, joinGame
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-8 py-6 text-lg">
               <a
-                href="https://discord.com/invite/lucidblocks"
+                href={DISCORD_URL}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -31,11 +34,12 @@ export default function CTASection({ title, description, joinCommunity, joinGame
               </a>
             </Button>
             <a
-              href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+              href={ROBLOX_GAME_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium border border-border hover:bg-white/10 px-8 py-6 text-lg transition-colors"
             >
+              <Gamepad2 className="w-5 h-5" />
               {joinGame}
             </a>
           </div>

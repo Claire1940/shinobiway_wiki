@@ -125,7 +125,7 @@ export interface Translations {
     home: {
       title: string
       description: string
-      keywords: string
+      keywords?: string
       ogTitle: string
       ogDescription: string
       twitterTitle: string
@@ -152,7 +152,8 @@ export interface Translations {
     title: string
     description: string
     getFreeCodesCTA: string
-    playOnRobloxCTA: string
+    playOnRobloxCTA?: string
+    playOnSteamCTA?: string
     stats: Record<string, Stat>
   }
   gameFeature: {
