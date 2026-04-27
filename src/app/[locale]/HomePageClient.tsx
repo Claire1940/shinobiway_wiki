@@ -63,6 +63,11 @@ const bossFocusIcons = [AlertTriangle, Gamepad2, Package]
 const pvpCardIcons = [BookOpen, Hammer, Gamepad2, Star, Eye, Shield]
 const mapCardIcons = [Home, TrendingUp, Eye, Shield, Gamepad2, MessageCircle]
 const weaponsRowIcons = [Package, Hammer, Gamepad2, Eye, Star, Shield]
+const spinsCodeIcons = [Star, Sparkles]
+const spinsQuestionIcons = [Settings, Star, ClipboardCheck, Clock, Sparkles]
+const farmingStepIcons = [Settings, ClipboardCheck, MessageCircle, Shield, Gamepad2, AlertTriangle, Clock]
+const storeRowIcons = [Home, Star, Settings, BookOpen, TrendingUp, Hammer, Clock]
+const updateEntryIcons = [Clock, Star, TrendingUp, MessageCircle, ClipboardCheck]
 
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
   const rawMessages = useMessages() as any
@@ -1254,22 +1259,113 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
 
       {/* Module 13: Shinobi Way Spins Guide */}
       <section id="shinobi-way-spins-guide" className="scroll-mt-24 px-4 py-20">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Settings className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.shinobiWaySpinsGuide.eyebrow}</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWaySpinsGuide.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWaySpinsGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWaySpinsGuide.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-3">
-            {t.modules.shinobiWaySpinsGuide.questions.map((item: any, index: number) => (
-              <details key={index} className="group border border-border rounded-xl bg-white/5 overflow-hidden">
-                <summary className="flex items-center justify-between gap-4 p-5 cursor-pointer hover:bg-[hsl(var(--nav-theme)/0.06)] transition-colors">
-                  <span className="font-semibold">{item.question}</span>
-                  <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 text-[hsl(var(--nav-theme-light))]" />
-                </summary>
-                <div className="px-5 pb-5 text-sm text-muted-foreground">{item.answer}</div>
-              </details>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-6 items-start">
+            <div className="p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.28)] rounded-xl">
+              <div className="flex items-start gap-3 mb-5">
+                <div className="w-12 h-12 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] flex items-center justify-center flex-shrink-0">
+                  <Sparkles className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-lg mb-2">{t.modules.shinobiWaySpinsGuide.summaryTitle}</h3>
+                  <p className="text-sm text-muted-foreground">{t.modules.shinobiWaySpinsGuide.summaryDescription}</p>
+                </div>
+              </div>
+              <div className="space-y-3">
+                {t.modules.shinobiWaySpinsGuide.codeSummary.map((code: any, index: number) => {
+                  const CodeIcon = spinsCodeIcons[index % spinsCodeIcons.length]
+                  return (
+                    <div key={index} className="p-4 bg-card border border-border rounded-xl">
+                      <div className="flex items-center justify-between gap-3 mb-3">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                            <CodeIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                          </div>
+                          <code className="font-bold text-[hsl(var(--nav-theme-light))]">{code.code}</code>
+                        </div>
+                        <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                          {code.reward}
+                        </span>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{code.bestFor}</p>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+
+            <div className="space-y-3">
+              {t.modules.shinobiWaySpinsGuide.questions.map((item: any, index: number) => {
+                const SpinIcon = spinsQuestionIcons[index % spinsQuestionIcons.length]
+                return (
+                  <details key={index} className="group border border-border rounded-xl bg-card overflow-hidden">
+                    <summary className="flex items-center justify-between gap-4 p-5 cursor-pointer hover:bg-[hsl(var(--nav-theme)/0.06)] transition-colors">
+                      <span className="flex items-center gap-3 font-semibold">
+                        <span className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                          <SpinIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                        </span>
+                        {item.question}
+                      </span>
+                      <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 text-[hsl(var(--nav-theme-light))]" />
+                    </summary>
+                    <div className="px-5 pb-5 space-y-4">
+                      <p className="text-sm text-muted-foreground">{item.answer}</p>
+                      {item.codes && (
+                        <div>
+                          <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWaySpinsGuide.labels.codeReward}</p>
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                            {item.codes.map((code: any, codeIndex: number) => (
+                              <div key={codeIndex} className="flex items-center justify-between gap-3 p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.22)]">
+                                <code className="font-bold text-sm text-[hsl(var(--nav-theme-light))]">{code.code}</code>
+                                <span className="text-sm text-muted-foreground">{code.reward}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      {item.steps && (
+                        <div>
+                          <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWaySpinsGuide.labels.steps}</p>
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                            {item.steps.map((step: string, stepIndex: number) => (
+                              <div key={stepIndex} className="flex items-center gap-2 text-sm text-muted-foreground">
+                                <span className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.32)] flex items-center justify-center text-xs font-bold text-[hsl(var(--nav-theme-light))] flex-shrink-0">
+                                  {stepIndex + 1}
+                                </span>
+                                <span>{step}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      {(item.tags || item.bestFor || item.trackingFocus) && (
+                        <div>
+                          <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">
+                            {item.tags ? t.modules.shinobiWaySpinsGuide.labels.tags : item.bestFor ? t.modules.shinobiWaySpinsGuide.labels.bestFor : t.modules.shinobiWaySpinsGuide.labels.trackingFocus}
+                          </p>
+                          <div className="flex flex-wrap gap-2">
+                            {(item.tags || item.bestFor || item.trackingFocus).map((tag: string, tagIndex: number) => (
+                              <span key={tagIndex} className="px-2 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs">
+                                {tag}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </details>
+                )
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -1278,83 +1374,221 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="shinobi-way-farming-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <ArrowRight className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.shinobiWayFarmingGuide.eyebrow}</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayFarmingGuide.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayFarmingGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayFarmingGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.shinobiWayFarmingGuide.steps.map((step: any, index: number) => (
-              <div key={index} className="p-6 bg-card border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">Route {index + 1}</span>
+          <div className="scroll-reveal relative space-y-5">
+            <div className="hidden lg:block absolute left-7 top-8 bottom-8 w-px bg-[hsl(var(--nav-theme)/0.3)]" />
+            {t.modules.shinobiWayFarmingGuide.steps.map((step: any, index: number) => {
+              const FarmingIcon = farmingStepIcons[index % farmingStepIcons.length]
+              return (
+                <div key={index} className="relative flex flex-col lg:flex-row gap-4 p-6 bg-card border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="z-10 flex-shrink-0 w-14 h-14 rounded-full bg-background border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                    <FarmingIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex flex-wrap items-center gap-2 mb-2">
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                        {t.modules.shinobiWayFarmingGuide.labels.step} {step.step}
+                      </span>
+                      <h3 className="text-xl font-bold">{step.title}</h3>
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-4">{step.description}</p>
+                    <div>
+                      <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayFarmingGuide.labels.rewardFocus}</p>
+                      <div className="flex flex-wrap gap-2">
+                        {step.rewardFocus.map((reward: string, rewardIndex: number) => (
+                          <span key={rewardIndex} className="px-2 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs">
+                            {reward}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <h3 className="font-bold text-lg mb-2">{step.title}</h3>
-                <p className="text-sm text-muted-foreground">{step.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
 
       {/* Module 15: Shinobi Way Gamepasses and Store */}
       <section id="shinobi-way-gamepasses-and-store" className="scroll-mt-24 px-4 py-20">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Home className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.shinobiWayGamepassesAndStore.eyebrow}</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayGamepassesAndStore.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayGamepassesAndStore.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayGamepassesAndStore.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-4">
-            {t.modules.shinobiWayGamepassesAndStore.rows.map((row: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <Home className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mb-4" />
-                <h3 className="font-bold text-lg mb-2">{row.angle}</h3>
-                <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-3">{row.focus}</p>
-                <p className="text-sm text-muted-foreground">{row.value}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal hidden lg:block overflow-hidden rounded-xl border border-border bg-card">
+            <div className="grid grid-cols-[1.1fr_1.35fr_0.9fr_1.65fr] gap-4 px-5 py-3 bg-[hsl(var(--nav-theme)/0.08)] text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+              <span>{t.modules.shinobiWayGamepassesAndStore.tableHeaders.storeArea}</span>
+              <span>{t.modules.shinobiWayGamepassesAndStore.tableHeaders.whatItCovers}</span>
+              <span>{t.modules.shinobiWayGamepassesAndStore.tableHeaders.bestFor}</span>
+              <span>{t.modules.shinobiWayGamepassesAndStore.tableHeaders.buyingLogic}</span>
+            </div>
+            {t.modules.shinobiWayGamepassesAndStore.rows.map((row: any, index: number) => {
+              const StoreIcon = storeRowIcons[index % storeRowIcons.length]
+              return (
+                <div key={index} className="grid grid-cols-[1.1fr_1.35fr_0.9fr_1.65fr] gap-4 px-5 py-5 border-t border-border hover:bg-[hsl(var(--nav-theme)/0.04)] transition-colors">
+                  <p className="font-bold flex items-center gap-2">
+                    <StoreIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                    {row.storeArea}
+                  </p>
+                  <p className="text-sm text-muted-foreground">{row.whatItCovers}</p>
+                  <p className="text-sm text-[hsl(var(--nav-theme-light))]">{row.bestFor}</p>
+                  <p className="text-sm text-muted-foreground">{row.buyingLogic}</p>
+                </div>
+              )
+            })}
+          </div>
+          <div className="scroll-reveal lg:hidden grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.shinobiWayGamepassesAndStore.rows.map((row: any, index: number) => {
+              const StoreIcon = storeRowIcons[index % storeRowIcons.length]
+              return (
+                <div key={index} className="p-6 bg-card border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                      <StoreIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-lg mb-1">{row.storeArea}</h3>
+                      <p className="text-sm text-[hsl(var(--nav-theme-light))]">{row.bestFor}</p>
+                    </div>
+                  </div>
+                  <div className="space-y-3">
+                    <div className="p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.22)]">
+                      <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayGamepassesAndStore.tableHeaders.whatItCovers}</p>
+                      <p className="text-sm text-muted-foreground">{row.whatItCovers}</p>
+                    </div>
+                    <div className="p-4 rounded-lg bg-background border border-border">
+                      <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayGamepassesAndStore.tableHeaders.buyingLogic}</p>
+                      <p className="text-sm text-muted-foreground">{row.buyingLogic}</p>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
 
       {/* Module 16: Shinobi Way Updates and Release Tracker */}
       <section id="shinobi-way-updates-and-release-tracker" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.shinobiWayUpdatesAndReleaseTracker.eyebrow}</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayUpdatesAndReleaseTracker.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayUpdatesAndReleaseTracker.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayUpdatesAndReleaseTracker.intro}</p>
           </div>
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.shinobiWayUpdatesAndReleaseTracker.entries.map((entry: any, index: number) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                <div className="p-5 bg-card border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{entry.type}</span>
-                    <Clock className="w-4 h-4 text-muted-foreground" />
-                  </div>
-                  <h3 className="font-bold mb-1">{entry.title}</h3>
-                  <p className="text-muted-foreground text-sm">{entry.description}</p>
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-6 items-start">
+            <div className="space-y-3">
+              {t.modules.shinobiWayUpdatesAndReleaseTracker.entries.map((entry: any, index: number) => {
+                const UpdateIcon = updateEntryIcons[index % updateEntryIcons.length]
+                return (
+                  <details key={index} className="group border border-border rounded-xl bg-card overflow-hidden">
+                    <summary className="flex items-center justify-between gap-4 p-5 cursor-pointer hover:bg-[hsl(var(--nav-theme)/0.06)] transition-colors">
+                      <span className="flex items-center gap-3 font-semibold">
+                        <span className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                          <UpdateIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                        </span>
+                        {entry.question}
+                      </span>
+                      <ChevronDown className="w-5 h-5 flex-shrink-0 transition-transform group-open:rotate-180 text-[hsl(var(--nav-theme-light))]" />
+                    </summary>
+                    <div className="px-5 pb-5 space-y-4">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                          {t.modules.shinobiWayUpdatesAndReleaseTracker.labels.updateType}: {entry.updateType}
+                        </span>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{entry.answer}</p>
+                      {entry.codes && (
+                        <div>
+                          <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayUpdatesAndReleaseTracker.labels.codes}</p>
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                            {entry.codes.map((code: any, codeIndex: number) => (
+                              <div key={codeIndex} className="flex items-center justify-between gap-3 p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.22)]">
+                                <code className="font-bold text-sm text-[hsl(var(--nav-theme-light))]">{code.code}</code>
+                                <span className="text-sm text-muted-foreground">{code.reward}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      {entry.officialTargets && (
+                        <div>
+                          <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayUpdatesAndReleaseTracker.labels.officialTargets}</p>
+                          <div className="flex flex-wrap gap-2">
+                            {entry.officialTargets.map((target: string, targetIndex: number) => (
+                              <span key={targetIndex} className="px-2 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs">
+                                {target}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      {entry.checklist && (
+                        <div>
+                          <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayUpdatesAndReleaseTracker.labels.checklist}</p>
+                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                            {entry.checklist.map((item: string, itemIndex: number) => (
+                              <div key={itemIndex} className="flex items-center gap-2 text-sm text-muted-foreground">
+                                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                                <span>{item}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </details>
+                )
+              })}
+            </div>
+            <div className="p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
+              <div className="flex items-start gap-3 mb-5">
+                <Package className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
+                <div>
+                  <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayUpdatesAndReleaseTracker.channelTitle}</h3>
+                  <p className="text-sm text-muted-foreground">{t.modules.shinobiWayUpdatesAndReleaseTracker.channelDescription}</p>
                 </div>
               </div>
-            ))}
-          </div>
-          <div className="scroll-reveal mt-8 p-6 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.3)] rounded-xl">
-            <div className="flex items-start gap-3">
-              <Package className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">Shinobi Way update channels</h3>
-                <p className="text-sm text-muted-foreground mb-3">Use official Shinobi Way community channels for code alerts, update posts, and player discussion.</p>
-                <div className="flex flex-wrap gap-3">
-                  <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    <MessageCircle className="w-4 h-4" /> Ouro Games Discord <ExternalLink className="w-3 h-3" />
-                  </a>
-                  <a href={ROBLOX_COMMUNITY_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    Ouro Games Roblox Group <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
+              <div className="space-y-3">
+                <a href={ROBLOX_GAME_URL} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between gap-3 px-4 py-3 rounded-lg bg-card border border-border text-sm hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                  <span className="flex items-center gap-2">
+                    <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    Shinobi Way Roblox Game
+                  </span>
+                  <ExternalLink className="w-3 h-3 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                </a>
+                <a href={ROBLOX_COMMUNITY_URL} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between gap-3 px-4 py-3 rounded-lg bg-card border border-border text-sm hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                  <span className="flex items-center gap-2">
+                    <Home className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    Ouro Games Roblox Group
+                  </span>
+                  <ExternalLink className="w-3 h-3 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                </a>
+                <a href={DISCORD_URL} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between gap-3 px-4 py-3 rounded-lg bg-card border border-border text-sm hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                  <span className="flex items-center gap-2">
+                    <MessageCircle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    Ouro Games Discord
+                  </span>
+                  <ExternalLink className="w-3 h-3 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                </a>
               </div>
             </div>
           </div>

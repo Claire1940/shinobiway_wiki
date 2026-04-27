@@ -133,25 +133,25 @@
       {
         "icon": "Settings",
         "title": "Shinobi Way Spins Guide",
-        "description": "How to earn, save, and spend spins for lineages",
+        "description": "Free spins, lineage rerolls, and build timing",
         "anchor": "shinobi-way-spins-guide"
       },
       {
         "icon": "ArrowRight",
         "title": "Shinobi Way Farming Guide",
-        "description": "Codes, quests, missions, enemies, and boss rewards",
+        "description": "Daily route for resources, missions, and bosses",
         "anchor": "shinobi-way-farming-guide"
       },
       {
         "icon": "Home",
         "title": "Shinobi Way Gamepasses and Store",
-        "description": "Store choices for new, long-term, and PvP players",
+        "description": "Robux value checks for every player type",
         "anchor": "shinobi-way-gamepasses-and-store"
       },
       {
         "icon": "Clock",
         "title": "Shinobi Way Updates and Release Tracker",
-        "description": "Release notes, like milestones, and code update signals",
+        "description": "Release status, code milestones, and patch checks",
         "anchor": "shinobi-way-updates-and-release-tracker"
       }
     ]
@@ -893,100 +893,281 @@
     },
     "shinobiWaySpinsGuide": {
       "title": "Shinobi Way Spins Guide",
-      "eyebrow": "Spin Strategy",
-      "subtitle": "Understand how Shinobi Way spins connect codes, lineages, rare traits, and build rerolls.",
-      "intro": "Spins are valuable because they affect your Shinobi Way lineage options. Spend them when you have a goal, not just because they are available.",
+      "eyebrow": "Spins & Rerolls",
+      "subtitle": "Learn what Spins are used for, which active Shinobi Way codes give free Spins, and how to spend them around lineages, rare traits, and build rerolls.",
+      "intro": "Spins are one of the most important early progression resources in Shinobi Way because they help players chase stronger lineages, rare traits, and better build outcomes. The best use is to connect Spins with your chosen path, such as Taijutsu, Ninjutsu, Genjutsu, boss farming, or open-world PvP.",
+      "summaryTitle": "Active Shinobi Way Spin Codes",
+      "summaryDescription": "Redeem both listed Shinobi Way codes before a long reroll session so you can test lineage options with a clearer build plan.",
+      "labels": {
+        "tags": "Focus",
+        "codeReward": "Code reward",
+        "steps": "Redeem steps",
+        "bestFor": "Best for",
+        "trackingFocus": "Tracking focus"
+      },
+      "codeSummary": [
+        {
+          "code": "RELEASE",
+          "reward": "5 Spins",
+          "bestFor": "Launch rerolls"
+        },
+        {
+          "code": "500LIKES",
+          "reward": "5 Spins",
+          "bestFor": "Milestone spins"
+        }
+      ],
       "questions": [
         {
-          "question": "What are Shinobi Way spins used for?",
-          "answer": "Shinobi Way spins are used to roll for lineages that can define your long-term build."
+          "question": "What are Spins used for in Shinobi Way?",
+          "answer": "Spins are used to support Shinobi Way character customization and progression, especially when players are trying to unlock stronger lineages, rare traits, or a better build setup. They are most valuable when used after you understand which combat path you want to follow.",
+          "tags": [
+            "lineages",
+            "rare traits",
+            "build reroll"
+          ]
         },
         {
-          "question": "When should I spend Shinobi Way spins?",
-          "answer": "Spend spins after you know whether you want Taijutsu, Ninjutsu, Genjutsu, weapon pressure, or a hybrid route."
+          "question": "Which current Shinobi Way codes give free Spins?",
+          "answer": "The currently listed active Shinobi Way codes are RELEASE for 5 Spins and 500LIKES for 5 Spins. Together, these give 10 free Spins for players who redeem both codes.",
+          "codes": [
+            {
+              "code": "RELEASE",
+              "reward": "5 Spins"
+            },
+            {
+              "code": "500LIKES",
+              "reward": "5 Spins"
+            }
+          ]
         },
         {
-          "question": "How do Shinobi Way codes help spins?",
-          "answer": "Codes add free spins, giving players more chances to improve lineage options before grinding deeper progression."
+          "question": "How do you redeem Shinobi Way codes for Spins?",
+          "answer": "Launch Shinobi Way on Roblox, open the bird or Twitter-style code button near the top of the screen, enter the code exactly as written, and confirm it to claim the Spin reward.",
+          "steps": [
+            "Open Shinobi Way",
+            "Click the code icon",
+            "Enter the code",
+            "Confirm the reward"
+          ]
         },
         {
-          "question": "Should I save Shinobi Way spins?",
-          "answer": "Save spins when your current lineage already supports your build or when a new update milestone is close."
+          "question": "When should new players use Shinobi Way Spins?",
+          "answer": "New players should first understand the basic Shinobi Way playstyle they want, then use Spins to improve the build direction. Spending Spins before choosing between close-range combat, Chakra-focused skills, or PvP-oriented progression can waste useful reroll chances.",
+          "bestFor": [
+            "early build planning",
+            "lineage hunting",
+            "trait improvement"
+          ]
+        },
+        {
+          "question": "How do Spins connect with Shinobi Way codes and updates?",
+          "answer": "Shinobi Way codes are commonly tied to release events, like milestones, and update announcements. Players should check official community channels and updated code pages whenever a new milestone, patch, or reward announcement appears.",
+          "trackingFocus": [
+            "new codes",
+            "like milestones",
+            "update rewards"
+          ]
         }
       ]
     },
     "shinobiWayFarmingGuide": {
       "title": "Shinobi Way Farming Guide",
-      "eyebrow": "Resource Loop",
-      "subtitle": "Farm Shinobi Way resources through codes, daily quests, missions, enemies, and boss rewards without wasting session time.",
-      "intro": "A good Shinobi Way farming route combines one-time rewards with repeatable activities. Use codes for immediate spins, then rely on quests, missions, enemy fights, and bosses for steady progress.",
+      "eyebrow": "Progression Route",
+      "subtitle": "Follow a practical Shinobi Way route for collecting free resources through codes, daily quests, missions, enemy fights, and boss rewards.",
+      "intro": "Farming in Shinobi Way should not depend only on one-time codes. A stronger daily loop combines free Spin codes, daily quests, NPC missions, stat training, enemy fights, and boss challenges so players can keep improving their build even after codes are redeemed.",
+      "labels": {
+        "step": "Step",
+        "rewardFocus": "Reward focus"
+      },
       "steps": [
         {
-          "title": "Claim Shinobi Way code rewards",
-          "description": "Start with available codes because they give immediate value."
+          "step": 1,
+          "title": "Redeem all active Shinobi Way codes first",
+          "description": "Start by redeeming RELEASE and 500LIKES to collect free Spins. This gives new players an immediate reroll resource before they commit to a long-term lineage or trait setup.",
+          "rewardFocus": [
+            "free Spins",
+            "early rerolls"
+          ]
         },
         {
-          "title": "Run Shinobi Way daily quests",
-          "description": "Clear the daily tasks that match your current build and travel route."
+          "step": 2,
+          "title": "Complete Shinobi Way daily quests",
+          "description": "Use daily quests as the recurring foundation of your Shinobi Way farming routine. Daily objectives keep progression moving even when no new code is available.",
+          "rewardFocus": [
+            "daily resources",
+            "steady progression"
+          ]
         },
         {
-          "title": "Stack Shinobi Way missions",
-          "description": "Choose NPC missions near your training or enemy farming area."
+          "step": 3,
+          "title": "Run Shinobi Way NPC missions",
+          "description": "Take missions from NPCs to build up rewards while learning the map and combat flow. Missions are useful for players who want a repeatable route instead of random fighting.",
+          "rewardFocus": [
+            "mission rewards",
+            "early training"
+          ]
         },
         {
-          "title": "Add Shinobi Way boss runs",
-          "description": "Bring boss attempts into the loop once your build can clear them consistently."
+          "step": 4,
+          "title": "Train the Shinobi Way stats that match your build",
+          "description": "Focus your training around the stats that support your preferred playstyle, including Defense, Strength, Weapon Skills, Chakra, and elemental power. This keeps farming aligned with your final combat goal.",
+          "rewardFocus": [
+            "Defense",
+            "Strength",
+            "Weapon Skills",
+            "Chakra",
+            "elemental power"
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Fight Shinobi Way enemies for repeatable gains",
+          "description": "Enemy fights help turn basic training into real combat practice. Use these fights to test jutsu timing, survivability, and whether your current build is strong enough for harder content.",
+          "rewardFocus": [
+            "combat practice",
+            "resource farming"
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Challenge Shinobi Way bosses after your build stabilizes",
+          "description": "Boss fights are better once your stats, jutsu, and lineage direction are clear. Prepare before entering boss content so the fight becomes a farming opportunity instead of a resource drain.",
+          "rewardFocus": [
+            "boss rewards",
+            "advanced progression"
+          ]
+        },
+        {
+          "step": 7,
+          "title": "Track Shinobi Way milestones for new free resources",
+          "description": "Check the Roblox page, Ouro Games community, Discord, and active code pages after new updates or like milestones. Shinobi Way already uses milestone-style code rewards such as 500LIKES.",
+          "rewardFocus": [
+            "new codes",
+            "update rewards",
+            "like milestones"
+          ]
         }
       ]
     },
     "shinobiWayGamepassesAndStore": {
       "title": "Shinobi Way Gamepasses and Store",
-      "eyebrow": "Store Planning",
-      "subtitle": "Review Shinobi Way store and gamepass choices through new-player, long-term, and PvP value lenses.",
-      "intro": "Store choices should support the way you actually play Shinobi Way. New players usually benefit most from progression convenience, while PvP-focused players should prioritize options that fit their build path.",
+      "eyebrow": "Store & Robux",
+      "subtitle": "Use this buying matrix to evaluate Shinobi Way store items, gamepasses, and Robux purchases from a new player, long-term farmer, and PvP player perspective.",
+      "intro": "The official Roblox experience page includes a Store tab for Shinobi Way. Before spending Robux, players should compare each paid option against free progression from codes, daily quests, missions, enemy fights, and boss rewards.",
+      "tableHeaders": {
+        "storeArea": "Store area",
+        "whatItCovers": "What it covers",
+        "bestFor": "Best for",
+        "buyingLogic": "Buying logic"
+      },
       "rows": [
         {
-          "angle": "New Shinobi Way Player",
-          "focus": "Learning and early progression",
-          "value": "Pick options that reduce early friction and support steady training."
+          "storeArea": "Official Shinobi Way Roblox Store tab",
+          "whatItCovers": "The main place to review current Shinobi Way paid items and gamepasses.",
+          "bestFor": "All players",
+          "buyingLogic": "Check the official Store tab first because it reflects the live purchase options tied to the Roblox experience."
         },
         {
-          "angle": "Long-Term Shinobi Way Player",
-          "focus": "Repeatable progression",
-          "value": "Favor options that keep helping across missions, farming, and future updates."
+          "storeArea": "Shinobi Way Gamepasses",
+          "whatItCovers": "Permanent or account-level purchases when listed by the experience.",
+          "bestFor": "Long-term players",
+          "buyingLogic": "Prioritize only if the benefit supports repeated play, build improvement, or long-term convenience."
         },
         {
-          "angle": "PvP Shinobi Way Player",
-          "focus": "Combat readiness",
-          "value": "Choose store value only when it supports your lineage, stats, and jutsu plan."
+          "storeArea": "Shinobi Way Spin-related value",
+          "whatItCovers": "Any paid option that helps with rerolls, lineages, rare traits, or build correction.",
+          "bestFor": "Players chasing specific builds",
+          "buyingLogic": "Use free Spin codes first, then consider paid value only after deciding your target lineage or build direction."
+        },
+        {
+          "storeArea": "Shinobi Way new player spending path",
+          "whatItCovers": "Early-game buying decisions before the player understands stats, jutsu, missions, and bosses.",
+          "bestFor": "Beginners",
+          "buyingLogic": "Redeem RELEASE and 500LIKES, test the core gameplay loop, and avoid buying before choosing a playstyle."
+        },
+        {
+          "storeArea": "Shinobi Way farming-focused spending path",
+          "whatItCovers": "Purchases that help players repeat daily quests, missions, enemy fights, or boss farming more comfortably.",
+          "bestFor": "Daily farmers",
+          "buyingLogic": "Value is strongest when the purchase saves time across many sessions rather than giving a one-time boost."
+        },
+        {
+          "storeArea": "Shinobi Way PvP-focused spending path",
+          "whatItCovers": "Purchases evaluated around open-world PvP, stronger builds, and reroll efficiency.",
+          "bestFor": "PvP players",
+          "buyingLogic": "Buy only after your combat style is clear, because PvP value depends heavily on your lineage, trait, jutsu, and stat direction."
+        },
+        {
+          "storeArea": "Shinobi Way update-cycle spending check",
+          "whatItCovers": "Rechecking paid items after release patches, milestone codes, or store changes.",
+          "bestFor": "Returning players",
+          "buyingLogic": "Review the Store after major updates so your purchase decision matches the current version of Shinobi Way."
         }
       ]
     },
     "shinobiWayUpdatesAndReleaseTracker": {
       "title": "Shinobi Way Updates and Release Tracker",
-      "eyebrow": "Update Watch",
-      "subtitle": "Track Shinobi Way release signals, like milestones, new code goals, community posts, and update notes.",
-      "intro": "Shinobi Way updates matter because new milestones often bring fresh codes, balance changes, and reasons to revisit lineage or jutsu plans.",
+      "eyebrow": "Updates & Codes",
+      "subtitle": "Track Shinobi Way release status, new code milestones, like rewards, community announcements, and update-related changes.",
+      "intro": "Shinobi Way update tracking should focus on the official Roblox page, the Ouro Games community, Discord announcements, and refreshed code pages. This helps players catch new like milestones, release rewards, and code drops before they expire.",
+      "labels": {
+        "updateType": "Update type",
+        "codes": "Codes",
+        "checklist": "Checklist",
+        "officialTargets": "Official targets"
+      },
+      "channelTitle": "Shinobi Way official update channels",
+      "channelDescription": "Use official Shinobi Way community channels for code alerts, update posts, upcoming changes, and player discussion.",
       "entries": [
         {
-          "title": "Shinobi Way Release Window",
-          "type": "Launch",
-          "description": "The Roblox experience is live under Ouro Games with release codes and early progression rewards."
+          "question": "What is the current Shinobi Way release status?",
+          "answer": "The Roblox experience is listed as [RELEASE] Shinobi Way by Ouro Games, with launch rewards and early progression systems available for players.",
+          "updateType": "release-status"
         },
         {
-          "title": "Shinobi Way Like Milestones",
-          "type": "Codes",
-          "description": "Like milestones can unlock fresh codes, making them important for spin planning."
+          "question": "What is the latest Shinobi Way code milestone?",
+          "answer": "The active milestone-style Shinobi Way code is 500LIKES, which gives 5 Spins. The release code RELEASE also gives 5 Spins, making both codes important for new and returning players.",
+          "updateType": "code-milestone",
+          "codes": [
+            {
+              "code": "500LIKES",
+              "reward": "5 Spins"
+            },
+            {
+              "code": "RELEASE",
+              "reward": "5 Spins"
+            }
+          ]
         },
         {
-          "title": "Shinobi Way Community Updates",
-          "type": "Community",
-          "description": "Discord and Roblox community posts are the fastest places to watch for new code and update activity."
+          "question": "What future Shinobi Way code milestone should players watch?",
+          "answer": "The official Roblox listing highlights a new code target at 5000 Likes. Players who want new Spin rewards should check the Roblox page and community channels when Shinobi Way approaches or reaches that milestone.",
+          "updateType": "like-reward"
         },
         {
-          "title": "Shinobi Way Build Adjustments",
-          "type": "Progression",
-          "description": "New updates can shift which lineages, jutsu paths, and stat priorities feel strongest."
+          "question": "Where should players check for official Shinobi Way announcements?",
+          "answer": "Players should use the Roblox experience page, the Ouro Games Roblox community, and the official Discord invite for update logs, upcoming update previews, and new code announcements.",
+          "updateType": "official-sources",
+          "officialTargets": [
+            "Roblox experience page",
+            "Ouro Games Roblox community",
+            "Ouro Games Discord"
+          ]
+        },
+        {
+          "question": "What should returning players check after a Shinobi Way update?",
+          "answer": "Returning players should check active codes, expired codes, Store changes, new milestone goals, boss or mission changes, and whether the current build meta has shifted around lineages, traits, or jutsu.",
+          "updateType": "returning-player-checklist",
+          "checklist": [
+            "active codes",
+            "expired codes",
+            "Store tab",
+            "milestone rewards",
+            "boss changes",
+            "mission changes",
+            "lineage and jutsu changes"
+          ]
         }
       ]
     }
