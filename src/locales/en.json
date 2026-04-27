@@ -609,99 +609,285 @@
     },
     "shinobiWayBossGuide": {
       "title": "Shinobi Way Boss Guide",
-      "eyebrow": "Boss Prep",
-      "subtitle": "Prepare Shinobi Way boss fights with the right stat floor, jutsu timing, mobility habits, and reward plan.",
-      "intro": "Boss fights reward players who enter with a clear plan. Treat each Shinobi Way boss attempt as a test of defense, cooldown discipline, movement, and burst windows.",
-      "cards": [
+      "eyebrow": "Boss Fights",
+      "subtitle": "Boss fights are one of the key progression checks in Shinobi Way. A strong setup should combine trained stats, reliable Jutsu, and a clear combat range before entering the fight.",
+      "intro": "Shinobi Way is built around training, mastering Chakra, unlocking Lineages, learning Jutsu, and fighting enemies across an open-world ninja RPG. For boss fights, players should avoid entering with a random build and instead prepare around Defense, Strength, Weapon Skills, Chakra, elemental power, and their preferred Taijutsu, Ninjutsu, or Genjutsu path.",
+      "labels": {
+        "step": "Step",
+        "playerTip": "Player tip"
+      },
+      "focusCards": [
         {
-          "name": "Shinobi Way Stat Check",
-          "description": "Raise survivability and your main damage stat before committing to longer boss attempts."
+          "title": "Shinobi Way Boss Preparation",
+          "description": "Enter boss fights after your core stats, Jutsu plan, and main damage path are stable."
         },
         {
-          "name": "Shinobi Way Ability Timing",
-          "description": "Save key jutsu for safe damage windows instead of spending everything at the start."
+          "title": "Shinobi Way Boss Combat Range",
+          "description": "Match your range to the build: Taijutsu close after dodges, Jutsu at distance, and resets during cooldowns."
         },
         {
-          "name": "Shinobi Way Movement Practice",
-          "description": "Practice spacing, dodges, and recovery before chasing faster clears."
+          "title": "Shinobi Way Boss Reward Loop",
+          "description": "Turn every attempt into better stat training, stronger Jutsu choices, and sharper Lineage decisions."
+        }
+      ],
+      "items": [
+        {
+          "step": 1,
+          "title": "Shinobi Way Core Stat Training",
+          "description": "Before challenging a boss, improve the stats that define your build: Defense for surviving hits, Strength for physical damage, Weapon Skills for melee pressure, Chakra for Jutsu usage, and elemental power for technique-based damage.",
+          "playerTip": "Do not rush bosses immediately after joining. Use missions, daily quests, and enemy fights to build a stable stat base first."
         },
         {
-          "name": "Shinobi Way Reward Planning",
-          "description": "Use boss rewards to strengthen the build path you already chose."
+          "step": 2,
+          "title": "Shinobi Way Combat Style Choice",
+          "description": "Boss fights are easier when your build has one clear focus. Taijutsu and Weapon Skills work best for close-range pressure, while Chakra-heavy Jutsu builds are better for ability rotations and safer spacing.",
+          "playerTip": "If your damage comes from melee, build enough Defense to stay close. If your damage comes from Jutsu, keep distance and avoid wasting Chakra."
+        },
+        {
+          "step": 3,
+          "title": "Shinobi Way Lineage Ability Timing",
+          "description": "Lineages give characters rare powers and unique traits, making them important for both boss fights and PvP. A useful Lineage can add burst damage, control, pressure, or survivability depending on how it fits your build.",
+          "playerTip": "Use free Spins from active codes to unlock better Lineage options before committing to harder fights."
+        },
+        {
+          "step": 4,
+          "title": "Shinobi Way Boss Spacing",
+          "description": "Most boss attempts fail when players fight at the wrong range. Close-range builds should stay aggressive after dodging, while Jutsu builds should kite, wait for openings, and avoid standing still during cooldowns.",
+          "playerTip": "Treat every boss fight as a pattern-learning fight: attack after openings, back off during dangerous moves, and reset when your Chakra or health is low."
+        },
+        {
+          "step": 5,
+          "title": "Shinobi Way Boss Progression",
+          "description": "Boss fights are part of the wider training loop in Shinobi Way. After each attempt, reinvest rewards and progress into better stats, stronger Jutsu options, and a more focused build before pushing harder content.",
+          "playerTip": "A failed boss attempt still helps if it shows which part of your build is weak: damage, defense, mobility, Chakra management, or ability timing."
         }
       ]
     },
     "shinobiWayPvpGuide": {
       "title": "Shinobi Way PvP Guide",
-      "eyebrow": "Combat Guide",
-      "subtitle": "Move from Shinobi Way PvE into PvP with better spacing, combo planning, defensive habits, and lineage choices.",
-      "intro": "Shinobi Way PvP rewards players who understand distance, timing, cooldowns, and how their lineage supports pressure. Build one clean win condition before adding complicated mixups.",
-      "cards": [
+      "eyebrow": "Open-World PvP",
+      "subtitle": "PvP in Shinobi Way depends on more than raw damage. Players need a build identity, clean spacing, useful Lineage abilities, and enough defensive stats to survive real fights.",
+      "intro": "Shinobi Way includes open-world PvP, character customization, Jutsu mastery, and multiple progression paths such as Taijutsu, Ninjutsu, Genjutsu, Weapon Skills, and Chakra-based builds. This guide helps players move from PvE training into real player combat without wasting stats or Spins.",
+      "labels": {
+        "bestFor": "Best for",
+        "keyStats": "Key stats",
+        "practicalUse": "Practical use"
+      },
+      "items": [
         {
-          "name": "Shinobi Way Spacing",
-          "description": "Keep the distance where your main jutsu, weapon, or Taijutsu option is strongest."
+          "title": "Shinobi Way Build Identity",
+          "description": "Start by deciding whether your character is a close-range fighter, Jutsu caster, hybrid duelist, or control-focused player.",
+          "bestFor": "Players who are still spreading points too widely",
+          "keyStats": [
+            "Defense",
+            "Strength",
+            "Weapon Skills",
+            "Chakra",
+            "Elemental Power"
+          ],
+          "practicalUse": "A focused build makes it easier to choose Jutsu, Lineage abilities, and combat range."
         },
         {
-          "name": "Shinobi Way Combo Starts",
-          "description": "Use a dependable opener that leads into damage without spending every cooldown."
+          "title": "Shinobi Way Close-Range Pressure",
+          "description": "Taijutsu and Weapon Skills are strongest when you can stay close, punish missed moves, and keep pressure on opponents.",
+          "bestFor": "Aggressive players who like fast melee fights",
+          "keyStats": [
+            "Strength",
+            "Weapon Skills",
+            "Defense"
+          ],
+          "practicalUse": "Use movement to close gaps, then attack after the opponent wastes a Jutsu or dodge."
         },
         {
-          "name": "Shinobi Way Defense",
-          "description": "Hold one escape, block, or repositioning option for enemy pressure."
+          "title": "Shinobi Way Jutsu Rotation",
+          "description": "Ninjutsu and Chakra-heavy builds rely on timing abilities, controlling space, and avoiding unnecessary trades.",
+          "bestFor": "Players who prefer technique-based combat",
+          "keyStats": [
+            "Chakra",
+            "Elemental Power",
+            "Defense"
+          ],
+          "practicalUse": "Do not spend all Chakra at once. Rotate Jutsu so you always have one option ready for pressure or escape."
         },
         {
-          "name": "Shinobi Way Matchups",
-          "description": "Adjust when opponents outrange you, rush you down, or wait for counterattacks."
+          "title": "Shinobi Way Lineage Advantage",
+          "description": "Lineages act like rare ability paths that can change how a player fights in PvP. A good Lineage should support your main combat style rather than work against it.",
+          "bestFor": "Players using Spins to improve their character",
+          "keyStats": [
+            "Chakra",
+            "Strength",
+            "Defense"
+          ],
+          "practicalUse": "Keep Lineage abilities that match your build: burst for melee, control for Genjutsu-style play, or utility for hybrid fighting."
+        },
+        {
+          "title": "Shinobi Way Spacing and Resetting",
+          "description": "Open-world PvP rewards players who control distance and know when to disengage. A bad trade can be reset by moving, creating space, and waiting for cooldowns.",
+          "bestFor": "Players losing fights after one missed combo",
+          "keyStats": [
+            "Defense",
+            "Chakra"
+          ],
+          "practicalUse": "Back off when your cooldowns are down, then re-enter once your main Jutsu or melee option is ready."
+        },
+        {
+          "title": "Shinobi Way PvE to PvP Transition",
+          "description": "A build that works against NPCs may need more survivability and mobility against real players.",
+          "bestFor": "Players moving from missions and bosses into PvP",
+          "keyStats": [
+            "Defense",
+            "Chakra",
+            "Weapon Skills"
+          ],
+          "practicalUse": "After farming missions and bosses, test your build in short PvP fights and adjust around the weakness that appears most often."
         }
       ]
     },
     "shinobiWayMapAndVillageSecrets": {
       "title": "Shinobi Way Map and Village Secrets",
-      "eyebrow": "Exploration",
-      "subtitle": "Navigate Shinobi Way villages, open-world routes, training stops, mission areas, and hidden exploration targets.",
-      "intro": "Exploration matters because Shinobi Way progression is tied to where you train, accept missions, fight enemies, and meet other players. Build a mental map of safe routes and high-value stops early.",
-      "cards": [
+      "eyebrow": "Map Exploration",
+      "subtitle": "Shinobi Way uses an open-world structure with villages, missions, enemies, bosses, and hidden secrets. Exploring carefully helps players find progression routes instead of only farming one area.",
+      "intro": "Exploration is part of the Shinobi Way loop: train your character, complete quests, fight enemies, search villages, and use discoveries to strengthen your build. Players should treat villages and open-world paths as progression hubs, not just background scenery.",
+      "labels": {
+        "whatToLookFor": "What to look for",
+        "whyItMatters": "Why it matters"
+      },
+      "items": [
         {
-          "name": "Shinobi Way Village Hub",
-          "description": "Use the village area to reset, check menus, and plan the next training or mission path."
+          "title": "Shinobi Way Village Hub Check",
+          "description": "Start each session by checking the village area for quest routes, useful NPCs, code menus, update clues, and nearby training paths.",
+          "whatToLookFor": [
+            "Daily quest area",
+            "Mission routes",
+            "NPC interaction points",
+            "Code button near the top screen area",
+            "Nearby exits into combat zones"
+          ],
+          "whyItMatters": "Villages are usually the safest place to organize your next training route before entering enemy or PvP areas."
         },
         {
-          "name": "Shinobi Way Mission Routes",
-          "description": "Learn the path between NPC missions and nearby enemies to reduce downtime."
+          "title": "Shinobi Way Open-World Training Route",
+          "description": "Use the open world to move between missions, enemies, and boss-related areas instead of standing in one place.",
+          "whatToLookFor": [
+            "Enemy groups",
+            "Quest objectives",
+            "Boss paths",
+            "Training-friendly zones",
+            "Return routes back to the village"
+          ],
+          "whyItMatters": "A route-based approach helps players grow stats, earn rewards, and learn the map faster."
         },
         {
-          "name": "Shinobi Way Training Stops",
-          "description": "Mark places where you can safely work on stats before harder fights."
+          "title": "Shinobi Way Hidden Village Secrets",
+          "description": "Shinobi Way includes hidden village secrets as part of its exploration appeal. Players should inspect corners, elevated areas, NPC clusters, and less obvious paths around village spaces.",
+          "whatToLookFor": [
+            "Unusual paths",
+            "Side alleys",
+            "High or tucked-away areas",
+            "NPCs away from main routes",
+            "Areas near boss or mission entrances"
+          ],
+          "whyItMatters": "Hidden spots often become important for progression, updates, community discoveries, or future route planning."
         },
         {
-          "name": "Shinobi Way PvP Hotspots",
-          "description": "Recognize busier areas before traveling with an unfinished build."
+          "title": "Shinobi Way Boss Area Scouting",
+          "description": "Before fighting a boss, scout the area around the fight and understand how much space you have to dodge, reset, and use Jutsu.",
+          "whatToLookFor": [
+            "Safe approach path",
+            "Open movement space",
+            "Obstacles",
+            "Escape direction",
+            "Nearby enemy pressure"
+          ],
+          "whyItMatters": "Knowing the arena layout makes boss fights safer, especially for Jutsu builds that need distance."
+        },
+        {
+          "title": "Shinobi Way PvP Risk Zones",
+          "description": "Because Shinobi Way includes open-world PvP, players should pay attention to exposed routes and avoid standing still in active combat areas.",
+          "whatToLookFor": [
+            "High-traffic paths",
+            "Players waiting near objectives",
+            "Boss or mission entrances",
+            "Open areas with little cover",
+            "Routes back to the village"
+          ],
+          "whyItMatters": "Good map awareness helps players avoid unwanted fights and choose better positions when PvP starts."
+        },
+        {
+          "title": "Shinobi Way Community Update Tracking",
+          "description": "Use the official Roblox page, Ouro Games group, and Discord updates to track newly discovered routes, village changes, codes, and update-related secrets.",
+          "whatToLookFor": [
+            "Update logs",
+            "New codes",
+            "Developer announcements",
+            "Community screenshots",
+            "New boss or map discoveries"
+          ],
+          "whyItMatters": "Roblox RPG maps can change after updates, so checking official channels helps players stay current."
         }
       ]
     },
     "shinobiWayWeaponsAndTaijutsuGuide": {
       "title": "Shinobi Way Weapons and Taijutsu Guide",
-      "eyebrow": "Melee Builds",
-      "subtitle": "Compare Shinobi Way Weapon Skills and Taijutsu routes for close-range pressure, combo damage, and hybrid builds.",
-      "intro": "Weapon and Taijutsu routes are best for Shinobi Way players who like direct pressure. Pair them with enough Defense and a lineage that helps you reach or punish targets.",
-      "rows": [
+      "eyebrow": "Weapons and Taijutsu",
+      "subtitle": "Weapon Skills and Taijutsu are core options for players who want a close-range combat style. The best choice depends on whether you prefer steady weapon pressure, physical burst, or a hybrid Chakra build.",
+      "intro": "Shinobi Way lets players build around different combat paths, including Taijutsu, Ninjutsu, Genjutsu, Weapon Skills, Chakra, and elemental power. This comparison helps players understand when to focus on melee, when to mix in Jutsu, and when a balanced hybrid build is safer.",
+      "tableHeaders": {
+        "combatPath": "Combat path",
+        "role": "Role",
+        "mainStats": "Main stats",
+        "bestFor": "Best for",
+        "howToPlay": "How to play",
+        "watchOutFor": "Watch out for"
+      },
+      "items": [
         {
-          "route": "Taijutsu Burst",
-          "bestFor": "Fast close-range pressure",
-          "statFocus": "Strength and Defense",
-          "plan": "Engage quickly, land short combos, and reset before enemy cooldowns return."
+          "combatPath": "Shinobi Way Weapon Skills",
+          "role": "Melee pressure",
+          "mainStats": "Weapon Skills, Defense, Strength",
+          "bestFor": "Players who want consistent close-range attacks and a straightforward combat loop",
+          "howToPlay": "Stay close after dodging, punish openings, and use Jutsu or Lineage abilities to support weapon pressure.",
+          "watchOutFor": "Pure weapon builds can struggle when opponents keep distance or force long cooldown trades."
         },
         {
-          "route": "Weapon Skill Control",
-          "bestFor": "Reach and tempo changes",
-          "statFocus": "Weapon Skills and Defense",
-          "plan": "Use weapon reach to manage distance and punish missed jutsu."
+          "combatPath": "Shinobi Way Taijutsu",
+          "role": "Close-range burst",
+          "mainStats": "Strength, Defense",
+          "bestFor": "Players who like aggressive physical combat and fast engagements",
+          "howToPlay": "Close the gap quickly, commit after the opponent misses, and avoid chasing blindly into Jutsu range.",
+          "watchOutFor": "Taijutsu needs good timing because bad entries can be punished by ranged Jutsu or control abilities."
         },
         {
-          "route": "Hybrid Melee Jutsu",
-          "bestFor": "Flexible PvE and PvP",
-          "statFocus": "Strength, Chakra, and one jutsu path",
-          "plan": "Open with jutsu pressure, then finish with melee or weapon follow-up."
+          "combatPath": "Shinobi Way Ninjutsu Hybrid",
+          "role": "Technique-based damage",
+          "mainStats": "Chakra, Elemental Power, Defense",
+          "bestFor": "Players who want to combine Jutsu damage with safer spacing",
+          "howToPlay": "Use Jutsu to control space, then enter close range only when the enemy is pressured or recovering.",
+          "watchOutFor": "A Chakra-heavy build can run out of options if abilities are used too quickly."
+        },
+        {
+          "combatPath": "Shinobi Way Genjutsu Utility",
+          "role": "Control and disruption",
+          "mainStats": "Chakra, Defense",
+          "bestFor": "Players who prefer timing, pressure, and setup over constant melee trading",
+          "howToPlay": "Use control windows to create openings for Taijutsu, weapons, or follow-up Jutsu.",
+          "watchOutFor": "Utility-focused builds need enough damage from another source to finish fights."
+        },
+        {
+          "combatPath": "Shinobi Way Lineage-Supported Melee",
+          "role": "Melee build with rare ability support",
+          "mainStats": "Strength, Weapon Skills, Chakra, Defense",
+          "bestFor": "Players who rolled a Lineage that improves pressure, burst, or survivability",
+          "howToPlay": "Use Lineage abilities to start pressure, extend combos, escape danger, or cover melee weaknesses.",
+          "watchOutFor": "A strong Lineage still needs matching stats; do not rely on rare abilities without training the build."
+        },
+        {
+          "combatPath": "Shinobi Way Balanced Build",
+          "role": "Flexible PvE and PvP progression",
+          "mainStats": "Defense, Chakra, Strength or Weapon Skills",
+          "bestFor": "Newer players who want to handle missions, bosses, and PvP without being locked into one narrow style",
+          "howToPlay": "Keep enough Defense to survive, enough Chakra to use Jutsu, and one clear damage focus for fights.",
+          "watchOutFor": "Balanced does not mean random. Avoid spreading points across every path without a main combat plan."
         }
       ]
     },
