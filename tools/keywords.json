@@ -1,46 +1,79 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "guide",
       "keywords": [
-        "lucid blocks guide"
+        "Shinobi Way guide",
+        "Shinobi Way beginner guide",
+        "Shinobi Way complete guide",
+        "Shinobi Way how to play",
+        "Shinobi Way noob to pro",
+        "Shinobi Way setup guide",
+        "Shinobi Way requirements",
+        "Shinobi Way rules",
+        "Shinobi Way meaning"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "leveling",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "Shinobi Way how to level up fast",
+        "Shinobi Way max level",
+        "Shinobi Way fastest way to level up",
+        "Shinobi Way stat leveling guide",
+        "Shinobi Way how to get stronger",
+        "Shinobi Way farming guide",
+        "Shinobi Way daily quests",
+        "Shinobi Way missions"
       ]
     },
     {
-      "category": "Items",
+      "category": "jutsu",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "Shinobi Way jutsu",
+        "Shinobi Way best jutsu",
+        "Shinobi Way taijutsu",
+        "Shinobi Way ninjutsu",
+        "Shinobi Way genjutsu",
+        "Shinobi Way chakra",
+        "Shinobi Way elemental power",
+        "Shinobi Way rock lee fighting style"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "builds",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "Shinobi Way best build",
+        "Shinobi Way pvp build",
+        "Shinobi Way pve build",
+        "Shinobi Way boss build",
+        "Shinobi Way early game build",
+        "Shinobi Way stats",
+        "Shinobi Way defense",
+        "Shinobi Way strength",
+        "Shinobi Way weapon skills"
       ]
     },
     {
-      "category": "Building",
+      "category": "lineages",
       "keywords": [
-        "lucid blocks qualia"
+        "Shinobi Way lineages",
+        "Shinobi Way best lineage",
+        "Shinobi Way races",
+        "Shinobi Way rare traits",
+        "Shinobi Way spins",
+        "Shinobi Way reroll",
+        "Shinobi Way hokage"
       ]
     },
     {
-      "category": "Support",
+      "category": "bosses",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "Shinobi Way bosses",
+        "Shinobi Way boss guide",
+        "Shinobi Way how to beat bosses",
+        "Shinobi Way boss rewards",
+        "Shinobi Way enemy fights"
       ]
     }
   ]

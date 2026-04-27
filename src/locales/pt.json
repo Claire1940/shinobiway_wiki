@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "guide": "Guide",
+    "leveling": "Leveling",
+    "jutsu": "Jutsu",
+    "builds": "Builds",
+    "lineages": "Lineages",
+    "bosses": "Bosses"
   },
   "common": {
     "home": "Início",
@@ -807,125 +807,125 @@
     "disclaimer": "Site de recursos não oficial feito por fãs."
   },
   "pages": {
-    "guides": {
-      "title": "Guias de Lucid Blocks",
-      "description": "Guias de jogabilidade completos, desde o básico para iniciantes até estratégias avançadas de Apotheosis. Domine a sobrevivência e a criação.",
-      "metaTitle": "Guias de Lucid Blocks - Estratégias do Iniciante ao Avançado",
-      "metaDescription": "Guias completos de Lucid Blocks abrangendo dicas para iniciantes, sistema Apotheosis, estratégias de sobrevivência e táticas de especialistas para dominar o sandbox surreal.",
-      "categoryLabel": "GUIAS DE JOGO",
-      "whatIs": "O que são Guias?",
-      "whatIsDescription": "Guias abrangentes que cobrem mecânicas de jogo, estratégias de sobrevivência e o sistema de criação Apotheosis. Aprenda tudo, desde os primeiros passos até técnicas avançadas.",
-      "why": "Por que ler os guias?",
+    "guide": {
+      "title": "Shinobi Way Guide",
+      "description": "Beginner-friendly Shinobi Way guides for starting routes, controls, rules, setup, progression habits, and early mistakes to avoid.",
+      "metaTitle": "Shinobi Way Guide - Beginner Routes, Setup & Rules",
+      "metaDescription": "Start Shinobi Way with clear Roblox ninja RPG guides for setup, beginner routes, rules, progression basics, and first-session priorities.",
+      "categoryLabel": "SHINOBI WAY GUIDE",
+      "whatIs": "What is the Shinobi Way Guide?",
+      "whatIsDescription": "The Shinobi Way Guide explains the foundations of the Roblox ninja RPG, including how to begin, what to train first, how missions work, and which systems matter before advanced builds.",
+      "why": "Why read the Shinobi Way Guide?",
       "whySteps": {
-        "step1Title": "Aprenda as Mecânicas Principais",
-        "step1Description": "Entenda o sistema Apotheosis e evite erros comuns de iniciantes",
-        "step2Title": "Progressão Rápida",
-        "step2Description": "Siga caminhos comprovados para sobreviver e prosperar no mundo surreal",
-        "step3Title": "Domine as Estratégias",
-        "step3Description": "Desenvolva táticas avançadas para exploração e criação"
+        "step1Title": "Start Shinobi Way Cleanly",
+        "step1Description": "Learn the first goals that help a new player move from tutorial confusion into steady training and mission progress.",
+        "step2Title": "Understand Shinobi Way Rules",
+        "step2Description": "Use the guide pages to recognize core systems, combat expectations, progression terms, and setup choices before spending resources.",
+        "step3Title": "Avoid Shinobi Way Dead Ends",
+        "step3Description": "Focus on beginner routes that support later jutsu, lineage, stat, and build decisions instead of wasting time on scattered goals."
       },
-      "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias"
+      "featured": "Featured Shinobi Way Guide Articles",
+      "all": "All Shinobi Way Guide Articles"
     },
-    "crafting": {
-      "title": "Criação em Lucid Blocks",
-      "description": "Domine o sistema de fusão Apotheosis com mecânicas de essência, receitas e estratégias de criação para itens poderosos.",
-      "metaTitle": "Criação em Lucid Blocks - Sistema Apotheosis e Receitas",
-      "metaDescription": "Domine o sistema de criação Apotheosis de Lucid Blocks. Aprenda mecânicas de essência, receitas de fusão e estratégias para criar ferramentas e armas poderosas.",
-      "categoryLabel": "SISTEMA DE CRIAÇÃO",
-      "whatIs": "O que é a Criação?",
-      "whatIsDescription": "O sistema Apotheosis é uma mecânica de fusão única baseada em essências, onde você combina até seis itens para descobrir novas receitas. Sem menus de criação fixos — a experimentação é a chave.",
-      "why": "Por que dominar a criação?",
+    "leveling": {
+      "title": "Shinobi Way Leveling",
+      "description": "Shinobi Way leveling guides for fast XP routes, stat training, daily quests, missions, farming priorities, and getting stronger efficiently.",
+      "metaTitle": "Shinobi Way Leveling - Fast XP, Stats, Quests & Missions",
+      "metaDescription": "Level faster in Shinobi Way with guides for stat training, daily quests, missions, farming routes, strength gains, and efficient progression.",
+      "categoryLabel": "SHINOBI WAY LEVELING",
+      "whatIs": "What is Shinobi Way Leveling?",
+      "whatIsDescription": "Shinobi Way leveling covers the repeatable activities that raise your power: missions, daily quests, stat training, farming loops, and route planning for stronger characters.",
+      "why": "Why follow Shinobi Way leveling guides?",
       "whySteps": {
-        "step1Title": "Desbloqueie Itens Poderosos",
-        "step1Description": "Descubra ferramentas essenciais, armas e equipamentos de mobilidade através da fusão",
-        "step2Title": "Entenda as Essências",
-        "step2Description": "Saiba como as essências dos itens se combinam para criar resultados previsíveis",
-        "step3Title": "Otimize Recursos",
-        "step3Description": "Use mecânicas de diluição para maximizar o rendimento de materiais baratos"
+        "step1Title": "Speed Up Shinobi Way Progress",
+        "step1Description": "Prioritize the quests, training loops, and farming habits that produce steady gains instead of scattered grinding.",
+        "step2Title": "Balance Shinobi Way Stats",
+        "step2Description": "Understand when to push core stats, when to farm rewards, and when to pause leveling for jutsu or build upgrades.",
+        "step3Title": "Prepare Shinobi Way Milestones",
+        "step3Description": "Use leveling pages to reach missions, bosses, and PvP readiness with fewer wasted resets or resource gaps."
       },
-      "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias de Criação"
+      "featured": "Featured Shinobi Way Leveling Articles",
+      "all": "All Shinobi Way Leveling Articles"
     },
-    "items": {
-      "title": "Itens de Lucid Blocks",
-      "description": "Guias detalhados de itens abrangendo ferramentas, armas, equipamentos de mobilidade e soluções de armazenamento com receitas de criação e dicas de uso.",
-      "metaTitle": "Itens de Lucid Blocks - Guia de Ferramentas, Armas e Equipamentos",
-      "metaDescription": "Banco de dados completo de itens para Lucid Blocks, incluindo ferramentas, armas, equipamentos de mobilidade e armazenamento. Aprenda a criar e usar cada item de forma eficaz.",
-      "categoryLabel": "ITENS E EQUIPAMENTOS",
-      "whatIs": "O que são Itens?",
-      "whatIsDescription": "Guias abrangentes para ferramentas, armas, equipamentos de mobilidade e itens funcionais. Aprenda receitas de criação, estratégias de uso e combinações ideais.",
-      "why": "Por que consultar os guias de itens?",
+    "jutsu": {
+      "title": "Shinobi Way Jutsu",
+      "description": "Shinobi Way jutsu guides for chakra, Ninjutsu, Genjutsu, Taijutsu, elemental power, unlock paths, and combat ability choices.",
+      "metaTitle": "Shinobi Way Jutsu - Chakra, Ninjutsu, Genjutsu & Taijutsu",
+      "metaDescription": "Master Shinobi Way jutsu with guides for chakra use, Ninjutsu, Genjutsu, Taijutsu, elemental power, unlock paths, and combat timing.",
+      "categoryLabel": "SHINOBI WAY JUTSU",
+      "whatIs": "What is Shinobi Way Jutsu?",
+      "whatIsDescription": "Shinobi Way jutsu is the ability layer that shapes combat, including chakra management, elemental choices, Ninjutsu, Genjutsu, Taijutsu, and skill timing.",
+      "why": "Why study Shinobi Way jutsu?",
       "whySteps": {
-        "step1Title": "Aprenda Receitas de Criação",
-        "step1Description": "Descubra como criar ferramentas e armas essenciais usando Apotheosis",
-        "step2Title": "Otimize seu Equipamento",
-        "step2Description": "Escolha os melhores itens para seu estilo de jogo e estágio de progressão",
-        "step3Title": "Melhore a Sobrevivência",
-        "step3Description": "Equipe-se com itens de mobilidade e armas para navegar pelo mundo perigoso"
+        "step1Title": "Choose Shinobi Way Abilities",
+        "step1Description": "Compare jutsu paths before committing to a combat style, trainer route, or resource plan.",
+        "step2Title": "Use Shinobi Way Chakra Better",
+        "step2Description": "Learn how chakra and cooldowns affect fights so your abilities support pressure instead of leaving openings.",
+        "step3Title": "Connect Shinobi Way Combos",
+        "step3Description": "Match jutsu with stats, lineages, weapons, and PvP goals for a cleaner combat plan."
       },
-      "featured": "Destaques e Essenciais",
-      "all": "Todos os Itens"
+      "featured": "Featured Shinobi Way Jutsu Articles",
+      "all": "All Shinobi Way Jutsu Articles"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explore as regiões do mundo, características ambientais, locais de recursos e dicas de sobrevivência para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiões do Mundo e Exploração",
-      "metaDescription": "Explore os biomas de Lucid Blocks, incluindo as Linhas de Ley Tiamana, Fog Meadow e regiões surreais. Encontre recursos, evite perigos e navegue pelo mundo infinito.",
-      "categoryLabel": "REGIÕES DO MUNDO",
-      "whatIs": "O que são Biomas?",
-      "whatIsDescription": "Guias para as diferentes regiões do mundo, características ambientais, distribuição de recursos e zonas de perigo. Saiba o que esperar e como se preparar para cada área.",
-      "why": "Por que explorar os biomas?",
+    "builds": {
+      "title": "Shinobi Way Builds",
+      "description": "Shinobi Way build guides for PvE, PvP, bosses, stats, defense, strength, weapon skills, and complete combat planning.",
+      "metaTitle": "Shinobi Way Builds - PvE, PvP, Bosses, Stats & Weapons",
+      "metaDescription": "Plan Shinobi Way builds with PvE, PvP, boss, defense, strength, weapon skill, stat priority, lineage, and jutsu guidance.",
+      "categoryLabel": "SHINOBI WAY BUILDS",
+      "whatIs": "What are Shinobi Way Builds?",
+      "whatIsDescription": "Shinobi Way builds combine stats, jutsu, lineages, weapons, defensive choices, and content goals into a practical progression and combat plan.",
+      "why": "Why plan Shinobi Way builds?",
       "whySteps": {
-        "step1Title": "Encontre Recursos",
-        "step1Description": "Localize materiais raros e essências específicas de cada região",
-        "step2Title": "Evite Perigos",
-        "step2Description": "Entenda os riscos ambientais e as criaturas hostis",
-        "step3Title": "Planeje a Exploração",
-        "step3Description": "Prepare as ferramentas e equipamentos certos para cada tipo de bioma"
+        "step1Title": "Focus Shinobi Way Training",
+        "step1Description": "Keep stat growth aligned with the combat style you actually want to use in missions, bosses, and PvP.",
+        "step2Title": "Match Shinobi Way Systems",
+        "step2Description": "Combine lineages, jutsu, weapon skills, and defense choices so each upgrade supports the same role.",
+        "step3Title": "Adapt Shinobi Way Builds",
+        "step3Description": "Use separate routes for early farming, boss attempts, PvE safety, and PvP pressure instead of one unfocused setup."
       },
-      "featured": "Destaques e Essenciais",
-      "all": "Todos os Biomas"
+      "featured": "Featured Shinobi Way Build Articles",
+      "all": "All Shinobi Way Build Articles"
     },
-    "building": {
-      "title": "Construção em Lucid Blocks",
-      "description": "Domine as dimensões pessoais Qualia, construção de bases, gerenciamento de armazenamento e técnicas de construção criativa.",
-      "metaTitle": "Construção em Lucid Blocks - Qualia e Construção de Bases",
-      "metaDescription": "Domine a construção em Lucid Blocks com dimensões pessoais Qualia, construção de bases, soluções de armazenamento e técnicas criativas de construção.",
-      "categoryLabel": "CONSTRUÇÃO E BASES",
-      "whatIs": "O que é a Construção?",
-      "whatIsDescription": "Guias para o sistema de dimensão pessoal Qualia, construção de bases, gerenciamento de armazenamento e construção criativa. Aprenda a criar seu refúgio seguro no mundo surreal.",
-      "why": "Por que construir bases?",
+    "lineages": {
+      "title": "Shinobi Way Lineages",
+      "description": "Shinobi Way lineage guides for rare traits, spins, rerolls, race choices, clan identity, and build-defining ability paths.",
+      "metaTitle": "Shinobi Way Lineages - Traits, Spins, Rerolls & Races",
+      "metaDescription": "Explore Shinobi Way lineages with guides for rare traits, spins, rerolls, races, lineage value, and build direction in Roblox.",
+      "categoryLabel": "SHINOBI WAY LINEAGES",
+      "whatIs": "What are Shinobi Way Lineages?",
+      "whatIsDescription": "Shinobi Way lineages are character identity paths that influence abilities, traits, stat direction, reroll decisions, and long-term build planning.",
+      "why": "Why compare Shinobi Way lineages?",
       "whySteps": {
-        "step1Title": "Crie Espaços Seguros",
-        "step1Description": "Estabeleça bases seguras para operações de armazenamento e criação",
-        "step2Title": "Gerencie Recursos",
-        "step2Description": "Organize materiais de forma eficiente com soluções de armazenamento",
-        "step3Title": "Desbloqueie a Qualia",
-        "step3Description": "Acesse dimensões de bolso pessoais para o máximo de conveniência"
+        "step1Title": "Spend Shinobi Way Spins Wisely",
+        "step1Description": "Use lineage pages to decide when a roll supports your route and when saving spins is smarter.",
+        "step2Title": "Evaluate Shinobi Way Traits",
+        "step2Description": "Understand how rare traits, race choices, and lineage effects can change combat style or progression needs.",
+        "step3Title": "Plan Shinobi Way Rerolls",
+        "step3Description": "Reroll with a target build in mind instead of chasing rarity without knowing how it fits your jutsu and stats."
       },
-      "featured": "Destaques e Essenciais",
-      "all": "Todos os Guias de Construção"
+      "featured": "Featured Shinobi Way Lineage Articles",
+      "all": "All Shinobi Way Lineage Articles"
     },
-    "support": {
-      "title": "Suporte de Lucid Blocks",
-      "description": "Suporte técnico, compatibilidade de plataforma, otimização de desempenho e solução de problemas comuns.",
-      "metaTitle": "Suporte de Lucid Blocks - Ajuda Técnica e Correções",
-      "metaDescription": "Obtenha suporte técnico para Lucid Blocks, incluindo configuração do Steam Deck, correções de falhas, otimização de desempenho e guias de compatibilidade de plataforma.",
-      "categoryLabel": "SUPORTE TÉCNICO",
-      "whatIs": "O que é o Suporte?",
-      "whatIsDescription": "Guias técnicos que cobrem compatibilidade de plataforma, otimização de desempenho, correções de falhas e problemas comuns. Obtenha ajuda com o Steam Deck, dúvidas sobre multijogador e configurações.",
-      "why": "Por que consultar o suporte?",
+    "bosses": {
+      "title": "Shinobi Way Bosses",
+      "description": "Shinobi Way boss guides for enemy fights, boss rewards, preparation steps, combat routes, and how to beat difficult encounters.",
+      "metaTitle": "Shinobi Way Bosses - Enemy Fights, Rewards & Combat Guide",
+      "metaDescription": "Beat Shinobi Way bosses with guides for enemy fights, preparation, rewards, combat routes, builds, positioning, and fight priorities.",
+      "categoryLabel": "SHINOBI WAY BOSSES",
+      "whatIs": "What are Shinobi Way Bosses?",
+      "whatIsDescription": "Shinobi Way bosses are higher-pressure fights that test your stats, jutsu timing, build choices, positioning, and ability to manage enemy patterns.",
+      "why": "Why use Shinobi Way boss guides?",
       "whySteps": {
-        "step1Title": "Corrija Problemas Técnicos",
-        "step1Description": "Resolva falhas, problemas de desempenho e questões de compatibilidade",
-        "step2Title": "Otimize o Desempenho",
-        "step2Description": "Configure os ajustes para a melhor experiência em sua plataforma",
-        "step3Title": "Compatibilidade de Plataforma",
-        "step3Description": "Saiba mais sobre o Steam Deck, suporte a controles e requisitos de sistema"
+        "step1Title": "Prepare Shinobi Way Builds",
+        "step1Description": "Check what stats, jutsu, and defensive tools make a boss attempt smoother before entering the fight.",
+        "step2Title": "Read Shinobi Way Patterns",
+        "step2Description": "Learn which attacks, openings, and positioning habits matter most for specific boss and enemy encounters.",
+        "step3Title": "Claim Shinobi Way Rewards",
+        "step3Description": "Understand why boss rewards matter for progression and when a fight is worth repeating for your build."
       },
-      "featured": "Destaques e Essenciais",
-      "all": "Todos os Artigos de Suporte"
+      "featured": "Featured Shinobi Way Boss Articles",
+      "all": "All Shinobi Way Boss Articles"
     }
   }
 }

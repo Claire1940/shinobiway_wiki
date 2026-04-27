@@ -9,7 +9,14 @@
       "twitterDescription": "Find Shinobi Way codes, lineage guides, jutsu builds, quests, stats, and beginner tips for the Roblox ninja RPG by Ouro Games."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "leveling": "Leveling",
+    "jutsu": "Jutsu",
+    "builds": "Builds",
+    "lineages": "Lineages",
+    "bosses": "Bosses"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1227,125 +1234,125 @@
     "disclaimer": "Unofficial fan-made resource website for Shinobi Way players."
   },
   "pages": {
-    "guides": {
-      "title": "Shinobi Way Guides",
-      "description": "Complete Shinobi Way guides for codes, beginner routes, lineages, jutsu, stats, missions, bosses, and PvP.",
-      "metaTitle": "Shinobi Way Guides - Codes, Lineages, Jutsu & Progression",
-      "metaDescription": "Read Shinobi Way guides for Roblox codes, lineages, jutsu builds, stats, missions, boss fights, PvP, and beginner progression.",
-      "categoryLabel": "SHINOBI WAY GUIDES",
-      "whatIs": "What are Shinobi Way Guides?",
-      "whatIsDescription": "Shinobi Way guides explain the systems players use to grow stronger, from free spin codes to lineages, jutsu, quests, and PvP builds.",
-      "why": "Why read Shinobi Way guides?",
+    "guide": {
+      "title": "Shinobi Way Guide",
+      "description": "Beginner-friendly Shinobi Way guides for starting routes, controls, rules, setup, progression habits, and early mistakes to avoid.",
+      "metaTitle": "Shinobi Way Guide - Beginner Routes, Setup & Rules",
+      "metaDescription": "Start Shinobi Way with clear Roblox ninja RPG guides for setup, beginner routes, rules, progression basics, and first-session priorities.",
+      "categoryLabel": "SHINOBI WAY GUIDE",
+      "whatIs": "What is the Shinobi Way Guide?",
+      "whatIsDescription": "The Shinobi Way Guide explains the foundations of the Roblox ninja RPG, including how to begin, what to train first, how missions work, and which systems matter before advanced builds.",
+      "why": "Why read the Shinobi Way Guide?",
       "whySteps": {
-        "step1Title": "Learn Shinobi Way Systems",
-        "step1Description": "Understand codes, lineages, jutsu, stats, and missions.",
-        "step2Title": "Plan Shinobi Way Progression",
-        "step2Description": "Use a clear route for training, quests, and boss preparation.",
-        "step3Title": "Improve Shinobi Way Builds",
-        "step3Description": "Match lineages, stats, and combat style before PvP."
+        "step1Title": "Start Shinobi Way Cleanly",
+        "step1Description": "Learn the first goals that help a new player move from tutorial confusion into steady training and mission progress.",
+        "step2Title": "Understand Shinobi Way Rules",
+        "step2Description": "Use the guide pages to recognize core systems, combat expectations, progression terms, and setup choices before spending resources.",
+        "step3Title": "Avoid Shinobi Way Dead Ends",
+        "step3Description": "Focus on beginner routes that support later jutsu, lineage, stat, and build decisions instead of wasting time on scattered goals."
       },
-      "featured": "Featured Shinobi Way Guides",
-      "all": "All Shinobi Way Guides"
+      "featured": "Featured Shinobi Way Guide Articles",
+      "all": "All Shinobi Way Guide Articles"
     },
-    "crafting": {
+    "leveling": {
+      "title": "Shinobi Way Leveling",
+      "description": "Shinobi Way leveling guides for fast XP routes, stat training, daily quests, missions, farming priorities, and getting stronger efficiently.",
+      "metaTitle": "Shinobi Way Leveling - Fast XP, Stats, Quests & Missions",
+      "metaDescription": "Level faster in Shinobi Way with guides for stat training, daily quests, missions, farming routes, strength gains, and efficient progression.",
+      "categoryLabel": "SHINOBI WAY LEVELING",
+      "whatIs": "What is Shinobi Way Leveling?",
+      "whatIsDescription": "Shinobi Way leveling covers the repeatable activities that raise your power: missions, daily quests, stat training, farming loops, and route planning for stronger characters.",
+      "why": "Why follow Shinobi Way leveling guides?",
+      "whySteps": {
+        "step1Title": "Speed Up Shinobi Way Progress",
+        "step1Description": "Prioritize the quests, training loops, and farming habits that produce steady gains instead of scattered grinding.",
+        "step2Title": "Balance Shinobi Way Stats",
+        "step2Description": "Understand when to push core stats, when to farm rewards, and when to pause leveling for jutsu or build upgrades.",
+        "step3Title": "Prepare Shinobi Way Milestones",
+        "step3Description": "Use leveling pages to reach missions, bosses, and PvP readiness with fewer wasted resets or resource gaps."
+      },
+      "featured": "Featured Shinobi Way Leveling Articles",
+      "all": "All Shinobi Way Leveling Articles"
+    },
+    "jutsu": {
       "title": "Shinobi Way Jutsu",
-      "description": "Shinobi Way jutsu guides for Taijutsu, Ninjutsu, Genjutsu, chakra usage, and ability timing.",
-      "metaTitle": "Shinobi Way Jutsu Guide - Taijutsu, Ninjutsu & Genjutsu",
-      "metaDescription": "Learn Shinobi Way jutsu paths including Taijutsu, Ninjutsu, Genjutsu, chakra planning, cooldown timing, and combat roles.",
+      "description": "Shinobi Way jutsu guides for chakra, Ninjutsu, Genjutsu, Taijutsu, elemental power, unlock paths, and combat ability choices.",
+      "metaTitle": "Shinobi Way Jutsu - Chakra, Ninjutsu, Genjutsu & Taijutsu",
+      "metaDescription": "Master Shinobi Way jutsu with guides for chakra use, Ninjutsu, Genjutsu, Taijutsu, elemental power, unlock paths, and combat timing.",
       "categoryLabel": "SHINOBI WAY JUTSU",
       "whatIs": "What is Shinobi Way Jutsu?",
-      "whatIsDescription": "Shinobi Way jutsu covers combat abilities and skill paths that define how your ninja fights.",
-      "why": "Why master Shinobi Way jutsu?",
+      "whatIsDescription": "Shinobi Way jutsu is the ability layer that shapes combat, including chakra management, elemental choices, Ninjutsu, Genjutsu, Taijutsu, and skill timing.",
+      "why": "Why study Shinobi Way jutsu?",
       "whySteps": {
-        "step1Title": "Choose Shinobi Way Combat Roles",
-        "step1Description": "Pick close-range, ranged, control, weapon, or hybrid routes.",
-        "step2Title": "Improve Shinobi Way Timing",
-        "step2Description": "Use cooldown windows and chakra more effectively.",
-        "step3Title": "Connect Shinobi Way Builds",
-        "step3Description": "Match jutsu choices to lineages and stats."
+        "step1Title": "Choose Shinobi Way Abilities",
+        "step1Description": "Compare jutsu paths before committing to a combat style, trainer route, or resource plan.",
+        "step2Title": "Use Shinobi Way Chakra Better",
+        "step2Description": "Learn how chakra and cooldowns affect fights so your abilities support pressure instead of leaving openings.",
+        "step3Title": "Connect Shinobi Way Combos",
+        "step3Description": "Match jutsu with stats, lineages, weapons, and PvP goals for a cleaner combat plan."
       },
-      "featured": "Featured Shinobi Way Jutsu Guides",
-      "all": "All Shinobi Way Jutsu Guides"
+      "featured": "Featured Shinobi Way Jutsu Articles",
+      "all": "All Shinobi Way Jutsu Articles"
     },
-    "items": {
-      "title": "Shinobi Way Lineages",
-      "description": "Shinobi Way lineage guides for spins, rare traits, reroll decisions, and build priorities.",
-      "metaTitle": "Shinobi Way Lineages - Spins, Traits & Build Priorities",
-      "metaDescription": "Explore Shinobi Way lineages, spin strategy, rare traits, reroll priorities, and build planning for Roblox ninja RPG players.",
-      "categoryLabel": "SHINOBI WAY LINEAGES",
-      "whatIs": "What are Shinobi Way Lineages?",
-      "whatIsDescription": "Shinobi Way lineages are rare ability traits that influence build direction and combat identity.",
-      "why": "Why check Shinobi Way lineages?",
-      "whySteps": {
-        "step1Title": "Spend Shinobi Way Spins Wisely",
-        "step1Description": "Use free spins with a build target in mind.",
-        "step2Title": "Match Shinobi Way Traits",
-        "step2Description": "Keep lineages that support your stats and jutsu.",
-        "step3Title": "Plan Shinobi Way Rerolls",
-        "step3Description": "Reroll when a lineage does not fit your route."
-      },
-      "featured": "Featured Shinobi Way Lineage Guides",
-      "all": "All Shinobi Way Lineage Guides"
-    },
-    "biomes": {
-      "title": "Shinobi Way Map",
-      "description": "Shinobi Way map and exploration guides for villages, mission routes, training areas, and PvP hotspots.",
-      "metaTitle": "Shinobi Way Map Guide - Villages, Missions & Exploration",
-      "metaDescription": "Navigate Shinobi Way villages, mission paths, training stops, exploration targets, and open-world PvP hotspots.",
-      "categoryLabel": "SHINOBI WAY MAP",
-      "whatIs": "What is the Shinobi Way Map?",
-      "whatIsDescription": "The Shinobi Way map connects villages, missions, training areas, enemy routes, boss attempts, and PvP zones.",
-      "why": "Why learn the Shinobi Way map?",
-      "whySteps": {
-        "step1Title": "Find Shinobi Way Missions",
-        "step1Description": "Move quickly between NPC objectives and training stops.",
-        "step2Title": "Plan Shinobi Way Routes",
-        "step2Description": "Reduce downtime while farming and leveling.",
-        "step3Title": "Read Shinobi Way PvP Areas",
-        "step3Description": "Recognize busy areas before traveling with a developing build."
-      },
-      "featured": "Featured Shinobi Way Map Guides",
-      "all": "All Shinobi Way Map Guides"
-    },
-    "building": {
+    "builds": {
       "title": "Shinobi Way Builds",
-      "description": "Shinobi Way build guides for stats, jutsu, lineages, weapons, farming, bosses, and PvP.",
-      "metaTitle": "Shinobi Way Builds - Stats, Jutsu, Lineages & PvP",
-      "metaDescription": "Plan Shinobi Way builds with stat priorities, jutsu paths, lineage choices, weapon routes, PvE farming, bosses, and PvP strategy.",
+      "description": "Shinobi Way build guides for PvE, PvP, bosses, stats, defense, strength, weapon skills, and complete combat planning.",
+      "metaTitle": "Shinobi Way Builds - PvE, PvP, Bosses, Stats & Weapons",
+      "metaDescription": "Plan Shinobi Way builds with PvE, PvP, boss, defense, strength, weapon skill, stat priority, lineage, and jutsu guidance.",
       "categoryLabel": "SHINOBI WAY BUILDS",
       "whatIs": "What are Shinobi Way Builds?",
-      "whatIsDescription": "Shinobi Way builds combine lineages, jutsu, stats, weapons, and playstyle into one progression plan.",
+      "whatIsDescription": "Shinobi Way builds combine stats, jutsu, lineages, weapons, defensive choices, and content goals into a practical progression and combat plan.",
       "why": "Why plan Shinobi Way builds?",
       "whySteps": {
-        "step1Title": "Focus Shinobi Way Stats",
-        "step1Description": "Train the stats that support your main combat path.",
-        "step2Title": "Connect Shinobi Way Jutsu",
-        "step2Description": "Choose abilities that match lineage and range.",
-        "step3Title": "Prepare Shinobi Way PvP",
-        "step3Description": "Build around spacing, cooldowns, and a clear win condition."
+        "step1Title": "Focus Shinobi Way Training",
+        "step1Description": "Keep stat growth aligned with the combat style you actually want to use in missions, bosses, and PvP.",
+        "step2Title": "Match Shinobi Way Systems",
+        "step2Description": "Combine lineages, jutsu, weapon skills, and defense choices so each upgrade supports the same role.",
+        "step3Title": "Adapt Shinobi Way Builds",
+        "step3Description": "Use separate routes for early farming, boss attempts, PvE safety, and PvP pressure instead of one unfocused setup."
       },
-      "featured": "Featured Shinobi Way Build Guides",
-      "all": "All Shinobi Way Build Guides"
+      "featured": "Featured Shinobi Way Build Articles",
+      "all": "All Shinobi Way Build Articles"
     },
-    "support": {
-      "title": "Shinobi Way Support",
-      "description": "Shinobi Way support resources for official links, Discord, Roblox group, update tracking, and community navigation.",
-      "metaTitle": "Shinobi Way Support - Official Links, Discord & Updates",
-      "metaDescription": "Find Shinobi Way support resources including the official Roblox page, Ouro Games group, Discord invite, update tracking, and community links.",
-      "categoryLabel": "SHINOBI WAY SUPPORT",
-      "whatIs": "What is Shinobi Way Support?",
-      "whatIsDescription": "Shinobi Way support pages help players find official links, community channels, and update information.",
-      "why": "Why use Shinobi Way support?",
+    "lineages": {
+      "title": "Shinobi Way Lineages",
+      "description": "Shinobi Way lineage guides for rare traits, spins, rerolls, race choices, clan identity, and build-defining ability paths.",
+      "metaTitle": "Shinobi Way Lineages - Traits, Spins, Rerolls & Races",
+      "metaDescription": "Explore Shinobi Way lineages with guides for rare traits, spins, rerolls, races, lineage value, and build direction in Roblox.",
+      "categoryLabel": "SHINOBI WAY LINEAGES",
+      "whatIs": "What are Shinobi Way Lineages?",
+      "whatIsDescription": "Shinobi Way lineages are character identity paths that influence abilities, traits, stat direction, reroll decisions, and long-term build planning.",
+      "why": "Why compare Shinobi Way lineages?",
       "whySteps": {
-        "step1Title": "Open Shinobi Way Official Links",
-        "step1Description": "Use the Roblox game page, Ouro Games group, and Discord.",
-        "step2Title": "Follow Shinobi Way Updates",
-        "step2Description": "Watch like milestones, code drops, and release notes.",
-        "step3Title": "Join Shinobi Way Community",
-        "step3Description": "Discuss codes, lineages, jutsu, and progression with other players."
+        "step1Title": "Spend Shinobi Way Spins Wisely",
+        "step1Description": "Use lineage pages to decide when a roll supports your route and when saving spins is smarter.",
+        "step2Title": "Evaluate Shinobi Way Traits",
+        "step2Description": "Understand how rare traits, race choices, and lineage effects can change combat style or progression needs.",
+        "step3Title": "Plan Shinobi Way Rerolls",
+        "step3Description": "Reroll with a target build in mind instead of chasing rarity without knowing how it fits your jutsu and stats."
       },
-      "featured": "Featured Shinobi Way Support Guides",
-      "all": "All Shinobi Way Support Guides"
+      "featured": "Featured Shinobi Way Lineage Articles",
+      "all": "All Shinobi Way Lineage Articles"
+    },
+    "bosses": {
+      "title": "Shinobi Way Bosses",
+      "description": "Shinobi Way boss guides for enemy fights, boss rewards, preparation steps, combat routes, and how to beat difficult encounters.",
+      "metaTitle": "Shinobi Way Bosses - Enemy Fights, Rewards & Combat Guide",
+      "metaDescription": "Beat Shinobi Way bosses with guides for enemy fights, preparation, rewards, combat routes, builds, positioning, and fight priorities.",
+      "categoryLabel": "SHINOBI WAY BOSSES",
+      "whatIs": "What are Shinobi Way Bosses?",
+      "whatIsDescription": "Shinobi Way bosses are higher-pressure fights that test your stats, jutsu timing, build choices, positioning, and ability to manage enemy patterns.",
+      "why": "Why use Shinobi Way boss guides?",
+      "whySteps": {
+        "step1Title": "Prepare Shinobi Way Builds",
+        "step1Description": "Check what stats, jutsu, and defensive tools make a boss attempt smoother before entering the fight.",
+        "step2Title": "Read Shinobi Way Patterns",
+        "step2Description": "Learn which attacks, openings, and positioning habits matter most for specific boss and enemy encounters.",
+        "step3Title": "Claim Shinobi Way Rewards",
+        "step3Description": "Understand why boss rewards matter for progression and when a fight is worth repeating for your build."
+      },
+      "featured": "Featured Shinobi Way Boss Articles",
+      "all": "All Shinobi Way Boss Articles"
     }
   }
 }
