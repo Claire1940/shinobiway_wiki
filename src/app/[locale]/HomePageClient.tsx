@@ -49,6 +49,8 @@ interface HomePageClientProps {
   locale: string
 }
 
+type ModuleLink = ModuleLinkMap[string]
+
 const ROBLOX_GAME_URL = 'https://www.roblox.com/games/104741933311544/Shinobi-Way'
 const ROBLOX_COMMUNITY_URL = 'https://www.roblox.com/communities/33074137/Ouro-Games'
 const DISCORD_URL = 'https://discord.com/invite/qPfAd6pznb'
@@ -69,7 +71,24 @@ const farmingStepIcons = [Settings, ClipboardCheck, MessageCircle, Shield, Gamep
 const storeRowIcons = [Home, Star, Settings, BookOpen, TrendingUp, Hammer, Clock]
 const updateEntryIcons = [Clock, Star, TrendingUp, MessageCircle, ClipboardCheck]
 
-export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
+function LinkedModuleTitle({ link, title }: { link?: ModuleLink; title: string }) {
+  if (!link) {
+    return <>{title}</>
+  }
+
+  return (
+    <a
+      href={link.url}
+      className="inline-flex items-center justify-center gap-2 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
+      aria-label={`Read ${link.title}`}
+    >
+      <span>{title}</span>
+      <ArrowRight className="w-6 h-6" aria-hidden="true" />
+    </a>
+  )
+}
+
+export default function HomePageClient({ latestArticles, moduleLinkMap, locale }: HomePageClientProps) {
   const rawMessages = useMessages() as any
   const t = rawMessages?.hero?.title === 'Shinobi Way Wiki' ? rawMessages : (enMessages as any)
   const heroPrimaryCTA = t.hero.playOnRobloxCTA || 'Play Shinobi Way on Roblox'
@@ -659,7 +678,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <BookOpen className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayCodes.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayCodes.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayCodes} title={t.modules.shinobiWayCodes.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayCodes.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayCodes.intro}</p>
           </div>
@@ -737,7 +758,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Sparkles className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayBeginnerGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayBeginnerGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayBeginnerGuide} title={t.modules.shinobiWayBeginnerGuide.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayBeginnerGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayBeginnerGuide.intro}</p>
           </div>
@@ -781,7 +804,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <MessageCircle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayOfficialLinks.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayOfficialLinks.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayOfficialLinks} title={t.modules.shinobiWayOfficialLinks.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayOfficialLinks.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayOfficialLinks.intro}</p>
           </div>
@@ -811,7 +836,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Star className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayLineageGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayLineageGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayLineageGuide} title={t.modules.shinobiWayLineageGuide.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayLineageGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayLineageGuide.intro}</p>
           </div>
@@ -840,7 +867,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayJutsuGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayJutsuGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayJutsuGuide} title={t.modules.shinobiWayJutsuGuide.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayJutsuGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayJutsuGuide.intro}</p>
           </div>
@@ -891,7 +920,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayStatsAndBuilds.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayStatsAndBuilds.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayStatsAndBuilds} title={t.modules.shinobiWayStatsAndBuilds.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayStatsAndBuilds.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayStatsAndBuilds.intro}</p>
           </div>
@@ -942,7 +973,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayLevelingGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayLevelingGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayLevelingGuide} title={t.modules.shinobiWayLevelingGuide.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayLevelingGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayLevelingGuide.intro}</p>
           </div>
@@ -989,7 +1022,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ClipboardCheck className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayMissionsAndDailyQuests.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayMissionsAndDailyQuests.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayMissionsAndDailyQuests} title={t.modules.shinobiWayMissionsAndDailyQuests.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayMissionsAndDailyQuests.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayMissionsAndDailyQuests.intro}</p>
           </div>
@@ -1035,7 +1070,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <AlertTriangle className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayBossGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayBossGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayBossGuide} title={t.modules.shinobiWayBossGuide.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayBossGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayBossGuide.intro}</p>
           </div>
@@ -1094,7 +1131,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Hammer className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayPvpGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayPvpGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayPvpGuide} title={t.modules.shinobiWayPvpGuide.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayPvpGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayPvpGuide.intro}</p>
           </div>
@@ -1141,7 +1180,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Eye className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayMapAndVillageSecrets.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayMapAndVillageSecrets.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayMapAndVillageSecrets} title={t.modules.shinobiWayMapAndVillageSecrets.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayMapAndVillageSecrets.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayMapAndVillageSecrets.intro}</p>
           </div>
@@ -1188,7 +1229,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayWeaponsAndTaijutsuGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayWeaponsAndTaijutsuGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayWeaponsAndTaijutsuGuide} title={t.modules.shinobiWayWeaponsAndTaijutsuGuide.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayWeaponsAndTaijutsuGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayWeaponsAndTaijutsuGuide.intro}</p>
           </div>
@@ -1265,7 +1308,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Settings className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWaySpinsGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWaySpinsGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWaySpinsGuide} title={t.modules.shinobiWaySpinsGuide.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWaySpinsGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWaySpinsGuide.intro}</p>
           </div>
@@ -1378,7 +1423,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ArrowRight className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayFarmingGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayFarmingGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayFarmingGuide} title={t.modules.shinobiWayFarmingGuide.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayFarmingGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayFarmingGuide.intro}</p>
           </div>
@@ -1425,7 +1472,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Home className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayGamepassesAndStore.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayGamepassesAndStore.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayGamepassesAndStore} title={t.modules.shinobiWayGamepassesAndStore.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayGamepassesAndStore.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayGamepassesAndStore.intro}</p>
           </div>
@@ -1490,7 +1539,9 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.shinobiWayUpdatesAndReleaseTracker.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayUpdatesAndReleaseTracker.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedModuleTitle link={moduleLinkMap.shinobiWayUpdatesAndReleaseTracker} title={t.modules.shinobiWayUpdatesAndReleaseTracker.title} />
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayUpdatesAndReleaseTracker.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayUpdatesAndReleaseTracker.intro}</p>
           </div>

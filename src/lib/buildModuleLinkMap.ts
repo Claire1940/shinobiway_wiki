@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  shinobiWayCodes: { field: 'redeemSteps', nameKey: 'title' },
+  shinobiWayBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  shinobiWayOfficialLinks: { field: 'links', nameKey: 'label' },
+  shinobiWayLineageGuide: { field: 'tiers', nameKey: 'label' },
+  shinobiWayJutsuGuide: { field: 'items', nameKey: 'title' },
+  shinobiWayStatsAndBuilds: { field: 'rows', nameKey: 'stat' },
+  shinobiWayLevelingGuide: { field: 'steps', nameKey: 'title' },
+  shinobiWayMissionsAndDailyQuests: { field: 'steps', nameKey: 'title' },
+  shinobiWayBossGuide: { field: 'items', nameKey: 'title' },
+  shinobiWayPvpGuide: { field: 'items', nameKey: 'title' },
+  shinobiWayMapAndVillageSecrets: { field: 'items', nameKey: 'title' },
+  shinobiWayWeaponsAndTaijutsuGuide: { field: 'items', nameKey: 'combatPath' },
+  shinobiWaySpinsGuide: { field: 'questions', nameKey: 'question' },
+  shinobiWayFarmingGuide: { field: 'steps', nameKey: 'title' },
+  shinobiWayGamepassesAndStore: { field: 'rows', nameKey: 'storeArea' },
+  shinobiWayUpdatesAndReleaseTracker: { field: 'entries', nameKey: 'question' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  shinobiWayCodes: ['codes', 'spins', 'redeem', 'rewards', 'reroll', 'lineage'],
+  shinobiWayBeginnerGuide: ['beginner', 'setup', 'how to play', 'starter', 'combat', 'progression'],
+  shinobiWayOfficialLinks: ['roblox', 'ouro games', 'discord', 'official', 'community', 'game page'],
+  shinobiWayLineageGuide: ['lineage', 'lineages', 'rare traits', 'reroll', 'spins', 'clan'],
+  shinobiWayJutsuGuide: ['best jutsu', 'jutsu tier list', 'chakra', 'techniques', 'ability', 'combat path'],
+  shinobiWayStatsAndBuilds: ['stats', 'best build', 'defense', 'strength', 'weapon skills', 'pvp build'],
+  shinobiWayLevelingGuide: ['leveling', 'level up', 'daily quests', 'missions', 'stat leveling', 'get stronger'],
+  shinobiWayMissionsAndDailyQuests: ['missions', 'daily quests', 'rewards', 'npc missions', 'enemy fights', 'leveling'],
+  shinobiWayBossGuide: ['boss', 'bosses', 'boss rewards', 'enemy fights', 'beat bosses', 'boss build'],
+  shinobiWayPvpGuide: ['pvp', 'pvp build', 'combat', 'defense', 'jutsu', 'weapon skills'],
+  shinobiWayMapAndVillageSecrets: ['map', 'village', 'secrets', 'hidden', 'routes', 'exploration'],
+  shinobiWayWeaponsAndTaijutsuGuide: ['weapon skills', 'dual swords', 'taijutsu', 'strength', 'melee', 'ninja abilities'],
+  shinobiWaySpinsGuide: ['spins', 'reroll', 'codes', 'lineage', 'rare traits', 'rewards'],
+  shinobiWayFarmingGuide: ['farming', 'boss rewards', 'daily quests', 'missions', 'get stronger', 'resources'],
+  shinobiWayGamepassesAndStore: ['gamepasses', 'store', 'robux', 'spins', 'paid', 'purchase'],
+  shinobiWayUpdatesAndReleaseTracker: ['updates', 'release', 'patch notes', 'milestones', 'codes', 'community'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['shinobi', 'way', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -78,8 +78,8 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
   let score = 0
 
   // Exact phrase match in title after removing the current game name.
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  const strippedQuery = normalizedQuery.replace(/shinobi\s+way\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/shinobi\s+way\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
