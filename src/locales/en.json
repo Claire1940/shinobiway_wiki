@@ -71,85 +71,85 @@
         "anchor": "shinobi-way-beginner-guide"
       },
       {
-        "icon": "Hammer",
+        "icon": "MessageCircle",
         "title": "Shinobi Way Official Links",
         "description": "Roblox, Ouro Games, Discord, and community entry points",
         "anchor": "shinobi-way-official-links"
       },
       {
-        "icon": "Package",
+        "icon": "Star",
         "title": "Shinobi Way Lineage Guide",
         "description": "Spin priorities, lineage tiers, and reroll decisions",
         "anchor": "shinobi-way-lineage-guide"
       },
       {
-        "icon": "Home",
+        "icon": "Gamepad2",
         "title": "Shinobi Way Jutsu Guide",
-        "description": "Taijutsu, Ninjutsu, Genjutsu, chakra, and skill paths",
+        "description": "Taijutsu, Ninjutsu, Genjutsu, chakra, and combat paths",
         "anchor": "shinobi-way-jutsu-guide"
       },
       {
-        "icon": "Eye",
+        "icon": "Shield",
         "title": "Shinobi Way Stats and Builds",
         "description": "Defense, Strength, Weapon Skills, Chakra, and build plans",
         "anchor": "shinobi-way-stats-and-builds"
       },
       {
-        "icon": "AlertTriangle",
+        "icon": "TrendingUp",
         "title": "Shinobi Way Leveling Guide",
         "description": "Progression loop for training, missions, and enemies",
         "anchor": "shinobi-way-leveling-guide"
       },
       {
-        "icon": "ArrowRight",
+        "icon": "ClipboardCheck",
         "title": "Shinobi Way Missions and Daily Quests",
         "description": "Daily priorities, NPC missions, and reward routes",
         "anchor": "shinobi-way-missions-and-daily-quests"
       },
       {
-        "icon": "TrendingUp",
+        "icon": "AlertTriangle",
         "title": "Shinobi Way Boss Guide",
         "description": "Boss prep, ability timing, and reward planning",
         "anchor": "shinobi-way-boss-guide"
       },
       {
-        "icon": "Star",
+        "icon": "Hammer",
         "title": "Shinobi Way PvP Guide",
         "description": "Combat spacing, combos, counters, and build choices",
         "anchor": "shinobi-way-pvp-guide"
       },
       {
-        "icon": "ClipboardCheck",
+        "icon": "Eye",
         "title": "Shinobi Way Map and Village Secrets",
         "description": "Village navigation, exploration targets, and hidden stops",
         "anchor": "shinobi-way-map-and-village-secrets"
       },
       {
-        "icon": "MessageCircle",
+        "icon": "Package",
         "title": "Shinobi Way Weapons and Taijutsu Guide",
         "description": "Weapon Skills, close-range routes, and melee setups",
         "anchor": "shinobi-way-weapons-and-taijutsu-guide"
       },
       {
-        "icon": "Gamepad2",
+        "icon": "Settings",
         "title": "Shinobi Way Spins Guide",
         "description": "How to earn, save, and spend spins for lineages",
         "anchor": "shinobi-way-spins-guide"
       },
       {
-        "icon": "Settings",
+        "icon": "ArrowRight",
         "title": "Shinobi Way Farming Guide",
         "description": "Codes, quests, missions, enemies, and boss rewards",
         "anchor": "shinobi-way-farming-guide"
       },
       {
-        "icon": "Clock",
+        "icon": "Home",
         "title": "Shinobi Way Gamepasses and Store",
         "description": "Store choices for new, long-term, and PvP players",
         "anchor": "shinobi-way-gamepasses-and-store"
       },
       {
-        "icon": "Shield",
+        "icon": "Clock",
         "title": "Shinobi Way Updates and Release Tracker",
         "description": "Release notes, like milestones, and code update signals",
         "anchor": "shinobi-way-updates-and-release-tracker"
@@ -349,125 +349,261 @@
     },
     "shinobiWayJutsuGuide": {
       "title": "Shinobi Way Jutsu Guide",
-      "eyebrow": "Jutsu Paths",
-      "subtitle": "Compare Shinobi Way Taijutsu, Ninjutsu, Genjutsu, weapon skills, chakra usage, and elemental pressure before building your loadout.",
-      "intro": "A strong Shinobi Way jutsu setup needs a clear role. Use close-range tools to force pressure, Ninjutsu to control space, Genjutsu to interrupt opponents, and chakra investment to keep your strongest abilities available.",
-      "paths": [
+      "eyebrow": "Combat Paths",
+      "subtitle": "Understand how Jutsu shapes your combat style in Shinobi Way, from Taijutsu-focused melee pressure to Chakra-driven technique builds.",
+      "intro": "Shinobi Way progression is built around training, mastering Chakra, unlocking lineages, learning powerful Jutsu, and choosing a combat path such as Taijutsu, Ninjutsu, or Genjutsu. Use this guide to decide which Jutsu direction fits your preferred playstyle before investing heavily into stats and spins.",
+      "labels": {
+        "bestFor": "Best for",
+        "buildFocus": "Build focus",
+        "playTip": "Play tip"
+      },
+      "items": [
         {
-          "name": "Taijutsu Pressure",
-          "role": "Close Range",
-          "description": "Use Shinobi Way Taijutsu when you want fast engages, short cooldown pressure, and direct combo routes."
+          "title": "Taijutsu",
+          "role": "Close-range combat path",
+          "bestFor": "Players who want direct pressure, fast engagements, and melee-focused fights.",
+          "buildFocus": [
+            "Strength",
+            "Defense",
+            "Weapon Skills"
+          ],
+          "playTip": "Train physical stats first, then use Jutsu and lineage bonuses to support close-range pressure in missions, boss fights, and open-world PvP."
         },
         {
-          "name": "Ninjutsu Damage",
-          "role": "Jutsu Burst",
-          "description": "Use Shinobi Way Ninjutsu when you prefer ranged pressure, elemental attacks, and damage windows around cooldowns."
+          "title": "Ninjutsu",
+          "role": "Technique-focused combat path",
+          "bestFor": "Players who prefer Chakra-based attacks, elemental power, and ability-driven damage.",
+          "buildFocus": [
+            "Chakra",
+            "Elemental Power",
+            "Lineage Abilities"
+          ],
+          "playTip": "Prioritize Chakra and elemental growth so your main techniques stay useful as enemy difficulty increases."
         },
         {
-          "name": "Genjutsu Control",
-          "role": "Disruption",
-          "description": "Use Shinobi Way Genjutsu when your plan depends on timing, interruption, and creating openings for follow-up attacks."
+          "title": "Genjutsu",
+          "role": "Utility and technique path",
+          "bestFor": "Players who want a more ability-oriented style instead of pure melee training.",
+          "buildFocus": [
+            "Chakra",
+            "Lineage Abilities",
+            "Elemental Power"
+          ],
+          "playTip": "Pair Genjutsu-style progression with strong Chakra investment and a flexible secondary damage option."
         },
         {
-          "name": "Weapon Skills",
-          "role": "Melee Utility",
-          "description": "Use Shinobi Way weapon skills to add reach, tempo changes, and consistent damage to your build."
+          "title": "Chakra Control",
+          "role": "Core Jutsu resource direction",
+          "bestFor": "Any player planning to use Jutsu frequently instead of relying only on weapons or raw Strength.",
+          "buildFocus": [
+            "Chakra",
+            "Jutsu Usage",
+            "Ability Unlocks"
+          ],
+          "playTip": "Keep Chakra growth aligned with your main Jutsu path so new abilities can be used consistently during long fights."
+        },
+        {
+          "title": "Lineage Synergy",
+          "role": "Rare ability and trait foundation",
+          "bestFor": "Players using spins to unlock rare powers and build-defining traits.",
+          "buildFocus": [
+            "Spins",
+            "Rare Lineages",
+            "Jutsu Unlocks"
+          ],
+          "playTip": "Use code rewards and new spins to test lineages, then build your stats around the strongest ability set you obtain."
+        },
+        {
+          "title": "Elemental Power",
+          "role": "Element-based Jutsu scaling direction",
+          "bestFor": "Players who want their Jutsu build to feel stronger across PvE missions, boss fights, and PvP encounters.",
+          "buildFocus": [
+            "Elemental Power",
+            "Chakra",
+            "Ninjutsu"
+          ],
+          "playTip": "Treat elemental power as a long-term build layer, especially if your best abilities come from element-based techniques."
         }
-      ],
-      "checklist": [
-        "Match jutsu to your lineage.",
-        "Train the stat that supports your main skill path.",
-        "Keep one dependable opener and one escape option.",
-        "Practice cooldown timing before serious PvP."
       ]
     },
     "shinobiWayStatsAndBuilds": {
       "title": "Shinobi Way Stats and Builds",
-      "eyebrow": "Build Planning",
-      "subtitle": "Plan Shinobi Way Defense, Strength, Weapon Skills, Chakra, and elemental power around the content you want to clear.",
-      "intro": "Stats decide whether a Shinobi Way build feels smooth in missions, bosses, farming, and PvP. Start with survivability and one main damage path, then add support stats once your core loop works.",
+      "eyebrow": "Build Planner",
+      "subtitle": "Compare the main Shinobi Way stats and choose a build direction for PvE, boss fights, open-world PvP, or early leveling.",
+      "intro": "Your Shinobi Way build is shaped by how you train Defense, Strength, Weapon Skills, Chakra, and elemental power. Because progression also includes Jutsu, lineages, daily quests, NPC missions, and enemy rewards, the strongest build is the one that matches both your combat path and your farming routine.",
+      "tableHeaders": {
+        "stat": "Stat",
+        "primaryRole": "Primary role",
+        "bestFor": "Best for",
+        "buildDirection": "Build direction",
+        "priority": "Priority"
+      },
       "rows": [
         {
           "stat": "Defense",
-          "role": "Survivability",
-          "priority": "High early",
-          "useCase": "Helps Shinobi Way players stay alive while learning enemy timing and boss patterns."
+          "primaryRole": "Improves survival and makes mistakes less punishing during fights.",
+          "bestFor": "Boss fights, open-world PvP, early leveling, and players still learning enemy patterns.",
+          "buildDirection": "Use as a safety foundation before pushing into harder enemies or PvP encounters.",
+          "priority": "High for beginners and solo players."
         },
         {
           "stat": "Strength",
-          "role": "Melee Damage",
-          "priority": "High for Taijutsu",
-          "useCase": "Supports close-range Shinobi Way pressure and physical combo routes."
+          "primaryRole": "Supports physical damage and close-range pressure.",
+          "bestFor": "Taijutsu builds, melee-heavy progression, and aggressive PvE farming.",
+          "buildDirection": "Pair with Defense for a stable close-combat route, then add Jutsu or lineage bonuses for burst windows.",
+          "priority": "High for Taijutsu-focused players."
         },
         {
           "stat": "Weapon Skills",
-          "role": "Weapon Scaling",
-          "priority": "Build dependent",
-          "useCase": "Improves Shinobi Way weapon routes for players who prefer melee tools."
+          "primaryRole": "Supports weapon-based combat and non-Jutsu damage options.",
+          "bestFor": "Players who want reliable damage while training Jutsu or waiting for better lineages.",
+          "buildDirection": "Use Weapon Skills as a consistent backup when Chakra-heavy abilities are not enough on their own.",
+          "priority": "Medium to high for hybrid builds."
         },
         {
           "stat": "Chakra",
-          "role": "Ability Economy",
-          "priority": "High for jutsu",
-          "useCase": "Keeps Shinobi Way jutsu and elemental pressure available across longer fights."
+          "primaryRole": "Supports Jutsu usage and technique-heavy progression.",
+          "bestFor": "Ninjutsu, Genjutsu, lineage-based builds, and players who rely on abilities in longer fights.",
+          "buildDirection": "Invest early if your main identity is Jutsu-based instead of pure melee or weapon pressure.",
+          "priority": "High for Jutsu users."
         },
         {
           "stat": "Elemental Power",
-          "role": "Specialized Damage",
-          "priority": "Mid to late",
-          "useCase": "Strengthens Shinobi Way elemental builds after the main stat plan is stable."
+          "primaryRole": "Strengthens element-oriented progression and ability identity.",
+          "bestFor": "Element-focused Jutsu builds, ranged technique play, and ability-heavy PvE routes.",
+          "buildDirection": "Combine with Chakra and your strongest lineage or Jutsu set to create a clearer build identity.",
+          "priority": "Medium early, higher after you know your main element path."
+        },
+        {
+          "stat": "Lineage Choice",
+          "primaryRole": "Defines rare powers, traits, and build identity through spins.",
+          "bestFor": "Players optimizing around rare abilities and stronger late-game progression paths.",
+          "buildDirection": "Redeem available spin codes, test lineages, then train stats that match your best unlocks.",
+          "priority": "High once you start refining a long-term build."
         }
       ]
     },
     "shinobiWayLevelingGuide": {
       "title": "Shinobi Way Leveling Guide",
       "eyebrow": "Progression Route",
-      "subtitle": "Level faster in Shinobi Way by linking codes, training, missions, enemies, and boss preparation into one repeatable loop.",
-      "intro": "The best Shinobi Way leveling route is steady and repeatable: claim free rewards, train your chosen stats, clear missions, fight enemies you can handle, and return to bosses when your build is ready.",
+      "subtitle": "Follow a practical route from new trainee to stronger Shinobi by combining codes, stat training, missions, enemies, and boss fights.",
+      "intro": "Leveling in Shinobi Way centers on steady character growth: train stats, unlock abilities, refine your build, complete daily quests, take NPC missions, and defeat enemies for rewards. The fastest early route is to use available spin rewards, choose a combat path, and keep your daily progression loop consistent.",
+      "labels": {
+        "step": "Step",
+        "action": "Action",
+        "rewardFocus": "Reward focus"
+      },
       "steps": [
         {
-          "title": "Claim Shinobi Way codes",
-          "description": "Start with free spins so your early lineage can support the route you want."
+          "step": 1,
+          "title": "Start with free spin rewards",
+          "description": "Redeem available Shinobi Way codes first so you can roll for lineages and rare traits before committing to a long-term build.",
+          "action": "Use the in-game code menu, claim spins, and test your starting lineage options.",
+          "rewardFocus": "Spins, lineage access, early build direction."
         },
         {
-          "title": "Train Shinobi Way foundation stats",
-          "description": "Raise Defense and one primary damage path before spreading into secondary options."
+          "step": 2,
+          "title": "Choose your first combat path",
+          "description": "Pick whether you want to grow as a Taijutsu, Ninjutsu, Genjutsu, weapon, or hybrid player before spreading points too widely.",
+          "action": "Match your path to the stats that support it: Strength for close combat, Chakra for Jutsu, and elemental power for element-based techniques.",
+          "rewardFocus": "Cleaner stat investment and stronger early fights."
         },
         {
-          "title": "Run Shinobi Way missions",
-          "description": "Use NPC missions and daily objectives to build a consistent reward cycle."
+          "step": 3,
+          "title": "Train core stats consistently",
+          "description": "Use early sessions to build the stats that matter most for your path, especially Defense, Strength, Weapon Skills, Chakra, and elemental power.",
+          "action": "Avoid training only one stat unless your build is intentionally specialized.",
+          "rewardFocus": "Better survivability, damage, and Jutsu consistency."
         },
         {
-          "title": "Fight Shinobi Way enemies",
-          "description": "Practice movement and jutsu timing against enemies that match your current power."
+          "step": 4,
+          "title": "Complete daily quests first",
+          "description": "Daily quests give your session a reliable starting structure and help you avoid wandering without progression.",
+          "action": "Check the Daily Quests area early, finish simple objectives, then move into longer missions.",
+          "rewardFocus": "Stable daily resources and routine progression."
         },
         {
-          "title": "Prepare Shinobi Way boss attempts",
-          "description": "Challenge bosses once your survivability, damage, and cooldown habits are ready."
+          "step": 5,
+          "title": "Use NPC missions for steady growth",
+          "description": "NPC missions are a core loop for building rewards while learning combat flow, movement, and enemy behavior.",
+          "action": "Prioritize missions you can clear quickly and repeat without wasting time on failed fights.",
+          "rewardFocus": "Progression rewards, combat practice, and farming rhythm."
+        },
+        {
+          "step": 6,
+          "title": "Push enemies and bosses when ready",
+          "description": "Once your build feels stable, use enemy fights and boss encounters to test your damage, Defense, and Jutsu choices.",
+          "action": "Upgrade your weak stats after each failed fight instead of forcing the same approach repeatedly.",
+          "rewardFocus": "Fight rewards, stronger build decisions, and PvE readiness."
+        },
+        {
+          "step": 7,
+          "title": "Refine the build with new spins and abilities",
+          "description": "As new codes, rewards, and lineages become available, use them to improve your main route instead of constantly restarting your build idea.",
+          "action": "Keep the best lineage or Jutsu set that fits your path, then train around it.",
+          "rewardFocus": "Long-term power growth and better build identity."
         }
       ]
     },
     "shinobiWayMissionsAndDailyQuests": {
       "title": "Shinobi Way Missions and Daily Quests",
-      "eyebrow": "Daily Loop",
-      "subtitle": "Use Shinobi Way daily quests, NPC missions, and reward priorities to make each login session productive.",
-      "intro": "Missions are the backbone of routine Shinobi Way progression. A short daily route keeps resources moving without relying only on one-time code rewards.",
+      "eyebrow": "Daily Routine",
+      "subtitle": "Build a simple daily checklist for Shinobi Way so every login turns into steady rewards, stat growth, and better combat practice.",
+      "intro": "Shinobi Way includes daily quests, NPC missions, enemy fights, boss battles, and open-world PvP. A good routine starts with quick daily objectives, then moves into missions and combat content that match your current build strength.",
+      "labels": {
+        "step": "Step",
+        "priority": "Priority",
+        "rewardFocus": "Reward focus"
+      },
       "steps": [
         {
-          "title": "Check Shinobi Way daily quests",
-          "description": "Start with daily objectives because they create a clear route for your session."
+          "step": 1,
+          "title": "Check Daily Quests after joining",
+          "description": "Start each session by looking at the Daily Quests area so you know which objectives should be completed before free exploration.",
+          "priority": "Highest",
+          "rewardFocus": "Daily progression, routine rewards, and clear session goals."
         },
         {
-          "title": "Pick Shinobi Way NPC missions",
-          "description": "Choose missions that match your current stats and travel path."
+          "step": 2,
+          "title": "Claim or review available code rewards",
+          "description": "Before taking on longer missions, check whether new spin codes are available so your build can benefit from fresh lineage rolls.",
+          "priority": "High",
+          "rewardFocus": "Spins, rare lineage chances, and faster early build setup."
         },
         {
-          "title": "Spend Shinobi Way rewards carefully",
-          "description": "Use rewards to support the build you are actively training."
+          "step": 3,
+          "title": "Pick NPC missions that fit your build",
+          "description": "Choose missions that match your current damage, Defense, and Jutsu path instead of jumping straight into content that slows your run.",
+          "priority": "High",
+          "rewardFocus": "Reliable rewards, combat practice, and efficient progression."
         },
         {
-          "title": "End with Shinobi Way practice fights",
-          "description": "Use the final part of a session to test jutsu timing and movement."
+          "step": 4,
+          "title": "Use missions to train weak stats",
+          "description": "If fights feel too slow or too risky, use missions as feedback for which stat needs attention next.",
+          "priority": "Medium",
+          "rewardFocus": "Better Strength, Defense, Weapon Skills, Chakra, or elemental growth."
+        },
+        {
+          "step": 5,
+          "title": "Fight enemies for practical combat testing",
+          "description": "Enemy fights help you test whether your Jutsu setup, weapon option, and stat balance are working outside simple training.",
+          "priority": "Medium",
+          "rewardFocus": "Combat rhythm, reward farming, and build validation."
+        },
+        {
+          "step": 6,
+          "title": "Move into boss fights when your route is stable",
+          "description": "Boss fights are better after your core stats and main Jutsu route are ready, especially if you are still building survivability.",
+          "priority": "Medium to high",
+          "rewardFocus": "Higher challenge practice, stronger progression checks, and build refinement."
+        },
+        {
+          "step": 7,
+          "title": "End with PvP or open-world practice",
+          "description": "After daily quests and missions are complete, use open-world PvP to test your build against real players without interrupting your main farming loop.",
+          "priority": "Optional",
+          "rewardFocus": "PvP experience, matchup learning, and combat confidence."
         }
       ]
     },

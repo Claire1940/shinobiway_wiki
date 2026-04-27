@@ -30,6 +30,7 @@ import { scrollToSection } from '@/lib/scrollToSection'
 import { DynamicIcon } from '@/components/ui/DynamicIcon'
 import type { ContentItemWithType } from '@/lib/getLatestArticles'
 import type { ModuleLinkMap } from '@/lib/buildModuleLinkMap'
+import enMessages from '@/locales/en.json'
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import('@/components/home/HeroStats'))
@@ -52,8 +53,14 @@ const ROBLOX_COMMUNITY_URL = 'https://www.roblox.com/communities/33074137/Ouro-G
 const DISCORD_URL = 'https://discord.com/invite/qPfAd6pznb'
 const YOUTUBE_VIDEO_URL = 'https://www.youtube.com/watch?v=oc7Pqw6ZwJU'
 
+const jutsuPathIcons = [Hammer, Sparkles, Eye, Settings, Star, TrendingUp]
+const statsRowIcons = [Shield, Hammer, Package, Sparkles, TrendingUp, Star]
+const levelingStepIcons = [BookOpen, Star, Gamepad2, TrendingUp, ClipboardCheck, Shield, Settings]
+const missionStepIcons = [ClipboardCheck, Clock, Star, Settings, Gamepad2, Shield, Eye]
+
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
-  const t = useMessages() as any
+  const rawMessages = useMessages() as any
+  const t = rawMessages?.hero?.title === 'Shinobi Way Wiki' ? rawMessages : (enMessages as any)
   const heroPrimaryCTA = t.hero.playOnRobloxCTA || 'Play Shinobi Way on Roblox'
   const heroSecondaryCTA = t.hero.getFreeCodesCTA || 'Join Ouro Games Discord'
 
@@ -818,28 +825,49 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="shinobi-way-jutsu-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.shinobiWayJutsuGuide.eyebrow}</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayJutsuGuide.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayJutsuGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayJutsuGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.shinobiWayJutsuGuide.paths.map((path: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Sparkles className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{path.role}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.shinobiWayJutsuGuide.items.map((item: any, index: number) => {
+              const PathIcon = jutsuPathIcons[index % jutsuPathIcons.length]
+              return (
+                <div key={index} className="p-6 bg-card border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all">
+                  <div className="flex items-center justify-between gap-3 mb-4">
+                    <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                      <PathIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-right">
+                      {item.role}
+                    </span>
+                  </div>
+                  <h3 className="font-bold text-lg mb-3">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    <span className="font-semibold text-[hsl(var(--nav-theme-light))]">{t.modules.shinobiWayJutsuGuide.labels.bestFor}: </span>
+                    {item.bestFor}
+                  </p>
+                  <div className="mb-4">
+                    <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayJutsuGuide.labels.buildFocus}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {item.buildFocus.map((focus: string, focusIndex: number) => (
+                        <span key={focusIndex} className="px-2 py-1 rounded-md bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] text-xs">
+                          {focus}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground">
+                    <span className="font-semibold text-foreground">{t.modules.shinobiWayJutsuGuide.labels.playTip}: </span>
+                    {item.playTip}
+                  </p>
                 </div>
-                <h3 className="font-bold text-lg mb-2">{path.name}</h3>
-                <p className="text-muted-foreground text-sm">{path.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.shinobiWayJutsuGuide.checklist.map((item: string, index: number) => (
-              <span key={index} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
-                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{item}
-              </span>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -848,22 +876,49 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="shinobi-way-stats-and-builds" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.shinobiWayStatsAndBuilds.eyebrow}</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayStatsAndBuilds.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayStatsAndBuilds.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayStatsAndBuilds.intro}</p>
           </div>
           <div className="scroll-reveal overflow-hidden rounded-xl border border-border bg-card">
-            <div className="hidden md:grid grid-cols-[1fr_1fr_1fr_2fr] gap-4 px-5 py-3 bg-[hsl(var(--nav-theme)/0.08)] text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
-              <span>Stat</span><span>Role</span><span>Priority</span><span>Use Case</span>
+            <div className="hidden md:grid grid-cols-[180px_1.1fr_1.2fr_1.4fr_180px] gap-4 px-5 py-3 bg-[hsl(var(--nav-theme)/0.08)] text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+              <span>{t.modules.shinobiWayStatsAndBuilds.tableHeaders.stat}</span>
+              <span>{t.modules.shinobiWayStatsAndBuilds.tableHeaders.primaryRole}</span>
+              <span>{t.modules.shinobiWayStatsAndBuilds.tableHeaders.bestFor}</span>
+              <span>{t.modules.shinobiWayStatsAndBuilds.tableHeaders.buildDirection}</span>
+              <span>{t.modules.shinobiWayStatsAndBuilds.tableHeaders.priority}</span>
             </div>
-            {t.modules.shinobiWayStatsAndBuilds.rows.map((row: any, index: number) => (
-              <div key={index} className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr_2fr] gap-3 md:gap-4 px-5 py-4 border-t border-border">
-                <p className="font-bold">{row.stat}</p>
-                <p className="text-sm text-muted-foreground">{row.role}</p>
-                <p className="text-sm text-[hsl(var(--nav-theme-light))]">{row.priority}</p>
-                <p className="text-sm text-muted-foreground">{row.useCase}</p>
-              </div>
-            ))}
+            {t.modules.shinobiWayStatsAndBuilds.rows.map((row: any, index: number) => {
+              const StatIcon = statsRowIcons[index % statsRowIcons.length]
+              return (
+                <div key={index} className="grid grid-cols-1 md:grid-cols-[180px_1.1fr_1.2fr_1.4fr_180px] gap-3 md:gap-4 px-5 py-5 border-t border-border hover:bg-[hsl(var(--nav-theme)/0.04)] transition-colors">
+                  <p className="font-bold flex items-center gap-2">
+                    <StatIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                    {row.stat}
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    <span className="md:hidden block text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-1">{t.modules.shinobiWayStatsAndBuilds.tableHeaders.primaryRole}</span>
+                    {row.primaryRole}
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    <span className="md:hidden block text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-1">{t.modules.shinobiWayStatsAndBuilds.tableHeaders.bestFor}</span>
+                    {row.bestFor}
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    <span className="md:hidden block text-xs font-semibold text-[hsl(var(--nav-theme-light))] mb-1">{t.modules.shinobiWayStatsAndBuilds.tableHeaders.buildDirection}</span>
+                    {row.buildDirection}
+                  </p>
+                  <p className="text-sm text-[hsl(var(--nav-theme-light))]">
+                    <span className="md:hidden block text-xs font-semibold mb-1">{t.modules.shinobiWayStatsAndBuilds.tableHeaders.priority}</span>
+                    {row.priority}
+                  </p>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -872,22 +927,45 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="shinobi-way-leveling-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.shinobiWayLevelingGuide.eyebrow}</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayLevelingGuide.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayLevelingGuide.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayLevelingGuide.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-4">
-            {t.modules.shinobiWayLevelingGuide.steps.map((step: any, index: number) => (
-              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] flex items-center justify-center">
-                  <ArrowRight className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+          <div className="scroll-reveal relative space-y-5">
+            <div className="hidden md:block absolute left-7 top-8 bottom-8 w-px bg-[hsl(var(--nav-theme)/0.3)]" />
+            {t.modules.shinobiWayLevelingGuide.steps.map((step: any, index: number) => {
+              const StepIcon = levelingStepIcons[index % levelingStepIcons.length]
+              return (
+                <div key={index} className="relative flex flex-col md:flex-row gap-4 p-6 bg-card border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="z-10 flex-shrink-0 w-14 h-14 rounded-full bg-background border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                    <StepIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <div className="flex flex-wrap items-center gap-2 mb-2">
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                        {t.modules.shinobiWayLevelingGuide.labels.step} {step.step}
+                      </span>
+                      <h3 className="text-xl font-bold">{step.title}</h3>
+                    </div>
+                    <p className="text-muted-foreground mb-4">{step.description}</p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      <div className="p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.22)]">
+                        <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayLevelingGuide.labels.action}</p>
+                        <p className="text-sm text-muted-foreground">{step.action}</p>
+                      </div>
+                      <div className="p-4 rounded-lg bg-background border border-border">
+                        <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayLevelingGuide.labels.rewardFocus}</p>
+                        <p className="text-sm text-muted-foreground">{step.rewardFocus}</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
-                  <p className="text-muted-foreground">{step.description}</p>
-                </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -896,21 +974,41 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="shinobi-way-missions-and-daily-quests" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+              <ClipboardCheck className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.shinobiWayMissionsAndDailyQuests.eyebrow}</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.shinobiWayMissionsAndDailyQuests.title}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{t.modules.shinobiWayMissionsAndDailyQuests.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{t.modules.shinobiWayMissionsAndDailyQuests.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.shinobiWayMissionsAndDailyQuests.steps.map((step: any, index: number) => (
-              <div key={index} className="p-6 bg-card border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <ClipboardCheck className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">Step {index + 1}</span>
+            {t.modules.shinobiWayMissionsAndDailyQuests.steps.map((step: any, index: number) => {
+              const MissionIcon = missionStepIcons[index % missionStepIcons.length]
+              return (
+                <div key={index} className="p-6 bg-card border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)] transition-all">
+                  <div className="flex items-start justify-between gap-3 mb-4">
+                    <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center">
+                      <MissionIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div className="flex flex-col items-end gap-2">
+                      <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        {t.modules.shinobiWayMissionsAndDailyQuests.labels.step} {step.step}
+                      </span>
+                      <span className="text-xs px-2 py-1 rounded-full bg-background border border-border text-[hsl(var(--nav-theme-light))]">
+                        {step.priority}
+                      </span>
+                    </div>
+                  </div>
+                  <h3 className="font-bold text-lg mb-2">{step.title}</h3>
+                  <p className="text-sm text-muted-foreground mb-4">{step.description}</p>
+                  <div className="p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.22)]">
+                    <p className="text-xs font-semibold uppercase text-[hsl(var(--nav-theme-light))] mb-2">{t.modules.shinobiWayMissionsAndDailyQuests.labels.rewardFocus}</p>
+                    <p className="text-sm text-muted-foreground">{step.rewardFocus}</p>
+                  </div>
                 </div>
-                <h3 className="font-bold text-lg mb-2">{step.title}</h3>
-                <p className="text-sm text-muted-foreground">{step.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
