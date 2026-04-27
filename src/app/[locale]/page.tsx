@@ -19,26 +19,6 @@ const ROBLOX_COMMUNITY_URL = 'https://www.roblox.com/communities/33074137/Ouro-G
 const DISCORD_URL = 'https://discord.com/invite/qPfAd6pznb'
 const YOUTUBE_VIDEO_URL = 'https://www.youtube.com/watch?v=oc7Pqw6ZwJU'
 
-/*
- * Homepage render audit: HomePageClient.tsx owns the lucide-react UI and hsl(var(--nav-theme)) styling.
- * href="#shinobi-way-codes" -> <section id="shinobi-way-codes">
- * href="#shinobi-way-beginner-guide" -> <section id="shinobi-way-beginner-guide">
- * href="#shinobi-way-official-links" -> <section id="shinobi-way-official-links">
- * href="#shinobi-way-lineage-guide" -> <section id="shinobi-way-lineage-guide">
- * href="#shinobi-way-jutsu-guide" -> <section id="shinobi-way-jutsu-guide">
- * href="#shinobi-way-stats-and-builds" -> <section id="shinobi-way-stats-and-builds">
- * href="#shinobi-way-leveling-guide" -> <section id="shinobi-way-leveling-guide">
- * href="#shinobi-way-missions-and-daily-quests" -> <section id="shinobi-way-missions-and-daily-quests">
- * href="#shinobi-way-boss-guide" -> <section id="shinobi-way-boss-guide">
- * href="#shinobi-way-pvp-guide" -> <section id="shinobi-way-pvp-guide">
- * href="#shinobi-way-map-and-village-secrets" -> <section id="shinobi-way-map-and-village-secrets">
- * href="#shinobi-way-weapons-and-taijutsu-guide" -> <section id="shinobi-way-weapons-and-taijutsu-guide">
- * href="#shinobi-way-spins-guide" -> <section id="shinobi-way-spins-guide">
- * href="#shinobi-way-farming-guide" -> <section id="shinobi-way-farming-guide">
- * href="#shinobi-way-gamepasses-and-store" -> <section id="shinobi-way-gamepasses-and-store">
- * href="#shinobi-way-updates-and-release-tracker" -> <section id="shinobi-way-updates-and-release-tracker">
- */
-
 function getSiteUrl() {
   return (process.env.NEXT_PUBLIC_SITE_URL || 'https://shinobiway.wiki').replace(/\/+$/, '')
 }

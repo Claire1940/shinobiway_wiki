@@ -1712,7 +1712,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.steamCommunity}
+                    {t.footer.robloxGroup}
                   </a>
                 </li>
                 <li>
@@ -1722,7 +1722,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.steamStore}
+                    {t.footer.robloxGame}
                   </a>
                 </li>
               </ul>

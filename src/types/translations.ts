@@ -153,7 +153,6 @@ export interface Translations {
     description: string
     getFreeCodesCTA: string
     playOnRobloxCTA?: string
-    playOnSteamCTA?: string
     stats: Record<string, Stat>
   }
   gameFeature: {

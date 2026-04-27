@@ -1,27 +1,26 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Shinobi Way Wiki - Códigos, Lineages y Guía de Jutsu",
+      "description": "Encuentra códigos de Shinobi Way, guías de Lineage, builds de Jutsu, misiones, estadísticas y consejos para principiantes para el RPG de ninjas en Roblox de Ouro Games, con recompensas nuevas.",
+      "ogTitle": "Shinobi Way Wiki - Códigos, Lineages y Guía de Jutsu",
+      "ogDescription": "Encuentra códigos de Shinobi Way, guías de Lineage, builds de Jutsu, misiones, estadísticas y consejos para principiantes para el RPG de ninjas en Roblox de Ouro Games, con recompensas nuevas.",
+      "twitterTitle": "Shinobi Way Wiki - Códigos, Lineages y Guía de Jutsu",
+      "twitterDescription": "Encuentra códigos de Shinobi Way, guías de Lineage, builds de Jutsu, misiones, estadísticas y consejos para principiantes para el RPG de ninjas en Roblox de Ouro Games."
     }
   },
   "nav": {
-    "guide": "Guide",
-    "leveling": "Leveling",
+    "guide": "Guía",
+    "leveling": "Nivelación",
     "jutsu": "Jutsu",
     "builds": "Builds",
     "lineages": "Lineages",
-    "bosses": "Bosses"
+    "bosses": "Jefes"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Jugar en Roblox",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -33,899 +32,1327 @@
     "readMore": "Leer más"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "RPG de ninjas de mundo abierto",
+    "title": "Shinobi Way Wiki",
+    "description": "Entrena como un ninja, desbloquea Lineages poderosos, domina Jutsus mortales, completa misiones y forja tu camino desde un shinobi principiante hasta un luchador listo para PvP.",
+    "getFreeCodesCTA": "Únete al Discord de Ouro Games",
+    "playOnRobloxCTA": "Jugar Shinobi Way en Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "60.0K+",
+        "label": "Visitas totales"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "740",
+        "label": "Jugadores activos"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "1,177",
+        "label": "Favoritos"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "5K Likes",
+        "label": "Próxima meta de código"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Shinobi Way Roblox Ninja RPG",
+    "description": "Crea un luchador en Shinobi Way mediante giros de Lineage, maestría de Jutsu, entrenamiento de estadísticas, misiones, batallas contra jefes y progresión de PvP en mundo abierto."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Shinobi Way",
+    "titleHighlight": "Guías",
+    "subtitle": "Accede a cada módulo de la página principal de Shinobi Way para ver códigos, Lineages, Jutsu, estadísticas, misiones, PvP y actualizaciones.",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "Códigos de Shinobi Way",
+        "description": "Códigos vigentes, recompensas de giros y pasos para canjear",
+        "anchor": "shinobi-way-codes"
       },
       {
         "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
-      },
-      {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "title": "Guía para principiantes de Shinobi Way",
+        "description": "Ruta inicial desde el primer lanzamiento hasta la progresión temprana",
+        "anchor": "shinobi-way-beginner-guide"
       },
       {
         "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "title": "Enlaces oficiales de Shinobi Way",
+        "description": "Puntos de entrada a Roblox, Ouro Games, Discord y la comunidad",
+        "anchor": "shinobi-way-official-links"
+      },
+      {
+        "icon": "Star",
+        "title": "Guía de Lineage de Shinobi Way",
+        "description": "Prioridades de giros, niveles de Lineage y decisiones de relanzamiento",
+        "anchor": "shinobi-way-lineage-guide"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
-      },
-      {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
-      },
-      {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "title": "Guía de Jutsu de Shinobi Way",
+        "description": "Taijutsu, Ninjutsu, Genjutsu, Chakra y rutas de combate",
+        "anchor": "shinobi-way-jutsu-guide"
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Estadísticas y Builds de Shinobi Way",
+        "description": "Defensa, Fuerza, Habilidades de armas, Chakra y planes de builds",
+        "anchor": "shinobi-way-stats-and-builds"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Guía de nivelación de Shinobi Way",
+        "description": "Ciclo de progresión para entrenamiento, misiones y enemigos",
+        "anchor": "shinobi-way-leveling-guide"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Misiones y tareas diarias de Shinobi Way",
+        "description": "Prioridades diarias, misiones de NPC y rutas de recompensas",
+        "anchor": "shinobi-way-missions-and-daily-quests"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Guía de jefes de Shinobi Way",
+        "description": "Preparación para jefes, tiempos de habilidades y planificación de recompensas",
+        "anchor": "shinobi-way-boss-guide"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Guía de PvP de Shinobi Way",
+        "description": "Espaciado de combate, combos, contraataques y elección de builds",
+        "anchor": "shinobi-way-pvp-guide"
+      },
+      {
+        "icon": "Eye",
+        "title": "Mapa y secretos de la aldea de Shinobi Way",
+        "description": "Navegación por la aldea, objetivos de exploración y paradas ocultas",
+        "anchor": "shinobi-way-map-and-village-secrets"
+      },
+      {
+        "icon": "Package",
+        "title": "Guía de armas y Taijutsu de Shinobi Way",
+        "description": "Habilidades de armas, rutas de corto alcance y configuraciones cuerpo a cuerpo",
+        "anchor": "shinobi-way-weapons-and-taijutsu-guide"
+      },
+      {
+        "icon": "Settings",
+        "title": "Guía de giros de Shinobi Way",
+        "description": "Giros gratis, relanzamientos de Lineage y tiempos de builds",
+        "anchor": "shinobi-way-spins-guide"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Guía de farmeo de Shinobi Way",
+        "description": "Ruta diaria de recursos, misiones y jefes",
+        "anchor": "shinobi-way-farming-guide"
+      },
+      {
+        "icon": "Home",
+        "title": "Gamepasses y tienda de Shinobi Way",
+        "description": "Verificación de valor de Robux para cada tipo de jugador",
+        "anchor": "shinobi-way-gamepasses-and-store"
+      },
+      {
+        "icon": "Clock",
+        "title": "Seguimiento de actualizaciones y lanzamientos de Shinobi Way",
+        "description": "Estado de lanzamientos, metas de códigos y revisiones de parches",
+        "anchor": "shinobi-way-updates-and-release-tracker"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+    "shinobiWayCodes": {
+      "title": "Códigos de Shinobi Way",
+      "eyebrow": "Recompensas gratuitas",
+      "subtitle": "Canjea códigos de Shinobi Way para obtener giros gratis, luego usa esos giros para buscar Lineages más fuertes y acelerar tu progreso inicial.",
+      "intro": "Los códigos de Shinobi Way son el impulso inicial más rápido porque cada recompensa puede usarse directamente en tiradas de Lineage. Ingresa cada código exactamente como se muestra en el menú de códigos del juego, luego gasta los giros cuando estés listo para buscar un Lineage que defina tu build.",
+      "workingCodesTitle": "Códigos de Shinobi Way activos",
+      "expiredCodesTitle": "Códigos de Shinobi Way expirados",
+      "redeemTitle": "Cómo canjear códigos de Shinobi Way",
+      "quickTipsTitle": "Consejos para códigos de Shinobi Way",
+      "codes": [
+        {
+          "code": "BUGFIXES",
+          "reward": "Giros",
+          "status": "Nuevo",
+          "bestFor": "Tiradas de Lineage extra tras correcciones de lanzamiento"
+        },
+        {
+          "code": "500LIKES",
+          "reward": "5 Giros",
+          "status": "Nuevo",
+          "bestFor": "Tirar por Lineages raros desde el principio"
+        },
+        {
+          "code": "RELEASE",
+          "reward": "5 Giros",
+          "status": "Activo",
+          "bestFor": "Iniciar el progreso en Shinobi Way con giros gratuitos"
+        }
+      ],
+      "expired": [
+        {
+          "code": "Ninguno listado",
+          "reward": "No hay códigos de Shinobi Way expirados listados en este momento",
+          "status": "Vacío",
+          "bestFor": "Confirmación de que no hay códigos antiguos para probar"
+        }
+      ],
+      "redeemSteps": [
+        {
+          "title": "Inicia Shinobi Way",
+          "description": "Abre la experiencia de Shinobi Way en Roblox y espera a que cargue la interfaz principal."
+        },
+        {
+          "title": "Abre el menú de códigos",
+          "description": "Selecciona el ícono de código con forma de pájaro o Twitter cerca de la parte superior de la pantalla."
+        },
+        {
+          "title": "Ingresa el código de Shinobi Way",
+          "description": "Escribe o pega el código exactamente como está escrito, incluyendo las mayúsculas."
+        },
+        {
+          "title": "Reclama la recompensa de Shinobi Way",
+          "description": "Presiona el botón de confirmar y verifica que los giros se hayan añadido a tu cuenta."
+        }
+      ],
+      "tips": [
+        "Canjea los códigos de Shinobi Way antes de largas sesiones de farmeo para que los giros gratis definan tu build inicial.",
+        "Guarda giros extra cuando tu Lineage actual ya sea compatible con tu ruta preferida de Jutsu o Taijutsu.",
+        "Revisa los hitos de actualización de Shinobi Way, ya que las nuevas metas de likes suelen traer nuevas recompensas de códigos."
+      ]
+    },
+    "shinobiWayBeginnerGuide": {
+      "title": "Guía para principiantes de Shinobi Way",
+      "eyebrow": "Ruta de inicio",
+      "subtitle": "Aprende el ciclo principal de Shinobi Way: canjea códigos, elige una dirección de combate, entrena estadísticas, completa misiones y prepárate para peleas contra jefes o PvP.",
+      "intro": "El progreso en Shinobi Way se basa en entrenar a un personaje de RPG ninja a través de Lineages, Jutsus, estadísticas principales, misiones, combates contra enemigos y práctica en mundo abierto. Los nuevos jugadores deben establecer un ciclo constante antes de gastar cada giro o lanzarse al PvP.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Inicia Shinobi Way desde Roblox",
+          "description": "Inicia la experiencia oficial de Shinobi Way y aprende dónde se encuentran el botón de códigos, los marcadores de misión y los menús de estadísticas.",
+          "goal": "Comprender los controles y menús principales."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Canjea los códigos iniciales de Shinobi Way",
+          "description": "Usa códigos de giros gratis como RELEASE y 500LIKES antes de un farmeo largo para que tus primeras elecciones de Lineage tengan más valor.",
+          "goal": "Obtener giros iniciales antes de elegir una ruta de build."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Elige una dirección de combate en Shinobi Way",
+          "description": "Decide si prefieres la presión del Taijutsu, el daño de Ninjutsu, el control de Genjutsu, habilidades con armas, escalado de Chakra o una ruta híbrida.",
+          "goal": "Alinear tu entrenamiento con tu estilo de juego preferido."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Entrena las estadísticas principales de Shinobi Way",
+          "description": "Sube Defensa, Fuerza, Habilidades de Arma, Chakra y poder elemental para que las misiones y combates contra enemigos sean más fluidos.",
+          "goal": "Crear una base estable para el contenido posterior."
+        },
+        {
+          "title": "Completa misiones y tareas de Shinobi Way",
+          "description": "Usa misiones diarias, misiones de NPC y objetivos de mundo abierto como tu ruta principal inicial para obtener recompensas y un progreso constante.",
+          "goal": "Crear un ciclo de progreso repetible."
+        },
+        {
+          "title": "Practica el combate de Shinobi Way antes del PvP",
+          "description": "Prueba el movimiento, los tiempos de enfriamiento, el rango de los Jutsu y los hábitos defensivos contra enemigos y jefes antes de desafiar a otros jugadores.",
+          "goal": "Entrar al PvP con una build preparada."
         }
       ],
-      "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+      "tipsTitle": "Prioridades de la primera hora en Shinobi Way",
+      "tips": [
+        "Usa códigos antes de hacer reroll intensivamente.",
+        "Entrena una ruta de daño principal antes de dispersar demasiado tus estadísticas.",
+        "Practica con enemigos básicos antes de las peleas contra jefes.",
+        "Guarda algunos giros para códigos de futuras actualizaciones y cambios de Lineage."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
-      "cards": [
+    "shinobiWayOfficialLinks": {
+      "title": "Enlaces oficiales de Shinobi Way",
+      "eyebrow": "Recursos oficiales",
+      "subtitle": "Accede a la página principal de Shinobi Way en Roblox, la comunidad de Ouro Games, la invitación de Discord y el video destacado desde un panel de recursos limpio.",
+      "intro": "Comienza desde los destinos oficiales de Shinobi Way cuando necesites jugar el juego, unirte a la comunidad, seguir la actividad de los desarrolladores o ver la cobertura actual del gameplay.",
+      "links": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "label": "Juego Shinobi Way en Roblox",
+          "type": "Página oficial del juego",
+          "href": "https://www.roblox.com/games/104741933311544/Shinobi-Way",
+          "description": "Juega Shinobi Way, mira la página del juego en Roblox y accede a los servidores desde el listado oficial de la experiencia.",
+          "bestFor": "Jugar Shinobi Way en Roblox"
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "label": "Comunidad de Ouro Games en Roblox",
+          "type": "Comunidad de desarrolladores",
+          "href": "https://www.roblox.com/communities/33074137/Ouro-Games",
+          "description": "Sigue a la comunidad de Roblox conectada con Shinobi Way y Ouro Games.",
+          "bestFor": "Actualizaciones de desarrolladores y navegación del grupo"
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "label": "Discord de Ouro Games",
+          "type": "Servidor de la comunidad",
+          "href": "https://discord.com/invite/qPfAd6pznb",
+          "description": "Únete al servidor de la comunidad utilizado para alertas de códigos de Shinobi Way, charlas sobre actualizaciones, adelantos y discusiones de jugadores.",
+          "bestFor": "Alertas de códigos y discusión comunitaria en vivo"
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "label": "Video destacado de Shinobi Way",
+          "type": "Video de gameplay",
+          "href": "https://www.youtube.com/watch?v=oc7Pqw6ZwJU",
+          "description": "Mira un video reciente de gameplay de Shinobi Way que muestra la experiencia actual del RPG ninja en Roblox en movimiento.",
+          "bestFor": "Ver el gameplay de Shinobi Way antes de unirse"
         }
-      ],
-      "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+    "shinobiWayLineageGuide": {
+      "title": "Guía de Lineage de Shinobi Way",
+      "eyebrow": "Builds de Lineage",
+      "subtitle": "Usa los spins de Shinobi Way para buscar Lineages que coincidan con tu Jutsu, arma, Chakra o dirección de PvP preferidos.",
+      "intro": "Los Lineages definen la identidad a largo plazo de una build de Shinobi Way. Un Lineage fuerte debe complementar las estadísticas que entrenas, el Jutsu que más usas y el contenido que quieres completar, desde misiones iniciales hasta batallas contra jefes y PvP.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Lineages de poder raro",
+          "priority": "Conservar",
+          "description": "Prioriza Lineages raros de Shinobi Way que desbloqueen poderes únicos, opciones fuertes de Jutsu o rasgos de combate que definan tu build.",
+          "bestFor": "PvP a largo plazo, jefes o builds de alto daño",
+          "advice": "Deja de relanzar cuando el Lineage mejore claramente tu estilo de combate principal."
+        },
+        {
+          "tier": "A",
+          "label": "Lineages que coinciden con la build",
+          "priority": "Conservar o probar",
+          "description": "Un Lineage de Shinobi Way es valioso cuando complementa el Taijutsu, Ninjutsu, Genjutsu, la presión con armas, el escalado de Chakra o el daño elemental que ya utilizas.",
+          "bestFor": "Jugadores con un estilo de combate definido",
+          "advice": "Consérvalo si las habilidades apoyan tus estadísticas entrenadas."
+        },
+        {
+          "tier": "B",
+          "label": "Lineages de progresión inicial",
+          "priority": "Usar temporalmente",
+          "description": "Algunos Lineages de Shinobi Way son lo suficientemente buenos para misiones iniciales y práctica con jefes mientras ahorras spins para un lanzamiento más fuerte.",
+          "bestFor": "Jugadores nuevos que buscan un inicio estable",
+          "advice": "Guarda spins adicionales hasta que tengas más códigos o un objetivo claro."
+        },
+        {
+          "tier": "Reroll",
+          "label": "Lineages incompatibles",
+          "priority": "Relanzar con spins sobrantes",
+          "description": "Relanza cuando el Lineage de Shinobi Way no sea compatible con tu rango, estadísticas o ruta de contenido preferidos.",
+          "bestFor": "Jugadores optimizando tras la progresión inicial",
+          "advice": "Usa los spins de códigos gratuitos antes de pasar tiempo farmeando relanzamientos."
+        },
+        {
+          "tier": "Spin Sources",
+          "label": "Códigos de spins gratuitos",
+          "priority": "Reclamar primero",
+          "description": "Códigos como RELEASE y 500LIKES otorgan spins que pueden mejorar de inmediato las opciones de Lineage en Shinobi Way.",
+          "bestFor": "Jugadores que buscan spins gratuitos",
+          "advice": "Canjea códigos antes de comprometerte con un plan de build a largo plazo."
+        }
+      ]
+    },
+    "shinobiWayJutsuGuide": {
+      "title": "Guía de Jutsu de Shinobi Way",
+      "eyebrow": "Rutas de combate",
+      "subtitle": "Entiende cómo el Jutsu define tu estilo de combate en Shinobi Way, desde la presión cuerpo a cuerpo centrada en Taijutsu hasta las builds de técnicas impulsadas por Chakra.",
+      "intro": "La progresión en Shinobi Way se basa en entrenar, dominar el Chakra, desbloquear Lineages, aprender Jutsu poderosos y elegir una ruta de combate como Taijutsu, Ninjutsu o Genjutsu. Usa esta guía para decidir qué dirección de Jutsu se ajusta a tu estilo de juego antes de invertir mucho en estadísticas y spins.",
+      "labels": {
+        "bestFor": "Ideal para",
+        "buildFocus": "Enfoque de la build",
+        "playTip": "Consejo de juego"
+      },
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "title": "Taijutsu",
+          "role": "Ruta de combate a corta distancia",
+          "bestFor": "Jugadores que buscan presión directa, enfrentamientos rápidos y combates centrados en el cuerpo a cuerpo.",
+          "buildFocus": [
+            "Fuerza",
+            "Defensa",
+            "Habilidades de arma"
+          ],
+          "playTip": "Entrena primero las estadísticas físicas, luego usa bonificaciones de Jutsu y Lineage para apoyar la presión a corta distancia en misiones, jefes y PvP de mundo abierto."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "title": "Ninjutsu",
+          "role": "Ruta de combate centrada en técnicas",
+          "bestFor": "Jugadores que prefieren ataques basados en Chakra, poder elemental y daño derivado de habilidades.",
+          "buildFocus": [
+            "Chakra",
+            "Poder elemental",
+            "Habilidades de Lineage"
+          ],
+          "playTip": "Prioriza el crecimiento de Chakra y elemental para que tus técnicas principales sigan siendo útiles a medida que aumenta la dificultad de los enemigos."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "title": "Genjutsu",
+          "role": "Ruta de utilidad y técnicas",
+          "bestFor": "Jugadores que buscan un estilo más orientado a habilidades en lugar de un entrenamiento puramente cuerpo a cuerpo.",
+          "buildFocus": [
+            "Chakra",
+            "Habilidades de Lineage",
+            "Poder elemental"
+          ],
+          "playTip": "Combina la progresión de estilo Genjutsu con una fuerte inversión en Chakra y una opción de daño secundario flexible."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "title": "Chakra Control",
+          "role": "Dirección del recurso principal de Jutsu",
+          "bestFor": "Cualquier jugador que planee usar Jutsu con frecuencia en lugar de depender solo de armas o Fuerza bruta.",
+          "buildFocus": [
+            "Chakra",
+            "Uso de Jutsu",
+            "Desbloqueo de habilidades"
+          ],
+          "playTip": "Mantén el crecimiento de Chakra alineado con tu ruta principal de Jutsu para que las nuevas habilidades puedan usarse de forma constante en combates largos."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
+          "title": "Lineage Synergy",
+          "role": "Base de rasgos y habilidades raras",
+          "bestFor": "Jugadores que usan spins para desbloquear poderes raros y rasgos que definen su build.",
+          "buildFocus": [
+            "Spins",
+            "Rare Lineages",
+            "Desbloqueo de Jutsu"
+          ],
+          "playTip": "Usa las recompensas de códigos y nuevos spins para probar Lineages, luego desarrolla tus estadísticas en torno al conjunto de habilidades más fuerte que obtengas."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "title": "Elemental Power",
+          "role": "Dirección de escalado de Jutsu basado en elementos",
+          "bestFor": "Jugadores que quieren que su build de Jutsu se sienta más fuerte en misiones PvE, jefes y encuentros PvP.",
+          "buildFocus": [
+            "Poder elemental",
+            "Chakra",
+            "Ninjutsu"
+          ],
+          "playTip": "Trata el poder elemental como una capa de build a largo plazo, especialmente si tus mejores habilidades provienen de técnicas basadas en elementos."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
-      "solutions": [
+    "shinobiWayStatsAndBuilds": {
+      "title": "Estadísticas y Builds de Shinobi Way",
+      "eyebrow": "Planificador de builds",
+      "subtitle": "Compara las principales estadísticas de Shinobi Way y elige una dirección de build para PvE, jefes, PvP de mundo abierto o subida de nivel inicial.",
+      "intro": "Tu build de Shinobi Way se define por cómo entrenas Defensa, Fuerza, Habilidades de arma, Chakra y poder elemental. Debido a que la progresión también incluye Jutsu, Lineages, misiones diarias, misiones de NPC y recompensas de enemigos, la build más fuerte es la que coincide tanto con tu ruta de combate como con tu rutina de farmeo.",
+      "tableHeaders": {
+        "stat": "Estadística",
+        "primaryRole": "Rol principal",
+        "bestFor": "Ideal para",
+        "buildDirection": "Dirección de la build",
+        "priority": "Prioridad"
+      },
+      "rows": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "stat": "Defensa",
+          "primaryRole": "Mejora la supervivencia y hace que los errores sean menos castigados durante los combates.",
+          "bestFor": "Batallas contra jefes, PvP de mundo abierto, nivelación inicial y jugadores que aún están aprendiendo los patrones de los enemigos.",
+          "buildDirection": "Úsala como base de seguridad antes de enfrentarte a enemigos más difíciles o encuentros PvP.",
+          "priority": "Alta para principiantes y jugadores solitarios."
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "stat": "Fuerza",
+          "primaryRole": "Apoya el daño físico y la presión a corta distancia.",
+          "bestFor": "Builds de Taijutsu, progresión centrada en el cuerpo a cuerpo y farmeo agresivo en PvE.",
+          "buildDirection": "Combínala con Defensa para una ruta estable de combate cercano, luego añade bonificaciones de Jutsu o Lineage para momentos de daño explosivo.",
+          "priority": "Alta para jugadores centrados en Taijutsu."
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "stat": "Habilidades de arma",
+          "primaryRole": "Apoya el combate basado en armas y opciones de daño que no dependen del Jutsu.",
+          "bestFor": "Jugadores que buscan daño confiable mientras entrenan Jutsu o esperan mejores Lineages.",
+          "buildDirection": "Usa Habilidades de arma como un respaldo constante cuando las habilidades que consumen mucho Chakra no sean suficientes por sí solas.",
+          "priority": "Media a alta para builds híbridas."
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "stat": "Chakra",
+          "primaryRole": "Apoya el uso de Jutsu y la progresión centrada en técnicas.",
+          "bestFor": "Builds de Ninjutsu, Genjutsu, basadas en Lineage y jugadores que dependen de habilidades en combates largos.",
+          "buildDirection": "Invierte pronto si tu identidad principal se basa en Jutsu en lugar de pura presión cuerpo a cuerpo o de armas.",
+          "priority": "Alta para usuarios de Jutsu."
+        },
+        {
+          "stat": "Poder elemental",
+          "primaryRole": "Refuerza la progresión orientada a elementos y la identidad de las habilidades.",
+          "bestFor": "Builds de Jutsu centradas en elementos, juego de técnicas a distancia y rutas PvE con muchas habilidades.",
+          "buildDirection": "Combínala con Chakra y tu Lineage o conjunto de Jutsu más fuerte para crear una identidad de build más clara.",
+          "priority": "Media al principio, más alta una vez que conozcas tu ruta elemental principal."
+        },
+        {
+          "stat": "Elección de Lineage",
+          "primaryRole": "Define poderes raros, rasgos e identidad de la build a través de spins.",
+          "bestFor": "Jugadores que optimizan en torno a habilidades raras y rutas de progresión más fuertes para el juego tardío.",
+          "buildDirection": "Canjea los códigos de spins disponibles, prueba Lineages y luego entrena las estadísticas que coincidan con tus mejores desbloqueos.",
+          "priority": "Alta una vez que comiences a refinar una build a largo plazo."
+        }
+      ]
+    },
+    "shinobiWayLevelingGuide": {
+      "title": "Guía de Nivelación de Shinobi Way",
+      "eyebrow": "Ruta de Progresión",
+      "subtitle": "Sigue una ruta práctica desde nuevo aprendiz hasta un Shinobi más fuerte combinando códigos, entrenamiento de estadísticas, misiones, enemigos y combates contra jefes.",
+      "intro": "Subir de nivel en Shinobi Way se centra en el crecimiento constante del personaje: entrena estadísticas, desbloquea habilidades, perfecciona tu build, completa misiones diarias, acepta misiones de NPC y derrota enemigos para obtener recompensas. La ruta más rápida al inicio es usar las recompensas de giros disponibles, elegir un camino de combate y mantener constante tu ciclo de progresión diaria.",
+      "labels": {
+        "step": "Paso",
+        "action": "Acción",
+        "rewardFocus": "Enfoque de recompensa"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "title": "Comienza con recompensas de giros gratis",
+          "description": "Canjea primero los códigos de Shinobi Way disponibles para que puedas girar por Lineages y rasgos raros antes de comprometerte con una build a largo plazo.",
+          "action": "Usa el menú de códigos del juego, reclama los giros y prueba tus opciones iniciales de Lineage.",
+          "rewardFocus": "Giros, acceso a Lineage, dirección inicial de la build."
+        },
+        {
+          "step": 2,
+          "title": "Elige tu primer camino de combate",
+          "description": "Elige si quieres crecer como un jugador de Taijutsu, Ninjutsu, Genjutsu, armas o híbrido antes de repartir tus puntos demasiado.",
+          "action": "Ajusta tu camino a las estadísticas que lo respaldan: Fuerza para combate cercano, Chakra para Jutsu y poder elemental para técnicas basadas en elementos.",
+          "rewardFocus": "Inversión de estadísticas más limpia y combates iniciales más fuertes."
+        },
+        {
+          "step": 3,
+          "title": "Entrena las estadísticas principales de forma constante",
+          "description": "Usa las primeras sesiones para desarrollar las estadísticas que más importan para tu camino, especialmente Defensa, Fuerza, Habilidades de Armas, Chakra y poder elemental.",
+          "action": "Evita entrenar solo una estadística a menos que tu build esté especializada intencionalmente.",
+          "rewardFocus": "Mejor supervivencia, daño y consistencia de Jutsu."
+        },
+        {
+          "step": 4,
+          "title": "Completa primero las misiones diarias",
+          "description": "Las misiones diarias le dan a tu sesión una estructura inicial confiable y te ayudan a evitar deambular sin progresar.",
+          "action": "Revisa el área de misiones diarias temprano, termina objetivos simples y luego pasa a misiones más largas.",
+          "rewardFocus": "Recursos diarios estables y progresión rutinaria."
+        },
+        {
+          "step": 5,
+          "title": "Usa misiones de NPC para un crecimiento constante",
+          "description": "Las misiones de NPC son un ciclo fundamental para obtener recompensas mientras aprendes el flujo del combate, el movimiento y el comportamiento de los enemigos.",
+          "action": "Prioriza las misiones que puedas completar rápido y repetir sin perder tiempo en combates fallidos.",
+          "rewardFocus": "Recompensas de progresión, práctica de combate y ritmo de farming."
+        },
+        {
+          "step": 6,
+          "title": "Enfréntate a enemigos y jefes cuando estés listo",
+          "description": "Una vez que tu build se sienta estable, usa los combates contra enemigos y encuentros con jefes para probar tu daño, Defensa y elecciones de Jutsu.",
+          "action": "Mejora tus estadísticas débiles después de cada combate fallido en lugar de forzar el mismo enfoque repetidamente.",
+          "rewardFocus": "Recompensas de combate, decisiones de build más sólidas y preparación para PvE."
+        },
+        {
+          "step": 7,
+          "title": "Refina la build con nuevos giros y habilidades",
+          "description": "A medida que haya nuevos códigos, recompensas y Lineages disponibles, úsalos para mejorar tu ruta principal en lugar de reiniciar constantemente tu idea de build.",
+          "action": "Mantén el mejor Lineage o conjunto de Jutsu que se adapte a tu camino, luego entrena en torno a él.",
+          "rewardFocus": "Crecimiento de poder a largo plazo y mejor identidad de la build."
+        }
+      ]
+    },
+    "shinobiWayMissionsAndDailyQuests": {
+      "title": "Misiones y Misiones Diarias de Shinobi Way",
+      "eyebrow": "Rutina Diaria",
+      "subtitle": "Crea una lista de verificación diaria simple para Shinobi Way para que cada inicio de sesión se convierta en recompensas constantes, crecimiento de estadísticas y mejor práctica de combate.",
+      "intro": "Shinobi Way incluye misiones diarias, misiones de NPC, combates contra enemigos, batallas contra jefes y PvP de mundo abierto. Una buena rutina comienza con objetivos diarios rápidos, luego pasa a misiones y contenido de combate que coincidan con la fuerza de tu build actual.",
+      "labels": {
+        "step": "Paso",
+        "priority": "Prioridad",
+        "rewardFocus": "Enfoque de recompensa"
+      },
+      "steps": [
+        {
+          "step": 1,
+          "title": "Revisa las misiones diarias al unirte",
+          "description": "Comienza cada sesión mirando el área de misiones diarias para saber qué objetivos deben completarse antes de la exploración libre.",
+          "priority": "Máxima",
+          "rewardFocus": "Progresión diaria, recompensas rutinarias y objetivos de sesión claros."
+        },
+        {
+          "step": 2,
+          "title": "Reclama o revisa las recompensas de códigos disponibles",
+          "description": "Antes de emprender misiones más largas, verifica si hay nuevos códigos de giros disponibles para que tu build pueda beneficiarse de nuevos lanzamientos de Lineage.",
+          "priority": "Alta",
+          "rewardFocus": "Giros, oportunidades de Lineage raros y configuración inicial de build más rápida."
+        },
+        {
+          "step": 3,
+          "title": "Elige misiones de NPC que se adapten a tu build",
+          "description": "Elige misiones que coincidan con tu daño, Defensa y camino de Jutsu actuales en lugar de saltar directamente a contenido que ralentice tu progreso.",
+          "priority": "Alta",
+          "rewardFocus": "Recompensas confiables, práctica de combate y progresión eficiente."
+        },
+        {
+          "step": 4,
+          "title": "Usa las misiones para entrenar estadísticas débiles",
+          "description": "Si los combates se sienten demasiado lentos o arriesgados, usa las misiones como retroalimentación para saber qué estadística necesita atención a continuación.",
+          "priority": "Media",
+          "rewardFocus": "Mejor Fuerza, Defensa, Habilidades de Armas, Chakra o crecimiento elemental."
+        },
+        {
+          "step": 5,
+          "title": "Lucha contra enemigos para pruebas de combate prácticas",
+          "description": "Los combates contra enemigos te ayudan a probar si tu configuración de Jutsu, opción de arma y equilibrio de estadísticas están funcionando fuera del entrenamiento simple.",
+          "priority": "Media",
+          "rewardFocus": "Ritmo de combate, farming de recompensas y validación de la build."
+        },
+        {
+          "step": 6,
+          "title": "Pasa a los combates contra jefes cuando tu ruta sea estable",
+          "description": "Los combates contra jefes son mejores después de que tus estadísticas principales y tu ruta de Jutsu principal estén listas, especialmente si aún estás desarrollando supervivencia.",
+          "priority": "Media a alta",
+          "rewardFocus": "Práctica de desafíos mayores, controles de progresión más fuertes y refinamiento de la build."
+        },
+        {
+          "step": 7,
+          "title": "Termina con PvP o práctica en el mundo abierto",
+          "description": "Después de completar las misiones diarias y de NPC, usa el PvP de mundo abierto para probar tu build contra jugadores reales sin interrumpir tu ciclo principal de farming.",
+          "priority": "Opcional",
+          "rewardFocus": "Experiencia en PvP, aprendizaje de enfrentamientos y confianza en el combate."
+        }
+      ]
+    },
+    "shinobiWayBossGuide": {
+      "title": "Guía de Jefes de Shinobi Way",
+      "eyebrow": "Combates contra Jefes",
+      "subtitle": "Los combates contra jefes son uno de los controles de progresión clave en Shinobi Way. Una configuración sólida debe combinar estadísticas entrenadas, Jutsu confiables y un rango de combate claro antes de entrar a la pelea.",
+      "intro": "Shinobi Way está construido en torno al entrenamiento, el dominio del Chakra, el desbloqueo de Lineages, el aprendizaje de Jutsu y la lucha contra enemigos en un RPG de ninjas de mundo abierto. Para los combates contra jefes, los jugadores deben evitar entrar con una build aleatoria y, en su lugar, prepararse en torno a Defensa, Fuerza, Habilidades de Armas, Chakra, poder elemental y su camino preferido de Taijutsu, Ninjutsu o Genjutsu.",
+      "labels": {
+        "step": "Paso",
+        "playerTip": "Consejo para el jugador"
+      },
+      "focusCards": [
+        {
+          "title": "Preparación para Jefes de Shinobi Way",
+          "description": "Entra en combates contra jefes después de que tus estadísticas principales, plan de Jutsu y camino de daño principal sean estables."
+        },
+        {
+          "title": "Rango de Combate de Jefes de Shinobi Way",
+          "description": "Ajusta tu rango a la build: Taijutsu de cerca tras esquivar, Jutsu a distancia y reinicios durante los enfriamientos."
+        },
+        {
+          "title": "Ciclo de Recompensas de Jefes de Shinobi Way",
+          "description": "Convierte cada intento en un mejor entrenamiento de estadísticas, elecciones de Jutsu más fuertes y decisiones de Lineage más precisas."
         }
       ],
-      "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
-        }
-      ],
-      "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
-        },
-        {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
-        },
-        {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
-        {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
-        },
-        {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
-        },
-        {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "step": 1,
+          "title": "Entrenamiento de Estadísticas Principales de Shinobi Way",
+          "description": "Antes de desafiar a un jefe, mejora las estadísticas que definen tu build: Defensa para sobrevivir a los golpes, Fuerza para el daño físico, Habilidades de Armas para la presión cuerpo a cuerpo, Chakra para el uso de Jutsu y poder elemental para el daño basado en técnicas.",
+          "playerTip": "No te apresures con los jefes inmediatamente después de unirte. Usa misiones, misiones diarias y combates contra enemigos para construir una base de estadísticas estable primero."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "step": 2,
+          "title": "Elección del Estilo de Combate de Shinobi Way",
+          "description": "Los combates contra jefes son más fáciles cuando tu build tiene un enfoque claro. El Taijutsu y las Habilidades de Armas funcionan mejor para la presión a corta distancia, mientras que las builds de Jutsu con mucho Chakra son mejores para las rotaciones de habilidades y el espaciado más seguro.",
+          "playerTip": "Si tu daño proviene del cuerpo a cuerpo, desarrolla suficiente Defensa para mantenerte cerca. Si tu daño proviene del Jutsu, mantén la distancia y evita desperdiciar Chakra."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "step": 3,
+          "title": "Sincronización de Habilidades de Lineage de Shinobi Way",
+          "description": "Los Lineages otorgan a los personajes poderes raros y rasgos únicos, lo que los hace importantes tanto para los combates contra jefes como para el PvP. Un Lineage útil puede añadir daño explosivo, control, presión o supervivencia dependiendo de cómo se adapte a tu build.",
+          "playerTip": "Usa giros gratis de los códigos activos para desbloquear mejores opciones de Lineage antes de comprometerte con combates más difíciles."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "step": 4,
+          "title": "Espaciado de Jefes de Shinobi Way",
+          "description": "La mayoría de los intentos contra jefes fallan cuando los jugadores luchan en el rango equivocado. Las builds de corto rango deben mantenerse agresivas después de esquivar, mientras que las builds de Jutsu deben retroceder, esperar aperturas y evitar quedarse quietas durante los enfriamientos.",
+          "playerTip": "Trata cada combate contra un jefe como una pelea para aprender patrones: ataca después de las aperturas, retrocede durante los movimientos peligrosos y reinicia cuando tu Chakra o salud estén bajos."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "step": 5,
+          "title": "Progresión de Jefes de Shinobi Way",
+          "description": "Los combates contra jefes son parte del ciclo de entrenamiento más amplio en Shinobi Way. Después de cada intento, reinvierte las recompensas y el progreso en mejores estadísticas, opciones de Jutsu más fuertes y una build más enfocada antes de intentar contenido más difícil.",
+          "playerTip": "Un intento fallido contra un jefe sigue ayudando si muestra qué parte de tu build es débil: daño, defensa, movilidad, gestión de Chakra o sincronización de habilidades."
+        }
+      ]
+    },
+    "shinobiWayPvpGuide": {
+      "title": "Guía de PvP de Shinobi Way",
+      "eyebrow": "PvP de mundo abierto",
+      "subtitle": "El PvP en Shinobi Way depende de algo más que el daño puro. Los jugadores necesitan una identidad de build, un espaciado limpio, habilidades de Lineage útiles y suficientes estadísticas defensivas para sobrevivir a combates reales.",
+      "intro": "Shinobi Way incluye PvP de mundo abierto, personalización de personajes, maestría de Jutsu y múltiples rutas de progresión como Taijutsu, Ninjutsu, Genjutsu, habilidades de armas y builds basadas en Chakra. Esta guía ayuda a los jugadores a pasar del entrenamiento PvE al combate real contra jugadores sin desperdiciar estadísticas ni Spins.",
+      "labels": {
+        "bestFor": "Ideal para",
+        "keyStats": "Estadísticas clave",
+        "practicalUse": "Uso práctico"
+      },
+      "items": [
+        {
+          "title": "Identidad de build en Shinobi Way",
+          "description": "Comienza decidiendo si tu personaje es un luchador de corto alcance, un lanzador de Jutsu, un duelista híbrido o un jugador centrado en el control.",
+          "bestFor": "Jugadores que todavía distribuyen sus puntos de forma demasiado dispersa",
+          "keyStats": [
+            "Defensa",
+            "Fuerza",
+            "Habilidades de armas",
+            "Chakra",
+            "Poder elemental"
+          ],
+          "practicalUse": "Una build enfocada facilita la elección de Jutsu, habilidades de Lineage y el alcance de combate."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "title": "Presión a corta distancia en Shinobi Way",
+          "description": "El Taijutsu y las habilidades de armas son más fuertes cuando puedes mantenerte cerca, castigar movimientos fallidos y mantener la presión sobre los oponentes.",
+          "bestFor": "Jugadores agresivos que disfrutan de combates cuerpo a cuerpo rápidos",
+          "keyStats": [
+            "Fuerza",
+            "Habilidades de armas",
+            "Defensa"
+          ],
+          "practicalUse": "Usa el movimiento para cerrar distancias y luego ataca después de que el oponente desperdicie un Jutsu o un esquive."
+        },
+        {
+          "title": "Rotación de Jutsu en Shinobi Way",
+          "description": "Las builds de Ninjutsu y con mucho Chakra dependen de la sincronización de habilidades, el control del espacio y de evitar intercambios innecesarios.",
+          "bestFor": "Jugadores que prefieren el combate basado en la técnica",
+          "keyStats": [
+            "Chakra",
+            "Poder elemental",
+            "Defensa"
+          ],
+          "practicalUse": "No gastes todo el Chakra a la vez. Rota tus Jutsu para tener siempre una opción lista para presionar o escapar."
+        },
+        {
+          "title": "Ventaja de Lineage en Shinobi Way",
+          "description": "Los Lineages actúan como rutas de habilidades raras que pueden cambiar la forma en que un jugador lucha en PvP. Un buen Lineage debe complementar tu estilo de combate principal en lugar de ir en su contra.",
+          "bestFor": "Jugadores que usan Spins para mejorar su personaje",
+          "keyStats": [
+            "Chakra",
+            "Fuerza",
+            "Defensa"
+          ],
+          "practicalUse": "Conserva las habilidades de Lineage que coincidan con tu build: ráfaga para cuerpo a cuerpo, control para un estilo de juego tipo Genjutsu o utilidad para combate híbrido."
+        },
+        {
+          "title": "Espaciado y reinicio en Shinobi Way",
+          "description": "El PvP de mundo abierto recompensa a los jugadores que controlan la distancia y saben cuándo retirarse. Un mal intercambio puede reiniciarse moviéndose, creando espacio y esperando los enfriamientos.",
+          "bestFor": "Jugadores que pierden combates tras fallar un solo combo",
+          "keyStats": [
+            "Defensa",
+            "Chakra"
+          ],
+          "practicalUse": "Retrocede cuando tus enfriamientos estén activos y vuelve a entrar una vez que tu Jutsu principal o tu opción cuerpo a cuerpo estén listos."
+        },
+        {
+          "title": "Transición de PvE a PvP en Shinobi Way",
+          "description": "Una build que funciona contra NPCs puede necesitar más supervivencia y movilidad contra jugadores reales.",
+          "bestFor": "Jugadores que pasan de misiones y jefes al PvP",
+          "keyStats": [
+            "Defensa",
+            "Chakra",
+            "Habilidades de armas"
+          ],
+          "practicalUse": "Después de farmear misiones y jefes, prueba tu build en combates cortos de PvP y ajústala según la debilidad que aparezca con más frecuencia."
+        }
+      ]
+    },
+    "shinobiWayMapAndVillageSecrets": {
+      "title": "Mapa y secretos de las aldeas de Shinobi Way",
+      "eyebrow": "Exploración del mapa",
+      "subtitle": "Shinobi Way utiliza una estructura de mundo abierto con aldeas, misiones, enemigos, jefes y secretos ocultos. Explorar con cuidado ayuda a los jugadores a encontrar rutas de progresión en lugar de farmear solo en un área.",
+      "intro": "La exploración es parte del ciclo de Shinobi Way: entrena a tu personaje, completa misiones, lucha contra enemigos, busca en las aldeas y usa tus descubrimientos para fortalecer tu build. Los jugadores deben ver las aldeas y las rutas del mundo abierto como centros de progresión, no solo como paisajes de fondo.",
+      "labels": {
+        "whatToLookFor": "Qué buscar",
+        "whyItMatters": "Por qué es importante"
+      },
+      "items": [
+        {
+          "title": "Revisión del centro de la aldea en Shinobi Way",
+          "description": "Comienza cada sesión revisando el área de la aldea en busca de rutas de misiones, NPCs útiles, menús de códigos, pistas de actualizaciones y rutas de entrenamiento cercanas.",
+          "whatToLookFor": [
+            "Área de misiones diarias",
+            "Rutas de misiones",
+            "Puntos de interacción con NPCs",
+            "Botón de códigos cerca del área superior de la pantalla",
+            "Salidas cercanas a zonas de combate"
+          ],
+          "whyItMatters": "Las aldeas suelen ser el lugar más seguro para organizar tu próxima ruta de entrenamiento antes de entrar en zonas enemigas o de PvP."
+        },
+        {
+          "title": "Ruta de entrenamiento de mundo abierto en Shinobi Way",
+          "description": "Usa el mundo abierto para moverte entre misiones, enemigos y áreas relacionadas con jefes en lugar de quedarte en un solo lugar.",
+          "whatToLookFor": [
+            "Grupos de enemigos",
+            "Objetivos de misiones",
+            "Rutas de jefes",
+            "Zonas aptas para el entrenamiento",
+            "Rutas de regreso a la aldea"
+          ],
+          "whyItMatters": "Un enfoque basado en rutas ayuda a los jugadores a aumentar sus estadísticas, ganar recompensas y aprender el mapa más rápido."
+        },
+        {
+          "title": "Secretos ocultos de las aldeas en Shinobi Way",
+          "description": "Shinobi Way incluye secretos ocultos en las aldeas como parte de su atractivo de exploración. Los jugadores deben inspeccionar rincones, áreas elevadas, grupos de NPCs y caminos menos obvios alrededor de los espacios de la aldea.",
+          "whatToLookFor": [
+            "Caminos inusuales",
+            "Callejones laterales",
+            "Áreas altas o escondidas",
+            "NPCs alejados de las rutas principales",
+            "Áreas cerca de entradas a jefes o misiones"
+          ],
+          "whyItMatters": "Los lugares ocultos a menudo se vuelven importantes para la progresión, actualizaciones, descubrimientos de la comunidad o la planificación de rutas futuras."
+        },
+        {
+          "title": "Reconocimiento del área de jefes en Shinobi Way",
+          "description": "Antes de luchar contra un jefe, explora el área alrededor del combate y comprende cuánto espacio tienes para esquivar, reiniciar y usar Jutsu.",
+          "whatToLookFor": [
+            "Ruta de aproximación segura",
+            "Espacio de movimiento abierto",
+            "Obstáculos",
+            "Dirección de escape",
+            "Presión de enemigos cercanos"
+          ],
+          "whyItMatters": "Conocer el diseño de la arena hace que las peleas contra jefes sean más seguras, especialmente para builds de Jutsu que necesitan distancia."
+        },
+        {
+          "title": "Zonas de riesgo de PvP en Shinobi Way",
+          "description": "Debido a que Shinobi Way incluye PvP de mundo abierto, los jugadores deben prestar atención a las rutas expuestas y evitar quedarse quietos en áreas de combate activo.",
+          "whatToLookFor": [
+            "Rutas de mucho tráfico",
+            "Jugadores esperando cerca de objetivos",
+            "Entradas a jefes o misiones",
+            "Áreas abiertas con poca cobertura",
+            "Rutas de regreso a la aldea"
+          ],
+          "whyItMatters": "Un buen conocimiento del mapa ayuda a los jugadores a evitar combates no deseados y a elegir mejores posiciones cuando comienza el PvP."
+        },
+        {
+          "title": "Seguimiento de actualizaciones de la comunidad de Shinobi Way",
+          "description": "Usa la página oficial de Roblox, el grupo de Ouro Games y las actualizaciones de Discord para seguir las rutas recién descubiertas, cambios en las aldeas, códigos y secretos relacionados con las actualizaciones.",
+          "whatToLookFor": [
+            "Registros de actualización",
+            "Nuevos códigos",
+            "Anuncios de desarrolladores",
+            "Capturas de pantalla de la comunidad",
+            "Nuevos descubrimientos de jefes o del mapa"
+          ],
+          "whyItMatters": "Los mapas de RPG en Roblox pueden cambiar después de las actualizaciones, por lo que revisar los canales oficiales ayuda a los jugadores a mantenerse al día."
+        }
+      ]
+    },
+    "shinobiWayWeaponsAndTaijutsuGuide": {
+      "title": "Guía de Armas y Taijutsu de Shinobi Way",
+      "eyebrow": "Armas y Taijutsu",
+      "subtitle": "Las habilidades de armas y el Taijutsu son opciones fundamentales para los jugadores que buscan un estilo de combate a corta distancia. La mejor elección depende de si prefieres una presión constante con armas, ráfagas físicas o una construcción híbrida de Chakra.",
+      "intro": "Shinobi Way permite a los jugadores construir diferentes caminos de combate, incluyendo Taijutsu, Ninjutsu, Genjutsu, habilidades de armas, Chakra y poder elemental. Esta comparación ayuda a los jugadores a entender cuándo enfocarse en el cuerpo a cuerpo, cuándo mezclar Jutsu y cuándo una construcción híbrida equilibrada es más segura.",
+      "tableHeaders": {
+        "combatPath": "Camino de combate",
+        "role": "Rol",
+        "mainStats": "Estadísticas principales",
+        "bestFor": "Ideal para",
+        "howToPlay": "Cómo jugar",
+        "watchOutFor": "Ten cuidado con"
+      },
+      "items": [
+        {
+          "combatPath": "Habilidades de armas de Shinobi Way",
+          "role": "Presión cuerpo a cuerpo",
+          "mainStats": "Habilidades de armas, Defensa, Fuerza",
+          "bestFor": "Jugadores que buscan ataques constantes a corta distancia y un ciclo de combate sencillo",
+          "howToPlay": "Mantente cerca después de esquivar, castiga las aperturas y usa habilidades de Jutsu o Lineage para apoyar la presión de las armas.",
+          "watchOutFor": "Las construcciones puras de armas pueden tener dificultades cuando los oponentes mantienen la distancia o fuerzan intercambios con enfriamientos largos."
+        },
+        {
+          "combatPath": "Taijutsu de Shinobi Way",
+          "role": "Ráfaga a corta distancia",
+          "mainStats": "Fuerza, Defensa",
+          "bestFor": "Jugadores a los que les gusta el combate físico agresivo y los enfrentamientos rápidos",
+          "howToPlay": "Cierra la brecha rápidamente, comprométete después de que el oponente falle y evita perseguir ciegamente dentro del rango de Jutsu.",
+          "watchOutFor": "El Taijutsu necesita una buena sincronización porque las malas entradas pueden ser castigadas por Jutsu a distancia o habilidades de control."
+        },
+        {
+          "combatPath": "Híbrido de Ninjutsu de Shinobi Way",
+          "role": "Daño basado en técnicas",
+          "mainStats": "Chakra, Poder elemental, Defensa",
+          "bestFor": "Jugadores que quieren combinar el daño de Jutsu con un espaciado más seguro",
+          "howToPlay": "Usa Jutsu para controlar el espacio, luego entra en corto alcance solo cuando el enemigo esté bajo presión o recuperándose.",
+          "watchOutFor": "Una construcción con mucho Chakra puede quedarse sin opciones si las habilidades se usan demasiado rápido."
+        },
+        {
+          "combatPath": "Utilidad de Genjutsu de Shinobi Way",
+          "role": "Control e interrupción",
+          "mainStats": "Chakra, Defensa",
+          "bestFor": "Jugadores que prefieren la sincronización, la presión y la preparación sobre el intercambio constante cuerpo a cuerpo",
+          "howToPlay": "Usa las ventanas de control para crear aperturas para Taijutsu, armas o Jutsu de seguimiento.",
+          "watchOutFor": "Las construcciones enfocadas en la utilidad necesitan suficiente daño de otra fuente para terminar los combates."
+        },
+        {
+          "combatPath": "Cuerpo a cuerpo apoyado por Lineage de Shinobi Way",
+          "role": "Construcción cuerpo a cuerpo con apoyo de habilidades raras",
+          "mainStats": "Fuerza, Habilidades de armas, Chakra, Defensa",
+          "bestFor": "Jugadores que obtuvieron un Lineage que mejora la presión, la ráfaga o la supervivencia",
+          "howToPlay": "Usa las habilidades de Lineage para iniciar presión, extender combos, escapar del peligro o cubrir debilidades cuerpo a cuerpo.",
+          "watchOutFor": "Un Lineage fuerte aún necesita estadísticas acordes; no dependas de habilidades raras sin entrenar la construcción."
+        },
+        {
+          "combatPath": "Construcción equilibrada de Shinobi Way",
+          "role": "Progresión flexible en PvE y PvP",
+          "mainStats": "Defensa, Chakra, Fuerza o Habilidades de armas",
+          "bestFor": "Jugadores nuevos que quieren encargarse de misiones, jefes y PvP sin estar limitados a un solo estilo estrecho",
+          "howToPlay": "Mantén suficiente Defensa para sobrevivir, suficiente Chakra para usar Jutsu y un enfoque de daño claro para los combates.",
+          "watchOutFor": "Equilibrado no significa aleatorio. Evita repartir puntos en cada camino sin un plan de combate principal."
+        }
+      ]
+    },
+    "shinobiWaySpinsGuide": {
+      "title": "Guía de Spins de Shinobi Way",
+      "eyebrow": "Spins y Rerolls",
+      "subtitle": "Aprende para qué se usan los Spins, qué códigos activos de Shinobi Way otorgan Spins gratis y cómo gastarlos en Lineages, rasgos raros y rerolls de construcción.",
+      "intro": "Los Spins son uno de los recursos de progresión inicial más importantes en Shinobi Way porque ayudan a los jugadores a buscar Lineages más fuertes, rasgos raros y mejores resultados de construcción. El mejor uso es conectar los Spins con el camino elegido, como Taijutsu, Ninjutsu, Genjutsu, farmeo de jefes o PvP de mundo abierto.",
+      "summaryTitle": "Códigos de Spins activos de Shinobi Way",
+      "summaryDescription": "Canjea ambos códigos de Shinobi Way listados antes de una sesión larga de reroll para que puedas probar opciones de Lineage con un plan de construcción más claro.",
+      "labels": {
+        "tags": "Enfoque",
+        "codeReward": "Recompensa del código",
+        "steps": "Pasos para canjear",
+        "bestFor": "Ideal para",
+        "trackingFocus": "Enfoque de seguimiento"
+      },
+      "codeSummary": [
+        {
+          "code": "RELEASE",
+          "reward": "5 Spins",
+          "bestFor": "Rerolls de lanzamiento"
+        },
+        {
+          "code": "500LIKES",
+          "reward": "5 Spins",
+          "bestFor": "Spins por hitos"
         }
       ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
-      "sections": [
+      "questions": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "question": "¿Para qué se usan los Spins en Shinobi Way?",
+          "answer": "Los Spins se usan para apoyar la personalización y progresión del personaje en Shinobi Way, especialmente cuando los jugadores intentan desbloquear Lineages más fuertes, rasgos raros o una mejor configuración de construcción. Son más valiosos cuando se usan después de entender qué camino de combate quieres seguir.",
+          "tags": [
+            "Lineages",
+            "rasgos raros",
+            "reroll de construcción"
+          ]
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
-        },
-        {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
-        },
-        {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
-        {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
-        },
-        {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
-        },
-        {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
-        },
-        {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
-      "groups": [
-        {
-          "name": "Exploración",
-          "achievements": [
+          "question": "¿Qué códigos actuales de Shinobi Way dan Spins gratis?",
+          "answer": "Los códigos activos de Shinobi Way listados actualmente son RELEASE para 5 Spins y 500LIKES para 5 Spins. Juntos, otorgan 10 Spins gratis para los jugadores que canjeen ambos códigos.",
+          "codes": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "code": "RELEASE",
+              "reward": "5 Spins"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "code": "500LIKES",
+              "reward": "5 Spins"
             }
           ]
         },
         {
-          "name": "Artesanía e invocación",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
+          "question": "¿Cómo se canjean los códigos de Shinobi Way por Spins?",
+          "answer": "Inicia Shinobi Way en Roblox, abre el botón de código con estilo de pájaro o Twitter cerca de la parte superior de la pantalla, ingresa el código exactamente como está escrito y confírmalo para reclamar la recompensa de Spin.",
+          "steps": [
+            "Abre Shinobi Way",
+            "Haz clic en el icono de código",
+            "Ingresa el código",
+            "Confirma la recompensa"
           ]
         },
         {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
-            },
-            {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
+          "question": "¿Cuándo deberían los nuevos jugadores usar los Spins de Shinobi Way?",
+          "answer": "Los nuevos jugadores primero deben entender el estilo de juego básico de Shinobi Way que desean, luego usar los Spins para mejorar la dirección de la construcción. Gastar Spins antes de elegir entre combate a corta distancia, habilidades enfocadas en Chakra o progresión orientada al PvP puede desperdiciar oportunidades útiles de reroll.",
+          "bestFor": [
+            "planificación de construcción inicial",
+            "búsqueda de Lineage",
+            "mejora de rasgos"
           ]
         },
         {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
-          ]
-        },
-        {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
-            }
+          "question": "¿Cómo se conectan los Spins con los códigos y actualizaciones de Shinobi Way?",
+          "answer": "Los códigos de Shinobi Way suelen estar vinculados a eventos de lanzamiento, como hitos y anuncios de actualización. Los jugadores deben revisar los canales oficiales de la comunidad y las páginas de códigos actualizadas cada vez que aparezca un nuevo hito, parche o anuncio de recompensa.",
+          "trackingFocus": [
+            "nuevos códigos",
+            "hitos de likes",
+            "recompensas de actualización"
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
+    "shinobiWayFarmingGuide": {
+      "title": "Guía de Farming de Shinobi Way",
+      "eyebrow": "Ruta de Progresión",
+      "subtitle": "Sigue una ruta práctica de Shinobi Way para recolectar recursos gratuitos a través de códigos, misiones diarias, misiones, combates contra enemigos y recompensas de jefes.",
+      "intro": "El farming en Shinobi Way no debe depender solo de códigos de un solo uso. Un ciclo diario más sólido combina códigos de Spins gratuitos, misiones diarias, misiones de NPC, entrenamiento de estadísticas, combates contra enemigos y desafíos de jefes para que los jugadores puedan seguir mejorando su build incluso después de que los códigos sean canjeados.",
+      "labels": {
+        "step": "Paso",
+        "rewardFocus": "Enfoque de recompensa"
+      },
+      "steps": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "step": 1,
+          "title": "Canjea primero todos los códigos activos de Shinobi Way",
+          "description": "Comienza canjeando RELEASE y 500LIKES para recolectar Spins gratuitos. Esto les da a los nuevos jugadores un recurso de reroll inmediato antes de comprometerse con una configuración de Lineage o rasgo a largo plazo.",
+          "rewardFocus": [
+            "Spins gratuitos",
+            "rerolls tempranos"
+          ]
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "step": 2,
+          "title": "Completa las misiones diarias de Shinobi Way",
+          "description": "Usa las misiones diarias como la base recurrente de tu rutina de farming en Shinobi Way. Los objetivos diarios mantienen el progreso en movimiento incluso cuando no hay nuevos códigos disponibles.",
+          "rewardFocus": [
+            "recursos diarios",
+            "progresión constante"
+          ]
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "step": 3,
+          "title": "Realiza misiones de NPC de Shinobi Way",
+          "description": "Acepta misiones de NPCs para acumular recompensas mientras aprendes el mapa y el flujo del combate. Las misiones son útiles para los jugadores que desean una ruta repetible en lugar de combates aleatorios.",
+          "rewardFocus": [
+            "recompensas de misiones",
+            "entrenamiento temprano"
+          ]
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "step": 4,
+          "title": "Entrena las estadísticas de Shinobi Way que coincidan con tu build",
+          "description": "Enfoca tu entrenamiento en las estadísticas que respalden tu estilo de juego preferido, incluyendo Defensa, Fuerza, Habilidades de Armas, Chakra y poder elemental. Esto mantiene el farming alineado con tu objetivo final de combate.",
+          "rewardFocus": [
+            "Defensa",
+            "Fuerza",
+            "Habilidades de Armas",
+            "Chakra",
+            "poder elemental"
+          ]
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
+          "step": 5,
+          "title": "Lucha contra enemigos de Shinobi Way para obtener ganancias repetibles",
+          "description": "Los combates contra enemigos ayudan a convertir el entrenamiento básico en práctica de combate real. Usa estas peleas para probar el tiempo de los Jutsu, la supervivencia y si tu build actual es lo suficientemente fuerte para contenido más difícil.",
+          "rewardFocus": [
+            "práctica de combate",
+            "farming de recursos"
+          ]
         },
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
+          "step": 6,
+          "title": "Desafía a los jefes de Shinobi Way una vez que tu build se estabilice",
+          "description": "Las peleas contra jefes son mejores una vez que tus estadísticas, Jutsu y la dirección de tu Lineage estén claros. Prepárate antes de entrar al contenido de jefes para que la pelea se convierta en una oportunidad de farming en lugar de un drenaje de recursos.",
+          "rewardFocus": [
+            "recompensas de jefes",
+            "progresión avanzada"
+          ]
         },
         {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "step": 7,
+          "title": "Rastrea los hitos de Shinobi Way para obtener nuevos recursos gratuitos",
+          "description": "Revisa la página de Roblox, la comunidad de Ouro Games, Discord y las páginas de códigos activos después de nuevas actualizaciones o hitos de likes. Shinobi Way ya utiliza recompensas de códigos por hitos como 500LIKES.",
+          "rewardFocus": [
+            "nuevos códigos",
+            "recompensas de actualización",
+            "hitos de likes"
+          ]
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
+    "shinobiWayGamepassesAndStore": {
+      "title": "Gamepasses y Tienda de Shinobi Way",
+      "eyebrow": "Tienda & Robux",
+      "subtitle": "Usa esta matriz de compra para evaluar los artículos de la tienda de Shinobi Way, gamepasses y compras de Robux desde la perspectiva de un jugador nuevo, un farmer a largo plazo y un jugador de PvP.",
+      "intro": "La página oficial de la experiencia en Roblox incluye una pestaña de Tienda para Shinobi Way. Antes de gastar Robux, los jugadores deben comparar cada opción de pago con la progresión gratuita de códigos, misiones diarias, misiones, combates contra enemigos y recompensas de jefes.",
+      "tableHeaders": {
+        "storeArea": "Área de la tienda",
+        "whatItCovers": "Qué cubre",
+        "bestFor": "Ideal para",
+        "buyingLogic": "Lógica de compra"
+      },
+      "rows": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "storeArea": "Pestaña oficial de la Tienda de Shinobi Way en Roblox",
+          "whatItCovers": "El lugar principal para revisar los artículos de pago y gamepasses actuales de Shinobi Way.",
+          "bestFor": "Todos los jugadores",
+          "buyingLogic": "Revisa primero la pestaña oficial de la Tienda porque refleja las opciones de compra en vivo vinculadas a la experiencia de Roblox."
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "storeArea": "Gamepasses de Shinobi Way",
+          "whatItCovers": "Compras permanentes o a nivel de cuenta cuando aparecen en la experiencia.",
+          "bestFor": "Jugadores a largo plazo",
+          "buyingLogic": "Prioriza solo si el beneficio respalda el juego repetido, la mejora de la build o la conveniencia a largo plazo."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "storeArea": "Valor relacionado con Spins en Shinobi Way",
+          "whatItCovers": "Cualquier opción de pago que ayude con rerolls, Lineages, rasgos raros o corrección de builds.",
+          "bestFor": "Jugadores que buscan builds específicas",
+          "buyingLogic": "Usa primero los códigos de Spins gratuitos, luego considera el valor de pago solo después de decidir tu Lineage objetivo o la dirección de tu build."
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "storeArea": "Ruta de gasto para nuevos jugadores de Shinobi Way",
+          "whatItCovers": "Decisiones de compra al inicio del juego antes de que el jugador entienda las estadísticas, Jutsu, misiones y jefes.",
+          "bestFor": "Principiantes",
+          "buyingLogic": "Canjea RELEASE y 500LIKES, prueba el ciclo de juego principal y evita comprar antes de elegir un estilo de juego."
         },
         {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "storeArea": "Ruta de gasto enfocada en farming de Shinobi Way",
+          "whatItCovers": "Compras que ayudan a los jugadores a repetir misiones diarias, misiones, combates contra enemigos o farming de jefes de manera más cómoda.",
+          "bestFor": "Farmers diarios",
+          "buyingLogic": "El valor es más fuerte cuando la compra ahorra tiempo a lo largo de muchas sesiones en lugar de dar un impulso único."
+        },
+        {
+          "storeArea": "Ruta de gasto enfocada en PvP de Shinobi Way",
+          "whatItCovers": "Compras evaluadas en torno al PvP de mundo abierto, builds más fuertes y eficiencia de reroll.",
+          "bestFor": "Jugadores de PvP",
+          "buyingLogic": "Compra solo después de que tu estilo de combate esté claro, porque el valor en PvP depende en gran medida de tu Lineage, rasgo, Jutsu y dirección de estadísticas."
+        },
+        {
+          "storeArea": "Verificación de gasto por ciclo de actualización de Shinobi Way",
+          "whatItCovers": "Revisar los artículos de pago después de parches de lanzamiento, códigos de hitos o cambios en la tienda.",
+          "bestFor": "Jugadores que regresan",
+          "buyingLogic": "Revisa la Tienda después de actualizaciones importantes para que tu decisión de compra coincida con la versión actual de Shinobi Way."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
-        {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
-        },
-        {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
-        },
-        {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
-        },
-        {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
+    "shinobiWayUpdatesAndReleaseTracker": {
+      "title": "Rastreador de Actualizaciones y Lanzamientos de Shinobi Way",
+      "eyebrow": "Actualizaciones & Códigos",
+      "subtitle": "Rastrea el estado de lanzamiento de Shinobi Way, nuevos hitos de códigos, recompensas por likes, anuncios de la comunidad y cambios relacionados con actualizaciones.",
+      "intro": "El seguimiento de actualizaciones de Shinobi Way debe centrarse en la página oficial de Roblox, la comunidad de Ouro Games, los anuncios de Discord y las páginas de códigos actualizadas. Esto ayuda a los jugadores a aprovechar nuevos hitos de likes, recompensas de lanzamiento y lanzamientos de códigos antes de que expiren.",
+      "labels": {
+        "updateType": "Tipo de actualización",
+        "codes": "Códigos",
+        "checklist": "Lista de verificación",
+        "officialTargets": "Objetivos oficiales"
+      },
+      "channelTitle": "Canales oficiales de actualización de Shinobi Way",
+      "channelDescription": "Usa los canales oficiales de la comunidad de Shinobi Way para alertas de códigos, publicaciones de actualizaciones, próximos cambios y discusiones de jugadores.",
       "entries": [
         {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "question": "¿Cuál es el estado actual de lanzamiento de Shinobi Way?",
+          "answer": "La experiencia de Roblox figura como [RELEASE] Shinobi Way por Ouro Games, con recompensas de lanzamiento y sistemas de progresión temprana disponibles para los jugadores.",
+          "updateType": "estado-de-lanzamiento"
         },
         {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "question": "¿Cuál es el hito de código más reciente de Shinobi Way?",
+          "answer": "El código activo por hito de Shinobi Way es 500LIKES, que otorga 5 Spins. El código de lanzamiento RELEASE también otorga 5 Spins, lo que hace que ambos códigos sean importantes para jugadores nuevos y recurrentes.",
+          "updateType": "hito-de-codigo",
+          "codes": [
+            {
+              "code": "500LIKES",
+              "reward": "5 Spins"
+            },
+            {
+              "code": "RELEASE",
+              "reward": "5 Spins"
+            }
+          ]
         },
         {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
-      "steps": [
-        {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "question": "¿Qué futuro hito de código de Shinobi Way deben vigilar los jugadores?",
+          "answer": "La lista oficial de Roblox destaca un nuevo objetivo de código a los 5000 Likes. Los jugadores que quieran nuevas recompensas de Spins deben revisar la página de Roblox y los canales de la comunidad cuando Shinobi Way se acerque o alcance ese hito.",
+          "updateType": "recompensa-por-likes"
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "question": "¿Dónde deben buscar los jugadores los anuncios oficiales de Shinobi Way?",
+          "answer": "Los jugadores deben usar la página de la experiencia en Roblox, la comunidad de Ouro Games en Roblox y la invitación oficial de Discord para registros de actualización, vistas previas de próximas actualizaciones y anuncios de nuevos códigos.",
+          "updateType": "fuentes-oficiales",
+          "officialTargets": [
+            "Página de la experiencia en Roblox",
+            "Comunidad de Ouro Games en Roblox",
+            "Discord de Ouro Games"
+          ]
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
-        },
-        {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
-        },
-        {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "question": "¿Qué deben revisar los jugadores que regresan después de una actualización de Shinobi Way?",
+          "answer": "Los jugadores que regresan deben revisar los códigos activos, los códigos expirados, los cambios en la pestaña de la Tienda, los nuevos objetivos de hitos, los cambios en jefes o misiones, y si el meta actual de las builds ha cambiado en torno a Lineages, rasgos o Jutsu.",
+          "updateType": "lista-de-verificación-jugador-recurrente",
+          "checklist": [
+            "códigos activos",
+            "códigos expirados",
+            "pestaña de la Tienda",
+            "recompensas por hitos",
+            "cambios en jefes",
+            "cambios en misiones",
+            "cambios en Lineage y Jutsu"
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Preguntas frecuentes de Shinobi Way",
+    "titleHighlight": "Preguntas",
+    "subtitle": "Respuestas rápidas sobre códigos, Lineages, Jutsu, progresión y enlaces de la comunidad de Shinobi Way.",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Qué es Shinobi Way?",
+        "answer": "Shinobi Way es un RPG de ninjas en Roblox de Ouro Games donde los jugadores entrenan estadísticas, desbloquean Lineages, dominan Jutsus, completan misiones y se preparan para batallas contra jefes o PvP."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Dónde puedo jugar Shinobi Way?",
+        "answer": "Juega Shinobi Way desde la página oficial de la experiencia en Roblox vinculada en esta página de inicio."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Para qué sirven los códigos de Shinobi Way?",
+        "answer": "Los códigos de Shinobi Way otorgan recompensas gratuitas como giros, que ayudan a los jugadores a obtener Lineages y acelerar la progresión inicial."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Cómo funcionan los Lineages de Shinobi Way?",
+        "answer": "Los Lineages de Shinobi Way son rasgos de habilidades raras que definen el rumbo de tu build y deben coincidir con tu estilo de combate preferido."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Qué estadísticas de Shinobi Way deberían entrenar los principiantes?",
+        "answer": "Los principiantes deben desarrollar Defensa más una ruta de daño principal como Fuerza, Habilidades de Armas, Chakra o una ruta de estadísticas centrada en Jutsu."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Shinobi Way tiene PvP?",
+        "answer": "Sí. Shinobi Way incluye PvP de mundo abierto, por lo que los jugadores deben practicar el movimiento, el tiempo de enfriamiento y la planificación de builds antes de combates serios."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para entrar en Shinobi Way?",
+    "description": "Únete al Discord de Ouro Games para actualizaciones de Shinobi Way, alertas de códigos, charlas sobre Lineage y estrategias del RPG de ninjas en Roblox.",
+    "joinCommunity": "Únete al Discord de Ouro Games",
+    "joinGame": "Juega Shinobi Way en Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Shinobi Way Wiki",
+    "description": "Tu centro de recursos completo para códigos, Lineages, builds de Jutsu, misiones, estadísticas y guías de RPG de ninjas en Roblox listas para PvP en Shinobi Way.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "discord": "Discord de Ouro Games",
+    "twitter": "Video destacado de YouTube",
+    "robloxGroup": "Grupo de Roblox de Ouro Games",
+    "robloxGame": "Juega Shinobi Way en Roblox",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
     "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyright": "© 2026 Shinobi Way Wiki. No afiliado con Roblox Corporation ni Ouro Games.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans para jugadores de Shinobi Way."
   },
   "pages": {
     "guide": {
-      "title": "Shinobi Way Guide",
-      "description": "Beginner-friendly Shinobi Way guides for starting routes, controls, rules, setup, progression habits, and early mistakes to avoid.",
-      "metaTitle": "Shinobi Way Guide - Beginner Routes, Setup & Rules",
-      "metaDescription": "Start Shinobi Way with clear Roblox ninja RPG guides for setup, beginner routes, rules, progression basics, and first-session priorities.",
-      "categoryLabel": "SHINOBI WAY GUIDE",
-      "whatIs": "What is the Shinobi Way Guide?",
-      "whatIsDescription": "The Shinobi Way Guide explains the foundations of the Roblox ninja RPG, including how to begin, what to train first, how missions work, and which systems matter before advanced builds.",
-      "why": "Why read the Shinobi Way Guide?",
+      "title": "Guía de Shinobi Way",
+      "description": "Guías de Shinobi Way para principiantes sobre rutas de inicio, controles, reglas, configuración, hábitos de progresión y errores comunes a evitar.",
+      "metaTitle": "Guía de Shinobi Way - Rutas para principiantes, configuración y reglas",
+      "metaDescription": "Comienza en Shinobi Way con guías claras del RPG de ninjas en Roblox para configuración, rutas de principiantes, reglas, conceptos básicos de progresión y prioridades de la primera sesión.",
+      "categoryLabel": "GUÍA DE SHINOBI WAY",
+      "whatIs": "¿Qué es la Guía de Shinobi Way?",
+      "whatIsDescription": "La Guía de Shinobi Way explica los fundamentos del RPG de ninjas en Roblox, incluyendo cómo empezar, qué entrenar primero, cómo funcionan las misiones y qué sistemas importan antes de las builds avanzadas.",
+      "why": "¿Por qué leer la Guía de Shinobi Way?",
       "whySteps": {
-        "step1Title": "Start Shinobi Way Cleanly",
-        "step1Description": "Learn the first goals that help a new player move from tutorial confusion into steady training and mission progress.",
-        "step2Title": "Understand Shinobi Way Rules",
-        "step2Description": "Use the guide pages to recognize core systems, combat expectations, progression terms, and setup choices before spending resources.",
-        "step3Title": "Avoid Shinobi Way Dead Ends",
-        "step3Description": "Focus on beginner routes that support later jutsu, lineage, stat, and build decisions instead of wasting time on scattered goals."
+        "step1Title": "Comienza Shinobi Way correctamente",
+        "step1Description": "Aprende los primeros objetivos que ayudan a un nuevo jugador a pasar de la confusión del tutorial a un entrenamiento constante y progreso en las misiones.",
+        "step2Title": "Entiende las reglas de Shinobi Way",
+        "step2Description": "Usa las páginas de la guía para reconocer los sistemas principales, las expectativas de combate, los términos de progresión y las opciones de configuración antes de gastar recursos.",
+        "step3Title": "Evita callejones sin salida en Shinobi Way",
+        "step3Description": "Concéntrate en rutas para principiantes que respalden decisiones posteriores de Jutsu, Lineage, estadísticas y builds en lugar de perder tiempo en objetivos dispersos."
       },
-      "featured": "Featured Shinobi Way Guide Articles",
-      "all": "All Shinobi Way Guide Articles"
+      "featured": "Artículos destacados de la Guía de Shinobi Way",
+      "all": "Todos los artículos de la Guía de Shinobi Way"
     },
     "leveling": {
-      "title": "Shinobi Way Leveling",
-      "description": "Shinobi Way leveling guides for fast XP routes, stat training, daily quests, missions, farming priorities, and getting stronger efficiently.",
-      "metaTitle": "Shinobi Way Leveling - Fast XP, Stats, Quests & Missions",
-      "metaDescription": "Level faster in Shinobi Way with guides for stat training, daily quests, missions, farming routes, strength gains, and efficient progression.",
-      "categoryLabel": "SHINOBI WAY LEVELING",
-      "whatIs": "What is Shinobi Way Leveling?",
-      "whatIsDescription": "Shinobi Way leveling covers the repeatable activities that raise your power: missions, daily quests, stat training, farming loops, and route planning for stronger characters.",
-      "why": "Why follow Shinobi Way leveling guides?",
+      "title": "Nivelación en Shinobi Way",
+      "description": "Guías de nivelación de Shinobi Way para rutas rápidas de XP, entrenamiento de estadísticas, misiones diarias, prioridades de farmeo y cómo fortalecerse eficientemente.",
+      "metaTitle": "Nivelación en Shinobi Way - XP rápida, estadísticas y misiones",
+      "metaDescription": "Sube de nivel más rápido en Shinobi Way con guías para entrenamiento de estadísticas, misiones diarias, rutas de farmeo, aumento de fuerza y progresión eficiente.",
+      "categoryLabel": "NIVELACIÓN EN SHINOBI WAY",
+      "whatIs": "¿Qué es la nivelación en Shinobi Way?",
+      "whatIsDescription": "La nivelación en Shinobi Way abarca las actividades repetibles que aumentan tu poder: misiones, misiones diarias, entrenamiento de estadísticas, ciclos de farmeo y planificación de rutas para personajes más fuertes.",
+      "why": "¿Por qué seguir las guías de nivelación de Shinobi Way?",
       "whySteps": {
-        "step1Title": "Speed Up Shinobi Way Progress",
-        "step1Description": "Prioritize the quests, training loops, and farming habits that produce steady gains instead of scattered grinding.",
-        "step2Title": "Balance Shinobi Way Stats",
-        "step2Description": "Understand when to push core stats, when to farm rewards, and when to pause leveling for jutsu or build upgrades.",
-        "step3Title": "Prepare Shinobi Way Milestones",
-        "step3Description": "Use leveling pages to reach missions, bosses, and PvP readiness with fewer wasted resets or resource gaps."
+        "step1Title": "Acelera el progreso en Shinobi Way",
+        "step1Description": "Prioriza las misiones, los ciclos de entrenamiento y los hábitos de farmeo que producen ganancias constantes en lugar de un grindeo disperso.",
+        "step2Title": "Equilibra las estadísticas en Shinobi Way",
+        "step2Description": "Entiende cuándo priorizar las estadísticas principales, cuándo farmear recompensas y cuándo pausar la nivelación para mejoras de Jutsu o builds.",
+        "step3Title": "Prepárate para los hitos de Shinobi Way",
+        "step3Description": "Usa las páginas de nivelación para alcanzar misiones, jefes y estar listo para PvP con menos reinicios desperdiciados o brechas de recursos."
       },
-      "featured": "Featured Shinobi Way Leveling Articles",
-      "all": "All Shinobi Way Leveling Articles"
+      "featured": "Artículos destacados de nivelación en Shinobi Way",
+      "all": "Todos los artículos de nivelación en Shinobi Way"
     },
     "jutsu": {
-      "title": "Shinobi Way Jutsu",
-      "description": "Shinobi Way jutsu guides for chakra, Ninjutsu, Genjutsu, Taijutsu, elemental power, unlock paths, and combat ability choices.",
-      "metaTitle": "Shinobi Way Jutsu - Chakra, Ninjutsu, Genjutsu & Taijutsu",
-      "metaDescription": "Master Shinobi Way jutsu with guides for chakra use, Ninjutsu, Genjutsu, Taijutsu, elemental power, unlock paths, and combat timing.",
-      "categoryLabel": "SHINOBI WAY JUTSU",
-      "whatIs": "What is Shinobi Way Jutsu?",
-      "whatIsDescription": "Shinobi Way jutsu is the ability layer that shapes combat, including chakra management, elemental choices, Ninjutsu, Genjutsu, Taijutsu, and skill timing.",
-      "why": "Why study Shinobi Way jutsu?",
+      "title": "Jutsu de Shinobi Way",
+      "description": "Guías de Jutsu de Shinobi Way para Chakra, Ninjutsu, Genjutsu, Taijutsu, poder elemental, rutas de desbloqueo y opciones de habilidades de combate.",
+      "metaTitle": "Jutsu de Shinobi Way - Chakra, Ninjutsu, Genjutsu y Taijutsu",
+      "metaDescription": "Domina el Jutsu de Shinobi Way con guías para el uso de Chakra, Ninjutsu, Genjutsu, Taijutsu, poder elemental, rutas de desbloqueo y tiempos de combate.",
+      "categoryLabel": "JUTSU DE SHINOBI WAY",
+      "whatIs": "¿Qué es el Jutsu de Shinobi Way?",
+      "whatIsDescription": "El Jutsu de Shinobi Way es la capa de habilidades que define el combate, incluyendo la gestión de Chakra, opciones elementales, Ninjutsu, Genjutsu, Taijutsu y el tiempo de las habilidades.",
+      "why": "¿Por qué estudiar el Jutsu de Shinobi Way?",
       "whySteps": {
-        "step1Title": "Choose Shinobi Way Abilities",
-        "step1Description": "Compare jutsu paths before committing to a combat style, trainer route, or resource plan.",
-        "step2Title": "Use Shinobi Way Chakra Better",
-        "step2Description": "Learn how chakra and cooldowns affect fights so your abilities support pressure instead of leaving openings.",
-        "step3Title": "Connect Shinobi Way Combos",
-        "step3Description": "Match jutsu with stats, lineages, weapons, and PvP goals for a cleaner combat plan."
+        "step1Title": "Elige habilidades de Shinobi Way",
+        "step1Description": "Compara las rutas de Jutsu antes de comprometerte con un estilo de combate, ruta de entrenador o plan de recursos.",
+        "step2Title": "Usa mejor el Chakra en Shinobi Way",
+        "step2Description": "Aprende cómo el Chakra y los enfriamientos afectan las peleas para que tus habilidades mantengan la presión en lugar de dejar aberturas.",
+        "step3Title": "Conecta combos en Shinobi Way",
+        "step3Description": "Combina el Jutsu con estadísticas, Lineages, armas y objetivos de PvP para un plan de combate más fluido."
       },
-      "featured": "Featured Shinobi Way Jutsu Articles",
-      "all": "All Shinobi Way Jutsu Articles"
+      "featured": "Artículos destacados de Jutsu de Shinobi Way",
+      "all": "Todos los artículos de Jutsu de Shinobi Way"
     },
     "builds": {
-      "title": "Shinobi Way Builds",
-      "description": "Shinobi Way build guides for PvE, PvP, bosses, stats, defense, strength, weapon skills, and complete combat planning.",
-      "metaTitle": "Shinobi Way Builds - PvE, PvP, Bosses, Stats & Weapons",
-      "metaDescription": "Plan Shinobi Way builds with PvE, PvP, boss, defense, strength, weapon skill, stat priority, lineage, and jutsu guidance.",
-      "categoryLabel": "SHINOBI WAY BUILDS",
-      "whatIs": "What are Shinobi Way Builds?",
-      "whatIsDescription": "Shinobi Way builds combine stats, jutsu, lineages, weapons, defensive choices, and content goals into a practical progression and combat plan.",
-      "why": "Why plan Shinobi Way builds?",
+      "title": "Builds de Shinobi Way",
+      "description": "Guías de builds de Shinobi Way para PvE, PvP, jefes, estadísticas, defensa, fuerza, habilidades de armas y planificación de combate completa.",
+      "metaTitle": "Builds de Shinobi Way - PvE, PvP, jefes, estadísticas y armas",
+      "metaDescription": "Planifica builds de Shinobi Way con orientación sobre PvE, PvP, jefes, defensa, fuerza, habilidades de armas, prioridad de estadísticas, Lineage y Jutsu.",
+      "categoryLabel": "BUILDS DE SHINOBI WAY",
+      "whatIs": "¿Qué son las builds de Shinobi Way?",
+      "whatIsDescription": "Las builds de Shinobi Way combinan estadísticas, Jutsu, Lineages, armas, opciones defensivas y objetivos de contenido en un plan práctico de progresión y combate.",
+      "why": "¿Por qué planificar builds de Shinobi Way?",
       "whySteps": {
-        "step1Title": "Focus Shinobi Way Training",
-        "step1Description": "Keep stat growth aligned with the combat style you actually want to use in missions, bosses, and PvP.",
-        "step2Title": "Match Shinobi Way Systems",
-        "step2Description": "Combine lineages, jutsu, weapon skills, and defense choices so each upgrade supports the same role.",
-        "step3Title": "Adapt Shinobi Way Builds",
-        "step3Description": "Use separate routes for early farming, boss attempts, PvE safety, and PvP pressure instead of one unfocused setup."
+        "step1Title": "Enfoca el entrenamiento en Shinobi Way",
+        "step1Description": "Mantén el crecimiento de las estadísticas alineado con el estilo de combate que realmente quieres usar en misiones, jefes y PvP.",
+        "step2Title": "Combina los sistemas de Shinobi Way",
+        "step2Description": "Combina Lineages, Jutsu, habilidades de armas y opciones de defensa para que cada mejora apoye el mismo rol.",
+        "step3Title": "Adapta las builds de Shinobi Way",
+        "step3Description": "Usa rutas separadas para farmeo inicial, intentos de jefes, seguridad en PvE y presión en PvP en lugar de una configuración sin enfoque."
       },
-      "featured": "Featured Shinobi Way Build Articles",
-      "all": "All Shinobi Way Build Articles"
+      "featured": "Artículos destacados de builds de Shinobi Way",
+      "all": "Todos los artículos de builds de Shinobi Way"
     },
     "lineages": {
-      "title": "Shinobi Way Lineages",
-      "description": "Shinobi Way lineage guides for rare traits, spins, rerolls, race choices, clan identity, and build-defining ability paths.",
-      "metaTitle": "Shinobi Way Lineages - Traits, Spins, Rerolls & Races",
-      "metaDescription": "Explore Shinobi Way lineages with guides for rare traits, spins, rerolls, races, lineage value, and build direction in Roblox.",
-      "categoryLabel": "SHINOBI WAY LINEAGES",
-      "whatIs": "What are Shinobi Way Lineages?",
-      "whatIsDescription": "Shinobi Way lineages are character identity paths that influence abilities, traits, stat direction, reroll decisions, and long-term build planning.",
-      "why": "Why compare Shinobi Way lineages?",
+      "title": "Lineages de Shinobi Way",
+      "description": "Guías de Lineages de Shinobi Way para rasgos raros, spins, rerolls, elección de razas, identidad de clan y rutas de habilidades que definen builds.",
+      "metaTitle": "Lineages de Shinobi Way - Rasgos, Spins, Rerolls y Razas",
+      "metaDescription": "Explora los Lineages de Shinobi Way con guías de rasgos raros, spins, rerolls, razas, valor de Lineage y dirección de builds en Roblox.",
+      "categoryLabel": "LINEAGES DE SHINOBI WAY",
+      "whatIs": "¿Qué son los Lineages de Shinobi Way?",
+      "whatIsDescription": "Los Lineages de Shinobi Way son caminos de identidad de personajes que influyen en las habilidades, rasgos, dirección de estadísticas, decisiones de reroll y planificación de builds a largo plazo.",
+      "why": "¿Por qué comparar los Lineages de Shinobi Way?",
       "whySteps": {
-        "step1Title": "Spend Shinobi Way Spins Wisely",
-        "step1Description": "Use lineage pages to decide when a roll supports your route and when saving spins is smarter.",
-        "step2Title": "Evaluate Shinobi Way Traits",
-        "step2Description": "Understand how rare traits, race choices, and lineage effects can change combat style or progression needs.",
-        "step3Title": "Plan Shinobi Way Rerolls",
-        "step3Description": "Reroll with a target build in mind instead of chasing rarity without knowing how it fits your jutsu and stats."
+        "step1Title": "Gasta tus Spins de Shinobi Way sabiamente",
+        "step1Description": "Usa las páginas de Lineage para decidir cuándo un tiro apoya tu ruta y cuándo es más inteligente ahorrar spins.",
+        "step2Title": "Evalúa los rasgos de Shinobi Way",
+        "step2Description": "Comprende cómo los rasgos raros, las elecciones de raza y los efectos de Lineage pueden cambiar el estilo de combate o las necesidades de progresión.",
+        "step3Title": "Planifica tus Rerolls de Shinobi Way",
+        "step3Description": "Haz reroll con una build objetivo en mente en lugar de perseguir la rareza sin saber cómo se ajusta a tu Jutsu y estadísticas."
       },
-      "featured": "Featured Shinobi Way Lineage Articles",
-      "all": "All Shinobi Way Lineage Articles"
+      "featured": "Artículos destacados de Lineages de Shinobi Way",
+      "all": "Todos los artículos de Lineages de Shinobi Way"
     },
     "bosses": {
-      "title": "Shinobi Way Bosses",
-      "description": "Shinobi Way boss guides for enemy fights, boss rewards, preparation steps, combat routes, and how to beat difficult encounters.",
-      "metaTitle": "Shinobi Way Bosses - Enemy Fights, Rewards & Combat Guide",
-      "metaDescription": "Beat Shinobi Way bosses with guides for enemy fights, preparation, rewards, combat routes, builds, positioning, and fight priorities.",
-      "categoryLabel": "SHINOBI WAY BOSSES",
-      "whatIs": "What are Shinobi Way Bosses?",
-      "whatIsDescription": "Shinobi Way bosses are higher-pressure fights that test your stats, jutsu timing, build choices, positioning, and ability to manage enemy patterns.",
-      "why": "Why use Shinobi Way boss guides?",
+      "title": "Bosses de Shinobi Way",
+      "description": "Guías de bosses de Shinobi Way para combates contra enemigos, recompensas de bosses, pasos de preparación, rutas de combate y cómo superar encuentros difíciles.",
+      "metaTitle": "Bosses de Shinobi Way - Combates, Recompensas y Guía de Combate",
+      "metaDescription": "Derrota a los bosses de Shinobi Way con guías para combates contra enemigos, preparación, recompensas, rutas de combate, builds, posicionamiento y prioridades de lucha.",
+      "categoryLabel": "BOSSES DE SHINOBI WAY",
+      "whatIs": "¿Qué son los Bosses de Shinobi Way?",
+      "whatIsDescription": "Los bosses de Shinobi Way son combates de alta presión que ponen a prueba tus estadísticas, el timing de tus Jutsu, elecciones de build, posicionamiento y habilidad para manejar patrones enemigos.",
+      "why": "¿Por qué usar guías de bosses de Shinobi Way?",
       "whySteps": {
-        "step1Title": "Prepare Shinobi Way Builds",
-        "step1Description": "Check what stats, jutsu, and defensive tools make a boss attempt smoother before entering the fight.",
-        "step2Title": "Read Shinobi Way Patterns",
-        "step2Description": "Learn which attacks, openings, and positioning habits matter most for specific boss and enemy encounters.",
-        "step3Title": "Claim Shinobi Way Rewards",
-        "step3Description": "Understand why boss rewards matter for progression and when a fight is worth repeating for your build."
+        "step1Title": "Prepara builds de Shinobi Way",
+        "step1Description": "Consulta qué estadísticas, Jutsu y herramientas defensivas hacen que un intento de boss sea más fluido antes de entrar al combate.",
+        "step2Title": "Lee los patrones de Shinobi Way",
+        "step2Description": "Aprende qué ataques, aperturas y hábitos de posicionamiento importan más para encuentros específicos con bosses y enemigos.",
+        "step3Title": "Reclama recompensas de Shinobi Way",
+        "step3Description": "Comprende por qué las recompensas de bosses son importantes para la progresión y cuándo vale la pena repetir un combate para tu build."
       },
-      "featured": "Featured Shinobi Way Boss Articles",
-      "all": "All Shinobi Way Boss Articles"
+      "featured": "Artículos destacados de bosses de Shinobi Way",
+      "all": "Todos los artículos de bosses de Shinobi Way"
     }
   }
 }
